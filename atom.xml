@@ -1,0 +1,766 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>life-lessons.in</title>
+ <link href="http://life-lessons.in/atom.xml" rel="self"/>
+ <link href="http://life-lessons.in"/>
+ <updated>2018-09-23T07:54:21+05:30</updated>
+ <id>http://life-lessons.in/atom.xml</id>
+ <author>
+   <name>Gurpreet Luthra</name>
+   <uri>http://life-lessons.in</uri>
+ </author>
+ 
+ 
+ <entry>
+   <title>I Know That I Know Nothing</title>
+   <link href="http://life-lessons.in/2018/05/12/i-know-nothing-socrates-paradox.html"/>
+   <published>2018-05-12T00:00:00+05:30</published>
+   <updated>2018-05-12T11:00:00+05:30</updated>
+   <id>http://life-lessons.in/2018/05/12/i-know-nothing-socrates-paradox</id>
+   <content type="html">&lt;h2 id=&quot;introduction-to-the-model&quot;&gt;Introduction to the Model&lt;/h2&gt;
+
+&lt;p&gt;Some months ago, while attending a ThoughtWorks Leadership training program, I encountered a very fascinating awareness model (** It’s inspired from the Johari Window model. See notes at the end of the blog). I was captivated by its implications.&lt;/p&gt;
+
+&lt;p&gt;This is how it looks:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/general/AEModel_The_Model.png&quot; alt=&quot;The Awareness-Knowledge Model&quot; style=&quot;width: 800px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You interpret this model as follows:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Quadrant 1:&lt;/strong&gt; &lt;em&gt;I know&lt;/em&gt; what &lt;em&gt;I know&lt;/em&gt; (or, I am aware of what I know)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Quadrant 2:&lt;/strong&gt; &lt;em&gt;I know&lt;/em&gt; what &lt;em&gt;I don’t know&lt;/em&gt; (or, I am aware of what I don’t know)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Quadrant 3:&lt;/strong&gt; &lt;em&gt;I don’t know&lt;/em&gt; what &lt;em&gt;I don’t know&lt;/em&gt; (or, I am unaware of what I don’t know)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Quadrant 4:&lt;/strong&gt; &lt;em&gt;I don’t know&lt;/em&gt; what &lt;em&gt;I know&lt;/em&gt; (or, I am unaware of what I know)&lt;/p&gt;
+
+&lt;p&gt;Let us simply call this the &lt;strong&gt;Awareness-Knowledge&lt;/strong&gt; Model.&lt;/p&gt;
+
+&lt;p&gt;I find this model to be a very fascinating introspection &amp;amp; risk management tool. In the following sections, let us apply this model first to Domains and then to Projects, and see what we might be able to learn.&lt;/p&gt;
+
+&lt;h2 id=&quot;awareness-knowledge-model-applied-to-domains&quot;&gt;Awareness-Knowledge Model applied to Domains&lt;/h2&gt;
+
+&lt;p&gt;One can apply this model to any body of knowledge, or area of expertise, like Computer Science, Medicine, Political Science, Movies, Jazz Music, Computer Games, etc. One can choose to be narrow, and just apply it to Artificial Intelligence or Weight Training, or one can choose to be broad, and apply it to Spirituality or Arts.&lt;/p&gt;
+
+&lt;p&gt;As an example, let’s apply this model to my knowledge in the domain of “&lt;em&gt;Computer Science / Programming&lt;/em&gt;”, and see how it works.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Quadrant 1 (IK-what-IK):&lt;/strong&gt; I am mostly aware of what I know – I know Java programming, I know React.js, I know Postgres, I know the importance of clean code and how to refactor, I know what is a CPU, a RAM, and what is Computer Architecture, and REST, and so on. This affirms a sense of confidence for me, and helps me in estimating how long certain things will take, or how complex they might be. This is what I know I know.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Quadrant 2 (IK-what-IDK):&lt;/strong&gt; It is said, that “&lt;em&gt;the more experience one gains, the less knowledgeable one feels&lt;/em&gt;”. I believe this happens because over time as I encounter new problems, and stumble upon inexplicable bugs, I start realising that there are nuances within many topics and areas that I don’t really understand. I also encounter people who are experts in certain tools, techniques, systems or platforms, and realise how much I don’t know. This awareness helps me remain humble, and also motivates me to learn and explore. So, I search on google for things like: “How does Two phase commit work?” or “What is the difference between Non Blocking IO and Asynchronous IO?”, or “What is a Promise?”, etc. I know what I don’t know, and I spend time reading blogs and books in those areas to help me gain a better understanding.&lt;/p&gt;
+
+&lt;p&gt;One could argue, that being “&lt;em&gt;in the grip of&lt;/em&gt;” Quadrant 2, is one of the reasons people experience the &lt;a href=&quot;https://en.wikipedia.org/wiki/Impostor_syndrome&quot;&gt;Imposter Syndrome&lt;/a&gt;. I experience this myself from time and time, and I discovered a rather cheeky yet meaningful lens through which to alleviate the discomfort (see tweet below):&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/general/AEModel_Imposter_Syndrome_Tweet.png&quot; alt=&quot;Imposter Syndrome Tweet&quot; style=&quot;width: 500px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Source: &lt;a href=&quot;https://twitter.com/ThisIsJoFrank/status/988048711937748992&quot;&gt;https://twitter.com/ThisIsJoFrank/status/988048711937748992&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Quadrant 3 (IDK-what-IDK):&lt;/strong&gt; This one is interesting. &lt;em&gt;I don’t know what I don’t know.&lt;/em&gt; Another way to look at this is &lt;em&gt;What are my blind spots?&lt;/em&gt; This one is very tricky. I may believe that after having seen so many microservices based projects, I am good at identifying when to introduce a new microservice, or when to update an existing one – but in reality, I &lt;em&gt;might&lt;/em&gt; still be poor at it. I &lt;em&gt;might not know&lt;/em&gt; that I am actually &lt;em&gt;not&lt;/em&gt; proficient at detecting the right Microservices split. It’s possible that I have a blind spot in this scenario. But the moment I acknowledge this fact, this moves into Quadrant 2, and then I can work on it. And that’s what is fascinating about this quadrant. Things in this quadrant are out of grasp. The moment you grasp them, they move to Quadrant 2!&lt;/p&gt;
+
+&lt;p&gt;It’s also quite likely that in my case, 95% (a significant chunk), of all Computer Science knowledge is in this quadrant — i.e. the knowledge whose existence itself I am unaware of.  For instance: What did all the folks in the world who did a PhD in Computer Science related areas, really uncover and write about? I have no idea!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/general/AEModel_Knowledge_size.png&quot; alt=&quot;The size of Unknown&quot; style=&quot;width: 900px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;How do I deal with this situation?&lt;/strong&gt; What measures do I take to mitigate the risk of not being aware of my blind spots -  my knowledge black holes? How do I become aware of what I don’t know? And more importantly, which blind spots do I need to focus on? Which ones are relevant?&lt;/p&gt;
+
+&lt;p&gt;The hope is that once we become aware of what we don’t know, we move that piece of knowledge into Quadrant 2 (IK-w-IDK), and from there we can learn more about the relevant pieces, and move into Quadrant 1 (IK-w-IK).&lt;/p&gt;
+
+&lt;p&gt;So what do I do? I read books on broad topics, listen to podcasts - software related and non-software related, have random conversations with colleagues, subscribe to twitter feed of experts and luminaries in various areas, etc. This exposes me &lt;em&gt;accidentally&lt;/em&gt; to information that tells me what I don’t know. This uncovers the &lt;em&gt;unknowns&lt;/em&gt;, and that helps me identify what needs to go into Quadrant 2.&lt;/p&gt;
+
+&lt;p&gt;As an example, when I signed up as an instructor for the Tech Lead training program, that’s when I got introduced to the &lt;a href=&quot;http://www.engineeringandcareering.co.uk/2013/05/the-well-rounded-technical-lead-model.html&quot;&gt;Butterfly Model for a well rounded Tech Lead&lt;/a&gt; while preparing for the sessions. Until then, I didn’t know that such models existed for Tech Lead roles.&lt;/p&gt;
+
+&lt;p&gt;Another example: a google search for “&lt;a href=&quot;http://google.com/#q=top+kubernetes+tips&quot;&gt;Top Kubernetes Tips&lt;/a&gt;” or “&lt;a href=&quot;http://google.com/#q=top+git+tips&quot;&gt;Top Git Tips&lt;/a&gt;”, etc will uncover suggestions and tips that you don’t know about Kubernetes or Git respectively. This is another way to stumble upon things you may not realise exist, but can be very helpful to you. A move from Quadrant 3 to Quadrant 1.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/general/AEModel_Moving_across_the_quadrants.png&quot; alt=&quot;Moving across the quadrants&quot; style=&quot;width: 800px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You can do the same while taking an interview for a potential hire. Instead of focussing only on “What &lt;em&gt;they&lt;/em&gt; know” and “What &lt;em&gt;they&lt;/em&gt; don’t know”, you can focus on “What do &lt;em&gt;I not&lt;/em&gt; know?”, and “how can this discussion help me know something I don’t know, yet allow me to also get to know the candidate”. One way to do this is ask them to explain the architecture of their current project, or a topic they love, and then ask them well thought out &lt;em&gt;WHY&lt;/em&gt; questions to dig into things that &lt;em&gt;YOU&lt;/em&gt; don’t know or don’t understand, and see if the candidate enlightens &lt;em&gt;YOU&lt;/em&gt;. That is a win-win interview!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Quadrant 4 (IDK-what-IK):&lt;/strong&gt; &lt;em&gt;I don’t know what I know!&lt;/em&gt; To some people, this quadrant might seem counter-intuitive. At first glance, this sounds like a spoiled brats’ response. But, in fact this is an important quadrant. The questions to ask here are: &lt;em&gt;What skills and knowledge do I bring to the table that I am unaware of? What am I good at or have an intuition of, but am unaware of? What activities can I sign up for without worrying about whether I will be good at them? What is it that other people notice about me, but I am not cognizant or appreciative of?&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;This is where people underestimate what skills and knowledge they bring to the table. Having a (respectful) feedback culture in an organisation can help uncover this for individuals. This is also a by-product of long periods of contemplation and hard work, coupled with past events and exposure to different environments &amp;amp; cultures. Part of this is also what people sometimes call: “Expert Intuition” or “Expert Knowledge” or “Gut feeling”. Something that experts find hard to explain.&lt;/p&gt;
+
+&lt;p&gt;An example of this in the programming world is called a “Smell”. I can’t describe it, but I can smell it – there is something “not nice” about this piece of code, or the design of this set of classes, etc.&lt;/p&gt;
+
+&lt;p&gt;Andrew Ng, one of the most influential Computer Scientist in Artificial Intelligence and Deep Learning, who led Google Brain and was a former VP &amp;amp; Chief Scientist at Baidu had once tweeted this:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/general/AEModel_AndrewNG.png&quot; alt=&quot;Moving across the quadrants&quot; style=&quot;width: 500px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Source: &lt;a href=&quot;https://twitter.com/andrewyng/status/793107879557345280?lang=en&quot;&gt;https://twitter.com/andrewyng/status/793107879557345280?lang=en&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The more you read, the more experiences you collect, the more time you spend in reflection and honest discussion, the more you &lt;em&gt;know&lt;/em&gt; even if you don’t realise it yet.&lt;/p&gt;
+
+&lt;h4 id=&quot;a-classroom-joke&quot;&gt;A Classroom Joke&lt;/h4&gt;
+
+&lt;p&gt;&lt;strong&gt;Economics Professor:&lt;/strong&gt; &lt;em&gt;Dear Class, now that you have heard a 45 min summary on the complex area of trade surplus and deficit, how many of you feel that you have understood this topic?&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;…&lt;em&gt;The class is very silent. The Professor patiently waits for someone to speak up…&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;One Student:&lt;/strong&gt; &lt;em&gt;Mam, I fear that I don’t know whether I have understood exactly what you wanted us to understand, but I did like it a lot!&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;awareness-knowledge-model-applied-to-projects&quot;&gt;Awareness-Knowledge Model Applied to Projects&lt;/h2&gt;
+
+&lt;p&gt;One can also look at a new project, or a new program of work, and try to apply this model to it. For instance, here are some questions and thoughts that one can have while walking through each quadrant for a particular project:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Quadrant 1 (IK-what-IK):&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;What is it that we know for sure? If so, can we confirm this with our clients to ensure that our understanding is correct.&lt;/li&gt;
+  &lt;li&gt;Is that piece of information squarely in Quadrant 1? Or does it have parts that we don’t realise?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;Quadrant 2 (IK-what-IDK):&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;What are the areas that we are not sure of?&lt;/li&gt;
+  &lt;li&gt;What spikes should we play to better understand that area?&lt;/li&gt;
+  &lt;li&gt;What PoCs need to be built to better understand what we don’t know?&lt;/li&gt;
+  &lt;li&gt;Which stakeholders should we talk to to better understand a certain API that we will need to integrate with?&lt;/li&gt;
+  &lt;li&gt;We need to highlight certain known risks and follow up on them earlier in the lifecycle of the project to mitigate those risks. We must ensure that we report them periodically.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;Quadrant 3 (IDK-what-IDK):&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;This can be a very tricky one, and requires careful consideration. Here are some possibilities:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;How do we validate that we have received all the right information about what is needed to be built?&lt;/li&gt;
+  &lt;li&gt;Is it possible that there is a security related activity, or compliance related activity that we aren’t aware of, but it might come back later to bite us, and delay our project?&lt;/li&gt;
+  &lt;li&gt;How do we mitigate the risk of what we don’t know? This is an example of the risk with “handover” of pre-created requirement documents during the start of an engagement. How do we know what has been completely missed in the requirements? As an example, at ThoughtWorks, we run &lt;a href=&quot;https://martinfowler.com/articles/lean-inception/&quot;&gt;inceptions&lt;/a&gt; at start of engagements to mitigate the risk that we aren’t building something no one wants, or we aren’t forgetting an important stakeholder or an important compliance step in the process. We don’t know, what we don’t know – and we need to take steps to uncover it early!&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;Quadrant 4 (IDK-what-IK):&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Are we adding too much buffer to our estimates?&lt;/li&gt;
+  &lt;li&gt;Are we playing spikes / PoC unnecessarily, when we can easily reach out to someone within our organisation, and get the answers quickly?&lt;/li&gt;
+  &lt;li&gt;Are we under-estimating our teams abilities?&lt;/li&gt;
+  &lt;li&gt;Have we created a team that can together solve most problems we throw their way, in a creative, efficient and cost-effective manner - even if they don’t have any clue right now about it?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;A &lt;em&gt;unit test&lt;/em&gt; is an example of something we write based on what we &lt;em&gt;know&lt;/em&gt;, to catch errors and situations that can arise based on changes in the future that we &lt;em&gt;don’t know&lt;/em&gt; or can’t anticipate, but we know that will &lt;em&gt;likely&lt;/em&gt; happen.&lt;/p&gt;
+
+&lt;p&gt;Teams that follow &lt;a href=&quot;https://martinfowler.com/articles/practical-test-pyramid.html&quot;&gt;mature QA practices&lt;/a&gt; will usually ensure that any bugs that are uncovered in production, and are likely to therefore occur again, will be automatically detected in the future via automation. We now &lt;em&gt;know&lt;/em&gt; about them. Customers will rarely be forgiving to the same bugs occurring repeatedly in production. QAs will also focus their &lt;em&gt;manual efforts&lt;/em&gt; towards &lt;em&gt;exploratory testing&lt;/em&gt;, so that bugs (requirement, design or implementation bugs) that we &lt;em&gt;don’t know exist&lt;/em&gt; are uncovered, since automation can only test for &lt;em&gt;known&lt;/em&gt; behaviors.&lt;/p&gt;
+
+&lt;p&gt;A &lt;a href=&quot;https://www.owasp.org/index.php/Category:Threat_Modeling&quot;&gt;Threat Modelling&lt;/a&gt; exercise is an attempt to build a shared context to uncover what we don’t know, and then use the new knowledge to prioritise security threats, create &lt;a href=&quot;https://en.wikipedia.org/wiki/Attack_tree&quot;&gt;Attack Trees&lt;/a&gt;, identify possible countermeasures, etc. The &lt;a href=&quot;https://www.ruggedsoftware.org/&quot;&gt;Rugged manifesto&lt;/a&gt; has a statement that I think is pertinent to this discussion: “&lt;em&gt;I recognize that my code will be used in ways I cannot anticipate, in ways it was not designed, and for longer than it was ever intended&lt;/em&gt;”.&lt;/p&gt;
+
+&lt;p&gt;The philosophy of Agile is rooted in embracing change. It acknowledges that new information is uncovered gradually, and we know that we don’t know a lot, and iteratively we will discover it.&lt;/p&gt;
+
+&lt;p&gt;At ThoughtWorks we try to establish high performing, cross-functional teams comprised of smart, passionate and diverse technologists; whilst supporting them with a respectful environment and a learning culture. The hypothesis is, that this will help our teams to be capable enough to deal with unexpected situations (Quadrant 3); humble enough to recognise &amp;amp; address gaps in their knowledge (Quadrant 2 &amp;amp; Quadrant 1); and diverse enough to discover what they already know but don’t realise right now that they do.&lt;/p&gt;
+
+&lt;p&gt;Machine Learning has recently become a mainstream conversational topic because it &lt;em&gt;apparently&lt;/em&gt; promises that given large datasets, it will likely be able to find insights that will be useful for us, but &lt;em&gt;we don’t know&lt;/em&gt; what these insights will likely be.&lt;/p&gt;
+
+&lt;h2 id=&quot;in-conclusion&quot;&gt;In Conclusion&lt;/h2&gt;
+
+&lt;p&gt;I hope you found the Awareness-Knowledge model fascinating. It can help you decide how confident you feel about a domain, area of expertise or project by brainstorming &amp;amp; introspecting on each of the four quadrants. You can put in mitigation strategies to help shape events and unknowns eventually towards Quadrant 1.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“I know that I know nothing” — Socrates Paradox.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/general/Calvin_Bridge.jpg&quot; alt=&quot;Calvin &amp;amp; Hobbes bridges strip&quot; style=&quot;width: 400px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;(c) Calvin and Hobbes. Source: &lt;a href=&quot;https://www.pinterest.com/pin/155374255872428173/&quot;&gt;https://www.pinterest.com/pin/155374255872428173/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;notes&quot;&gt;Notes:&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;I came across a variation of this model recently in Chapter 3. of Sriram Narayan’s excellent book: &lt;a href=&quot;https://www.amazon.com/Agile-Organization-Design-Transformation-Continuous/dp/0133903354&quot;&gt;Agile IT Organisation Design&lt;/a&gt;, where he wrote about Software Development being a learning journey, and how software development teams encounter Unknown Unknowns that can surprise them and often invalidate existing estimates.&lt;/li&gt;
+  &lt;li&gt;Some people may point out that this model is likely the same as &lt;a href=&quot;https://en.wikipedia.org/wiki/Johari_window&quot;&gt;Johari Window&lt;/a&gt; for self-awareness in the field of cognitive psychology. But I felt its explanation &amp;amp; application is quite different from how I perceived it above. I am happy to be told otherwise, as I am no expert in the field of psychology. The whole field of psychology is definitely in my Quadrant 2 and Quadrant 3. I know nothing about it!&lt;/li&gt;
+  &lt;li&gt;Read more on the Socates Paradox &lt;a href=&quot;https://en.wikipedia.org/wiki/I_know_that_I_know_nothing&quot;&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;em&gt;Disclaimer: All thoughts and opinions in this blog are my own, and do not represent the stance or opinion of my employer (ThoughtWorks).&lt;/em&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Are You Telling A Story?</title>
+   <link href="http://life-lessons.in/2018/03/31/art-of-story-telling.html"/>
+   <published>2018-03-31T00:00:00+05:30</published>
+   <updated>2018-03-31T11:00:00+05:30</updated>
+   <id>http://life-lessons.in/2018/03/31/art-of-story-telling</id>
+   <content type="html">&lt;p&gt;&lt;strong&gt;Student:&lt;/strong&gt;  &lt;em&gt;I am giving my first talk in 6 weeks.&lt;/em&gt; &lt;br /&gt;
+&lt;strong&gt;Teacher:&lt;/strong&gt;  Excellent.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Student:&lt;/strong&gt;  &lt;em&gt;When would you call a presentation a success?&lt;/em&gt; &lt;br /&gt;
+&lt;strong&gt;Teacher:&lt;/strong&gt; The audience vividly remembers it 3 days after you presented it.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Student:&lt;/strong&gt; &lt;em&gt;How can I make this happen?&lt;/em&gt; &lt;br /&gt;
+&lt;strong&gt;Teacher:&lt;/strong&gt; By telling a compelling story, instead of stating the facts.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Student:&lt;/strong&gt; &lt;em&gt;Why is a story important?&lt;/em&gt; &lt;br /&gt;
+&lt;strong&gt;Teacher:&lt;/strong&gt; Imagine this. You are sitting for lunch with your team, and you suddenly remember that one of your colleagues attended the XP conference yesterday. You ask him, about the conference. He answers with one of the following answers:&lt;/p&gt;
+
+&lt;p&gt;Answer 1: &lt;em&gt;There was a talk where a Tech Lead from ThoughtWorks told a story about how she ended up receiving a huge invoice bill to her ThoughtWorks email from an airline because an automated test did bookings during Christmas season.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Answer 2: &lt;em&gt;There was a talk where a person from ThoughtWorks spoke about how testing happens in the airline industry.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Which of the above talks do you wish to know more about? I would love to hear more about the Christmas fiasco. Won’t you? People want to hear stories. People like to tell stories. People remember what they tell. So, give them stories to talk about.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“People want to hear stories. People like to tell stories.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;Student:&lt;/strong&gt; &lt;em&gt;That makes sense. But not every talk can have a story. How do I create a story on Docker Networking?&lt;/em&gt;&lt;br /&gt;
+&lt;strong&gt;Teacher:&lt;/strong&gt; A story has the following &lt;a href=&quot;http://www.katiekazoo.com/pdf/KK_FiveEssentialElements.pdf&quot;&gt;five parts&lt;/a&gt;:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;The Characters (people)&lt;/li&gt;
+  &lt;li&gt;The Setting (context)&lt;/li&gt;
+  &lt;li&gt;The Plot&lt;/li&gt;
+  &lt;li&gt;The Conflict (problem)&lt;/li&gt;
+  &lt;li&gt;The Resolution (ending)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;You find a story by asking a series of questions which connect why, who, how, what, etc. These will ultimately lead you to a story. For instance:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Why do I want to speak about Docker networking?&lt;/li&gt;
+  &lt;li&gt;Why does it matter how Docker does networking?&lt;/li&gt;
+  &lt;li&gt;What really is Docker?&lt;/li&gt;
+  &lt;li&gt;Who uses Docker?&lt;/li&gt;
+  &lt;li&gt;How did people work before Docker?&lt;/li&gt;
+  &lt;li&gt;Which project do I know that uses Docker?&lt;/li&gt;
+  &lt;li&gt;What is the project about?&lt;/li&gt;
+  &lt;li&gt;What problem is the project solving?&lt;/li&gt;
+  &lt;li&gt;Who is the client?&lt;/li&gt;
+  &lt;li&gt;What is so difficult about that project?&lt;/li&gt;
+  &lt;li&gt;Who is happy if the software in the project works fine?&lt;/li&gt;
+  &lt;li&gt;What would happen to this happy person if Docker networking stopped workin while the system was running?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;As you keep asking such questions, you will uncover a story. Or you can invent one.&lt;/p&gt;
+
+&lt;p&gt;Here is an example of a Kubernetes Networking story: &lt;a href=&quot;https://www.youtube.com/watch?v=v50uJMCLQP4&quot;&gt;Climbing The Sawtooth - A classic production puzzle&lt;/a&gt; - by Girish Verma from ThoughtWorks.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Student:&lt;/strong&gt; &lt;em&gt;What else can I do to make my presentations effective?&lt;/em&gt; &lt;br /&gt;
+&lt;strong&gt;Teacher:&lt;/strong&gt; Connect with the audience, provide metaphors that they can relate to. A good metaphor is one that people remember. A bad metaphor is one that might be accurate but no one can recall.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Student:&lt;/strong&gt; &lt;em&gt;How do I know what metaphors are good for the audience? For instance, in a conference, I don’t really know who my audience is?&lt;/em&gt; &lt;br /&gt;
+&lt;strong&gt;Teacher:&lt;/strong&gt; That’s not so difficult. You ask them questions, and they answer with a show of hands. For instance, if I was going to give a talk on Microservices &amp;amp; Kubernetes I would ask:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;How many of you have worked with Kubernetes?&lt;/li&gt;
+  &lt;li&gt;How many of you are on a project where Microservices are being used?&lt;/li&gt;
+  &lt;li&gt;How many of you feel Microservices are awesome?&lt;/li&gt;
+  &lt;li&gt;How many of you feel Microservices are dangerous?&lt;/li&gt;
+  &lt;li&gt;How many of you have worked on Monoliths, but now want an opportunity to try Microservices?&lt;/li&gt;
+  &lt;li&gt;How many of you have worked on Banking projects?&lt;/li&gt;
+  &lt;li&gt;How many of you have worked on Aerospace projects?&lt;/li&gt;
+  &lt;li&gt;How many of you have worked on Retail projects?&lt;/li&gt;
+  &lt;li&gt;How many of you who have worked on Microservices &amp;amp; Kubernetes, have more than 60 services in production?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Answers to such questions will quickly help me understand my audience’s opinion, exposure, interest, and capability. This allows me to know which parts of the talk I should stress on, which parts of the talk I can glide quickly through. It gives me a pulse of the audience.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“It gives me a pulse of the audience.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;If I see someone who raises her hand for the last question on my list (60+ services in production), I know she will likely have as much knowledge on this topic, as I do. So, I will ask her opinion or request her to share her experience at relevant points in my talk. This will help us all in harnessing the knowledge of the audience, and make the time more worthwhile for everyone. And it will also help me ensure that the most knowledgeable person in the audience goes back “happier” because I gave her a platform to share her point of view on the topic.&lt;/p&gt;
+
+&lt;p&gt;Usually, the opinion of the experts in the audience matters a lot to the peers.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://assets.amuniversal.com/28a75140e4f3012fed51001dd8b71c47&quot; alt=&quot;Dilbert 13-June-2012&quot; style=&quot;width: 800px;&quot; /&gt;
+&lt;a href=&quot;http://dilbert.com/strip/2012-06-13&quot;&gt;(c) Scott Adams. http://dilbert.com/strip/2012-06-13&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Once you know how your audience is segmented, what background they are from, you will find it easier to give appropriate metaphors and anecdotes. As an extreme example, imagine, if everyone in the audience was a kid, won’t you give appropriate anecdotes once you knew that.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Student:&lt;/strong&gt; &lt;em&gt;I like that. I will try that the next time I present. Do you have any other tips for me?&lt;/em&gt; &lt;br /&gt;
+&lt;strong&gt;Teacher:&lt;/strong&gt; Yes, one more. A good image is a powerful anchor, and a great canvas to speak on. Use a photograph, or a screenshot, or a diagram, or a sketch, or a portrait, or even a video as a backdrop for your slides. Narrate your story as a sequence of images. Avoid slides which are text heavy. Keep them light. Keep them pretty. Or keep them funny. In most of my talks, a picture usually speaks 300 words.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Student:&lt;/strong&gt; &lt;em&gt;So a story, understanding the audience, using connecting metaphors and images. 4 elements of success.&lt;/em&gt; &lt;br /&gt;
+&lt;strong&gt;Teacher:&lt;/strong&gt; That is one way to put it.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Student:&lt;/strong&gt; &lt;em&gt;Thank you! This was a good story. Do you have another one?&lt;/em&gt; &lt;br /&gt;
+&lt;strong&gt;Teacher:&lt;/strong&gt; Once upon a time…&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/general/calvin-going-into-future-for-a-story.png&quot; alt=&quot;Calvin 23-May-1992&quot; style=&quot;width: 800px;&quot; /&gt;
+&lt;a href=&quot;http://www.gocomics.com/calvinandhobbes/1992/5/23&quot;&gt;Comic from: http://www.gocomics.com/calvinandhobbes/1992/5/23&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;further-reading&quot;&gt;Further Reading:&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://hbr.org/2014/07/how-to-tell-a-great-story&quot;&gt;How to Tell a Great Story (HBR)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>12 Things I Learnt While Teaching Application Security</title>
+   <link href="http://life-lessons.in/2017/04/12/app-security-learning.html"/>
+   <published>2017-04-12T00:00:00+05:30</published>
+   <updated>2017-04-12T12:00:00+05:30</updated>
+   <id>http://life-lessons.in/2017/04/12/app-security-learning</id>
+   <content type="html">&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+
+&lt;p&gt;ThoughtWorks runs an Application Security 101 training for people not very familiar with common security topics. The training curriculum covers topics like Threat Modelling, Same Origin Policy, CSRF, Secret Management, Library Vulnerabilities, STRIDE among many others.&lt;/p&gt;
+
+&lt;p&gt;I was a trainer for one of the recent batches in ThoughtWorks Pune, and in researching some of these topics, I came across many interesting links, videos and information. I decided to write a blog outlining them as a reference for my ‘students’. I hope that my technologist friends out there will also find this information fascinating.&lt;/p&gt;
+
+&lt;h2 id=&quot;topic-1-continuous-authentication--typing-pattern-detection&quot;&gt;Topic 1: Continuous Authentication / Typing pattern detection&lt;/h2&gt;
+
+&lt;p&gt;Technology now exists that can detect if the person who is typing on the keyboard is actually YOU or someone else. It is marketed as Continuous Authentication – where the system is continously checking if the person using the system or the website is the one who is an authorized user, or is someone else impersonating the user. See demos here:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.keytrac.net/en/tryout/authenticate&quot;&gt;KeyTrac online demo&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://typingdna.com/demo-api.html&quot;&gt;TypingDNA online demo&lt;/a&gt; (&lt;a href=&quot;https://www.youtube.com/watch?v=yH2CqAiY4KA&quot;&gt;YouTube Video&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.behaviosec.com/features/#how-it-works&quot;&gt;BehavioSec&lt;/a&gt;: Uses keyboard and touch gestures to identify you!&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;topic-2-how-not-to-store-passwords&quot;&gt;Topic 2: How NOT to store passwords&lt;/h2&gt;
+
+&lt;p&gt;In this video &lt;a href=&quot;https://www.youtube.com/watch?v=8ZtInClXe1Q&quot;&gt;How not to store passwords&lt;/a&gt;, Tom Scott (Computerphile) explains how websites and application might incorrectly store passwords. And no, encryption isn’t a good idea. He explains how &lt;a href=&quot;https://www.youtube.com/watch?v=b4b8ktEV4Bg&quot;&gt;hashing&lt;/a&gt; with a random salt is the way to go as far as password storage is concerned.&lt;/p&gt;
+
+&lt;h2 id=&quot;topic-3-has-my-email-id-been-leaked&quot;&gt;Topic 3: Has my email ID been leaked?&lt;/h2&gt;
+
+&lt;p&gt;Go to this link &lt;a href=&quot;https://haveibeenpwned.com/&quot;&gt;Have I been Pwned?&lt;/a&gt; to check if any of your Email IDs, and associated credentials, have ever leaked on the internet. If so, it tells you which source got compromised (Adobe, LinkedIn, etc) and what information got leaked. So, for instance if your email id and credentials have been leaked, then you better not only change your password for the compromised website, but you should also change your password in EACH AND EVERY account where you re-used the same password!&lt;/p&gt;
+
+&lt;p&gt;This is why you should not ever re-use passwords across applications, websites and services. Instead, use a strong password manager and generator like &lt;a href=&quot;https://github.com/keepassx/keepassx&quot;&gt;KeePassX&lt;/a&gt; or &lt;a href=&quot;https://1password.com/&quot;&gt;1Password&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;topic-4-creating-strong-passwords--dice-ware&quot;&gt;Topic 4: Creating strong passwords &amp;amp; Dice-Ware&lt;/h2&gt;
+
+&lt;p&gt;A strong password is one that is very difficult to predict, and cannot easily be brute forced. See this website for examples of extremely strong passwords: &lt;a href=&quot;https://passwordcreator.org/#amazing&quot;&gt;Password Creator&lt;/a&gt;. The good thing about this website is that it runs &lt;em&gt;fully in your browser&lt;/em&gt; (so you can go offline and then ask it to generate password recommendations).&lt;/p&gt;
+
+&lt;p&gt;Whenever you use an ONLINE Password CHECKER, or GENERATOR you run the risk of actually &lt;em&gt;leaking&lt;/em&gt; your password to the internet. That is why you would want to use OFFLINE tools to generate your passwords, and most good password managers are a safe bet.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://world.std.com/~reinhold/diceware.html&quot;&gt;Diceware&lt;/a&gt; passwords are a simple and strong option for creating your passwords. An example of a diceware password is: “edwin curse clue bose axes bandy”. The idea of diceware was to:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Provide very strong passwords.&lt;/li&gt;
+  &lt;li&gt;Make it easy to type on a phone (no capitals, no special characters, etc).&lt;/li&gt;
+  &lt;li&gt;Make it easy to remember.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;You randomly choose five or six (or more) words from a list of 7500+ pre-defined word list. Selecting words from the list is done by throwing a dice a pre-defined number of times per word. Read more about what makes Diceware so strong here: &lt;a href=&quot;http://world.std.com/~reinhold/dicewarefaq.html#someoneknows&quot;&gt;If someone knows that I am using Diceware, can’t they just use the word list to search for my passphrase?&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;topic-5-creating-fake-webpages-for-phishing-attacks&quot;&gt;Topic 5: Creating Fake Webpages for Phishing Attacks&lt;/h2&gt;
+
+&lt;p&gt;There are many easy-to-use tools available that allow you to create an exact copy of the website you wish to impersonate, so that you can trick a user into entering their credentials into a website that looks exactly like the original. See this &lt;a href=&quot;https://www.youtube.com/watch?v=RMCUIQaqw6E&quot;&gt;video&lt;/a&gt; which explains how one can use a simple tool called SuperPhisher to create a fake  Gmail login page.&lt;/p&gt;
+
+&lt;h2 id=&quot;topic-6-understanding-same-origin-policy&quot;&gt;Topic 6: Understanding Same Origin Policy&lt;/h2&gt;
+
+&lt;p&gt;When a web-page fires an HTTP Request to a different origin (URI Scheme + hostname + port combination), the request will reach the server, but the response will be blocked by the browser (unless authorized by the server using a CORS header). Read more on this here: &lt;a href=&quot;https://en.wikipedia.org/wiki/Same-origin_policy&quot;&gt;Wikipedia/Same-origin-policy&lt;/a&gt;. The same is true for Javascript in a browser not being allowed access to elements created in another “origin”.&lt;/p&gt;
+
+&lt;p&gt;Broadly, one origin is permitted to &lt;strong&gt;send&lt;/strong&gt; information to another origin, but one origin is not permitted to &lt;strong&gt;receive&lt;/strong&gt; information from another origin. The prohibition on receiving information is intended to prevent malicious web sites from reading confidential information from other web sites, but also prevents web content from legitimately reading information offered by other web sites.&lt;/p&gt;
+
+&lt;p&gt;The restrictions on reading information received from other origins is also somewhat subtle. For example, the HTML &amp;lt;script&amp;gt; element can execute content retrieved from foreign origins, which means web sites should not rely on the same-origin policy to protect the confidentiality of information in a format that happens to parse as script. You need this to happen so that you can load Javascripts hosted on CDNs like for instance &lt;a href=&quot;https://code.jquery.com/&quot;&gt;JQuery&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;This is also true for the &amp;lt;img&amp;gt; tag which can fire GET requests for loading images, but someone may use them for firing any GET request (and if this GET request modifies data, then a CSRF attack becomes possible). Read more on preventing CSRF here: &lt;a href=&quot;https://www.owasp.org/index.php/Cross-Site_Request_Forgery_(CSRF)_Prevention_Cheat_Sheet#General_Recommendation:_Synchronizer_Token_Pattern&quot;&gt;OWASP CSRF Prevention Cheat Sheet&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;In other words, the SOP does not prevent attackers to &lt;strong&gt;write&lt;/strong&gt; data to their origin, it only disallows them to &lt;strong&gt;read&lt;/strong&gt; data from your domain (cookie, localStorage or other) or to do anything with a response received from their domain.&lt;/p&gt;
+
+&lt;p&gt;Watch this video to grasp the details: 
+&lt;a href=&quot;https://www.youtube.com/watch?v=jDE0cntjOq8&quot;&gt;HTML5 Security Part 1/3 - Same Origin Policy Basics&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;topic-7-how-can-md5-hashes-be-broken-using-non-secure-passwords&quot;&gt;Topic 7: How can MD5 Hashes be broken using non-secure passwords&lt;/h2&gt;
+
+&lt;p&gt;This article by Jack Singleton on Martin Fowler’s website &lt;a href=&quot;https://martinfowler.com/articles/session-secret.html&quot;&gt;One Line of Code that Compromises Your Server&lt;/a&gt; shows how easy it is to use a dictionary attack using something like the &lt;a href=&quot;https://crackstation.net/&quot;&gt;CrackStation Lookup tables&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;To quote from CrackStation itself:&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Crackstation’s lookup tables were created by extracting every word from the Wikipedia databases and adding with every password list we could find. We also applied intelligent word mangling (brute force hybrid) to our wordlists to make them much more effective. For MD5 and SHA1 hashes, we have a 190GB, 15-billion-entry lookup table, and for other hashes, we have a 19GB 1.5-billion-entry lookup table.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;To quote from Jack’s article:&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Wow! In just 43 seconds we blasted through over a billion hashes and, 85.34% of the way through the list, correctly guessed ‘super secret’.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;So in essense, if a password created by you or by someone else in the world, ever leaked somehow on the internet, it has most likely reached a dictionary or a password list like CrackStation. You better not re-use it. It’s just simply easier to generate a new password for each usecase, using a strong password generator.&lt;/p&gt;
+
+&lt;p&gt;Related reading: &lt;a href=&quot;https://security.stackexchange.com/questions/60691/length-of-passwords-that-are-rainbow-table-safe&quot;&gt;Strong passwords and Rainbow Tables&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;topic-8-easy-hacking-via-social-engineering&quot;&gt;Topic 8: Easy hacking via Social Engineering&lt;/h2&gt;
+
+&lt;p&gt;Watch this video to see how easily sometimes people can hack into a person’s account by fooling a call center employee to believe them: &lt;a href=&quot;https://www.youtube.com/watch?v=lc7scxvKQOo&quot;&gt;Hacker on Call in DEFCON&lt;/a&gt;. This technique of tricking people into performing an action they don’t really want to, or reveal information that shouldn’t be, is called Social Engineering.&lt;/p&gt;
+
+&lt;p&gt;Accidental disclosure of information can happen even with SMS based Two Factor Authentication. For instance, if you have SMS preview enabled (which is common nowadays for mobiles), and if the OTP password is present in the first few characters of the SMS, then anyone can see your OTP SMS even if your phone is locked. This is dangerous, and that is why smart implementations of OTP SMS will always put your OTP password at the end of a slightly long SMS message so that message previews don’t accidentaly give away the password to snooping eyes.&lt;/p&gt;
+
+&lt;h2 id=&quot;topic-9-the-danger-of-using-fingerprints-for-authentication&quot;&gt;Topic 9: The danger of using fingerprints for authentication&lt;/h2&gt;
+
+&lt;p&gt;Fingerprint based authentication is becoming quite common nowadays, with phones and laptops allowing you to swipe a finger, or register multiple fingers for quick access. There are two issues at play here:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Your fingerprint cannot be modified. Once its lost, or compromised, you pretty much cannot do anything about it. You can’t change your fingerprint! For this reason you need to be very careful of where you give your fingerprint information. You don’t want someone storing your fingerprint in a database which eventually gets compromised. For this reason the recommendations for fingerprint security implementations is to store some representation  of the fingerprint, rather than the fingerprint itself, so that in case of a compromise, the original fingerprint information is still safe. Read more about this here: &lt;a href=&quot;https://support.apple.com/en-us/HT204587&quot;&gt;Apple Fingerprint Security&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Your fingerprint works even when you are sleeping or unconscious. So, if someone whacked you, they can use your fingerprint to access any device by just touching your hand to the device. The same is true if you passed out after a heavy bout of drinking. Think about it.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;topic-10-understanding-https--ssl--tls&quot;&gt;Topic 10: Understanding HTTPs / SSL / TLS&lt;/h2&gt;
+
+&lt;p&gt;To understand HTTPs, one needs to understand the following concepts:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Asymmetric Encryption, which uses a public/private key pair in which the private key remains private and secret, while the public key is shared. This helps in ensuring that data sent to the server (or bank website) which has been encrypted using the server’s public key can only be decrypted using the server’s private key (and not by anyone snooping in between). Also, data sent by the server by encrypting with the private key can only be decrypted by using the public key which guarantees that the message was indeed sent by the trusted server (proving its identity).&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Symmetric Encryption, which uses a single shared key, is faster than Asymmetric Encryption. Hence the Asymmetric Encryption method is used only for initial handshake, verification and then a random session key is generated to be used for further communication between the client and server for faster and &lt;em&gt;secret&lt;/em&gt; communication. Of course, the session key is also sent encrypted using the Asymmetric Encryption mechanism for safe delivery, before switching over.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;Related links to grasp HTTPs better:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Watch this video to get a good high level understanding of HTTPs/SSL/TLS: &lt;a href=&quot;https://www.youtube.com/watch?v=JCvPnwpWVUQ&quot;&gt;What is HTTPs?&lt;/a&gt; (11 mins)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;An excellent explanation of HTTPs: &lt;a href=&quot;http://robertheaton.com/2014/03/27/how-does-https-actually-work/&quot;&gt;How does HTTPs actually work - by Rob Heaton&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://stackoverflow.com/questions/589622/ssl-question-how-does-a-root-ca-verify-a-signature&quot;&gt;How does verification with Root CA Work&lt;/a&gt;: &lt;em&gt;… mathematically computed against the &lt;strong&gt;public&lt;/strong&gt; part of the CA to verify that the &lt;strong&gt;private&lt;/strong&gt; part of the CA actually signed the cert.&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;topic-11-evercookie-hard-to-delete-cookies&quot;&gt;Topic 11: Evercookie: Hard-to-delete cookies&lt;/h2&gt;
+
+&lt;p&gt;Evercookie is a Javascript API, created by Sam Kamkar (of the &lt;a href=&quot;https://samy.pl/popular/&quot;&gt;Samy worm&lt;/a&gt; fame!) that produces extremely persistent cookies in a browser. Its goal is to identify a client even after they’ve removed standard cookies, Flash cookies (Local Shared Objects or LSOs), and others.&lt;/p&gt;
+
+&lt;p&gt;This is accomplished by storing the cookie data into as many browser storage mechanisms as possible. If cookie data is removed from any of the storage mechanisms, evercookie aggressively re-creates it in each mechanism as long as one is still intact.&lt;/p&gt;
+
+&lt;p&gt;It is totally NOT recommended to use Evercookie, but it is a good idea to understand how they work, so that you can understand how you might be tracked!&lt;/p&gt;
+
+&lt;p&gt;Read more about it here on &lt;a href=&quot;https://github.com/samyk/evercookie&quot;&gt;Github/smayk/evercookie&lt;/a&gt;, and play with a demo here on Samy’s website &lt;a href=&quot;https://samy.pl/evercookie/&quot;&gt;Try Evercookie&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;topic-12-vulnerability-checker-for-npm-libraries---bithound&quot;&gt;Topic 12: Vulnerability Checker for NPM Libraries - Bithound&lt;/h2&gt;
+
+&lt;p&gt;Check out &lt;a href=&quot;https://www.bithound.io/&quot;&gt;bithound.io&lt;/a&gt; to see how a Node.JS project can use a static code analyser and dependency checker to identify components in your project which may have known vulnerabilities. &lt;a href=&quot;https://www.bithound.io/&quot;&gt;bithound.io&lt;/a&gt; is free for Open Source projects, so you should be able to plug it in your public Github projects. See the most popular libraries like &lt;a href=&quot;https://www.bithound.io/github/angular/angular.js&quot;&gt;Angular.JS&lt;/a&gt; and &lt;a href=&quot;https://www.bithound.io/github/d3/d3&quot;&gt;d3&lt;/a&gt; reports on bithound here: &lt;a href=&quot;https://www.bithound.io/popular&quot;&gt;Popular Bithound Projects&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;Teaching is a great way to learn. Just as I did, hopefully you found some of above topics and links fascinating. The field of security is always growing and while new attacks are being uncovered everyday, so are new counter-measures being designed.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Understanding Open Source Software</title>
+   <link href="http://life-lessons.in/2017/02/18/open-source-explained.html"/>
+   <published>2017-02-18T00:00:00+05:30</published>
+   <updated>2017-03-12T12:00:00+05:30</updated>
+   <id>http://life-lessons.in/2017/02/18/open-source-explained</id>
+   <content type="html">&lt;p&gt;I have been contributing to Open Source Software (OSS) for over 3 years now, at ThoughtWorks. Many people seem to have some misconceptions about OSS, or don’t fully realise the implications and impact of OSS. In this blog, I have shared a few  of my learnings and thoughts on this topic. If you are technologist – who has some familiarity with OSS, then it’s likely that this article will be helpful.&lt;/p&gt;
+
+&lt;h2 id=&quot;just-because-the-source-code-is-available-does-not-mean-it-is-open-source&quot;&gt;Just because the source code is available does not mean it is Open Source&lt;/h2&gt;
+
+&lt;p&gt;Most people explain &lt;em&gt;Open Source Software (OSS)&lt;/em&gt; as — a software that has made its source code available publicly. That is an incomplete and incorrect definition of the term &lt;em&gt;Open Source Software&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;An Open Source Software is software where the code is not only freely available to view, but also to modify,  redistribute, and has an associated license that allows for this to happen. This is how Wikipedia defines &lt;a href=&quot;https://en.wikipedia.org/wiki/Open-source_software&quot;&gt;Open Source Software (OSS)&lt;/a&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Open-source software (OSS) is computer software with its source code made available with a license
+in which the copyright holder provides the rights to study, change, and distribute the software to anyone
+and for any purpose.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Irrespective of the OSS license being applied, the above conditions should be true for a software to call itself Open Source.&lt;/p&gt;
+
+&lt;p&gt;A more precise, easy-to-understand and widely referenced definition of Open Source Software is maintained and managed by the Open Source Initiative (OSI) on this page: &lt;a href=&quot;https://opensource.org/osd-annotated&quot;&gt;Open Source Definition&lt;/a&gt;. It mentions ten criteria that should be satisfied by the distribution terms of the software license for it to be accepted as Open Source. Some of these criteria are: free redistribution, must have easy access to un-obfuscated source code, should allow modifications and distribution of these modifications, should be free of discrimination against people/geographies/groups/field of endeavour/technology stack, etc.&lt;/p&gt;
+
+&lt;p&gt;So – just having access to source code isn’t Open Source. It’s a much broader term, associated with greater freedom.&lt;/p&gt;
+
+&lt;h2 id=&quot;so-then-what-is-the-deal-with-the-different-licenses----gpl-mpl-apache-etc&quot;&gt;So then what is the deal with the different licenses – GPL, MPL, Apache, etc?&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Note: I  am not a lawyer. Please consult a qualified lawyer when you are inspecting / figuring out an OSS License for your company or software. My advice here is informal. Licenses are a complex beast – especially when softwares containing different licenses are put into the mix.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;There are many available OSS licenses publicly recognized to make it convenient for you to choose the one that suits your needs. The Open Source Initiative (OSI) maintains a &lt;a href=&quot;https://opensource.org/licenses/alphabetical&quot;&gt;list of approved licenses here&lt;/a&gt; for you to choose from.&lt;/p&gt;
+
+&lt;p&gt;All these licenses are recognized as Open Source Licenses, and hence should provide the same freedom as mentioned above while explaining what does OSS mean – but there is always something unique about each license that makes them stand apart. This is why you need legal counsel. Your motivations and business model will affect the choice of license.&lt;/p&gt;
+
+&lt;p&gt;Licenses like the GPL license are called &lt;a href=&quot;https://en.wikipedia.org/wiki/Copyleft&quot;&gt;Copyleft licenses&lt;/a&gt; which are protective in nature. If you use a GPL Licensed software library in your software you will require to make your own software freely available under the GPL License. If you are a commercial / proprietary software team, you most likely do not want to open source your proprietary software, and therefore won’t be able to include libraries licensed under GPL. Do check out: &lt;a href=&quot;https://softwareengineering.stackexchange.com/questions/47032/can-i-use-gpl-software-in-a-commercial-application&quot;&gt;Can I use GPL software in a commercial application?&lt;/a&gt; As an example – iText is a library for generating PDFs which is provided under an &lt;a href=&quot;http://www.affero.org/oagf.html&quot;&gt;AGPL license&lt;/a&gt; (free) and also under a commercial license that allows you to include it in programs that are released under a license of your choice (paid). You will not be able to include its free version in the source code to closed-source software for the same reasons articulated above. Read about &lt;a href=&quot;http://itextpdf.com/legal&quot;&gt;iText License implications here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Interesting articles to read: &lt;a href=&quot;https://opensource.com/article/17/2/decline-gpl&quot;&gt;The Decline of GPL?&lt;/a&gt;
+and &lt;a href=&quot;https://softwareengineering.stackexchange.com/questions/226111/can-i-use-mongodb-for-a-commercial-web-based-service&quot;&gt;Can I use MongoDB for a commercial web based service?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Important Notes&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;em&gt;I work on an open source hospital system called &lt;a href=&quot;http://bahmni.org&quot;&gt;Bahmni&lt;/a&gt;, for low-resource environments. This software is licensed under AGPL license. Distributing the software under the AGPL means that any modifications or improvements done for Bahmni must be made available to all for free. In this way, the choice of license helps to ensure that the software will remain a public benefit to humanity and no one can capture it for their private gain. Read more about some problems with commercial EHR here: &lt;a href=&quot;http://www.openhealthnews.com/blogs/ramaduro/2017-01-19/obama-and-biden-blast-ehr-vendors-data-blocking&quot;&gt;Obama and Biden Blast EHR Vendors for Data Blocking&lt;/a&gt;.&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Linux is licensed under GPLv2. For good reasons. From this &lt;a href=&quot;http://www.zdnet.com/article/linus-torvaldss-love-hate-relationship-with-the-gpl/&quot;&gt;article&lt;/a&gt;, Linus Torvalds says: “The GPL ensures that nobody is ever going to take advantage of your code. It will remain free and nobody can take that away from you. I think that’s a big deal for community management.”&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Do you know the differences between Red Hat Enterprise Linux RHEL (paid) and CentOS Linux (free)? You might be surprised to know that the code of CentOS Linux is created from RHEL source code with all Red Hat trademark information removed – because Red Hat invests/pays for the trademark and logo, but the underlying Linux and its modifications are required to be made freely available as source code – which allows the creation of CentOS. This is why so many companies use CentOS – because they believe they get the same quality for free! Amazing. Isn’t it? Read more here: &lt;a href=&quot;https://en.wikipedia.org/wiki/CentOS&quot;&gt;Wikipedia/CentOS&lt;/a&gt; and here: &lt;a href=&quot;https://en.wikipedia.org/wiki/Red_Hat_Enterprise_Linux_derivatives&quot;&gt;Wikipedia/RedHatDerivatives&lt;/a&gt;.&lt;/em&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;But some OSS would prefer to focus on getting lots of people to adopt them quickly and easily, especially software platforms and libraries – because the wider the adoption of a software, the more chances are that its bugs will surface quicker, it will become more stable, it will have more impact, and more people will contribute to it. Once a company or a team invests in a software stack, it’s unlikely that they would want to throw it away on the slightest excuse! This is why many Open Source Software projects choose a more permissive license which allows you to ship and use them in commercial packages. Think of &lt;a href=&quot;https://github.com/angular/angular.js/blob/master/LICENSE&quot;&gt;Angular.js&lt;/a&gt;, &lt;a href=&quot;http://react-etc.net/entry/your-license-to-use-react-js-can-be-revoked-if-you-compete-with-facebook&quot;&gt;React.js&lt;/a&gt;, &lt;a href=&quot;https://www.postgresql.org/about/licence/&quot;&gt;Postgres&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/Spring_Framework&quot;&gt;Spring Framework&lt;/a&gt;, &lt;a href=&quot;https://www.ruby-lang.org/en/about/license.txt&quot;&gt;Ruby Language&lt;/a&gt;, &lt;a href=&quot;https://github.com/jquery/jquery/blob/master/LICENSE.txt&quot;&gt;jQuery&lt;/a&gt;, &lt;a href=&quot;https://tomcat.apache.org/legal.html&quot;&gt;Tomcat Server and other softwares from Apache&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/Nginx&quot;&gt;Nginx&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/Selenium_(software)&quot;&gt;Selenium Test Framework&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/JUnit&quot;&gt;jUnit&lt;/a&gt; and many other libraries, tools and software which we all use in proprietary software – are all Open Source! They are licensed in a manner that allows others to benefit off them. Isn’t that awesome! So – have you given them back something? Have you helped making them better or popular?&lt;/p&gt;
+
+&lt;h2 id=&quot;so-do-people-make-any-money-with-open-source-softwares&quot;&gt;So do people make any money with Open Source Softwares?&lt;/h2&gt;
+
+&lt;p&gt;I think it’s important to separate this question into two areas – one for the company and the other for an individual.&lt;/p&gt;
+
+&lt;p&gt;So, let’s ask the first question: &lt;strong&gt;As a company, if I open source my software - can I make money?&lt;/strong&gt; The answer is: &lt;strong&gt;Unlikely&lt;/strong&gt;. The software after all is free, and hence you can’t really make money from it. But it might make long term business and financial sense to still do it – for reasons like adoption and maintenance. Platform products like Android and OpenStack are open source so that people can use them widely and build commercial models on top of them. The more people adopt Android for instance, the more people use Google Search and related services. That drives revenue and profits for Google. Open sourcing their platform, helps companies stay relevant.&lt;/p&gt;
+
+&lt;p&gt;For instance in this article on Tech Radar (&lt;a href=&quot;http://www.in.techradar.com/news/software/The-reasons-behind-Microsofts-drive-for-open-source/articleshow/51512501.cms&quot;&gt;The reasons behind Microsoft’s drive for open source&lt;/a&gt;) Wes Miller, Vice President at analyst group Directions on Microsoft points out:
+&lt;em&gt;“Much like Apple and Google, whose open source projects may be strategic to a degree of mindshare (but not revenue), the projects that Microsoft has chosen to open source are intended to help build community/collaboration and mindshare. The areas of the company that are still breadwinners are not open source, nor do I believe we should expect them to be anytime soon”.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;This is not to say that companies are not making money from Open Source software. There are &lt;a href=&quot;https://en.wikipedia.org/wiki/Business_models_for_open-source_software&quot;&gt;15+ business models with OSS&lt;/a&gt; mentioned on Wikipedia. The obvious ones are Support and Professional Services around the software package, but people can do a lot more including writing paid add-ons, software-as-a-service, advertisements, trainings, etc.&lt;/p&gt;
+
+&lt;p&gt;For good examples of businesses that rely on Open Source Software, and the associated struggle, I would recommend reading this article by TechCrunch (&lt;a href=&quot;https://techcrunch.com/2016/02/09/the-money-in-open-source-software/&quot;&gt;Money in Open Source Software&lt;/a&gt;). It says: &lt;em&gt;“Despite the growing popularity of open-source software, though, many open-source companies are not financially healthy. Just like eyeballs didn’t translate into actual online purchases during the first dot-com era in the late 1990s, millions of free-software downloads do not always lead to sustainable revenue streams.”&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Now - lets ask the second question: &lt;strong&gt;As a developer or a technologist - can I make money by working on Open Source Software?&lt;/strong&gt; The answer is: &lt;strong&gt;Pretty Likely – if you are good at what you do and your chosen OSS is in-demand&lt;/strong&gt;. Developing and maintaining good software is hard - especially if it’s being used by multiple customers.&lt;/p&gt;
+
+&lt;p&gt;With Open Source, the advantage is that there are very few geographical barriers for team members – since the code and software is available online easily. So, people from across cities can contribute to the project, and be paid to consult, maintain, develop and deploy softwares. This can also help the individual build their brand, connect with other like minded people around the world, and be called upon for important gigs. Plus, once a company has already invested in a particular open source stack, they would be compelled and happy to pay for its evolution – to keep their own systems up-and-running, or even to beat the competition.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;But most contributors worldwide contribute to Open Source software for free. Because the returns themselves are worth it.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;this-sounds-very-interesting-should-i-participate-in-a-particular-open-source-software&quot;&gt;This sounds very interesting. Should I participate in a particular Open Source software?&lt;/h2&gt;
+
+&lt;p&gt;If you are a developer, a QA, a BA, a technologist – you have very little excuse to not be involved in some Open Source Software. Why should you limit your exposure, experience and learnings to only the project you are on? Why not contribute and learn from the zillions of OSS that are out there? Most of these softwares are looking for technical contributions and to make greater impact.&lt;/p&gt;
+
+&lt;p&gt;Pick a topic that you love. Or a software you would be interested in. Do you like Security, Music, Medicine, Programming Languages, Painting, Maths, Teaching, Kids, Criminology, Guitar, Sports, Gym, FILL-IN-THE-BLANKS? Find an OSS in your chosen area, whatever motivates you, and jump in. Projects need help on everything under the sun – from developing small/large features, to writing unit/integration/functional tests, to setting up CI/CD servers, to documentation, to creating stories, to fixing bugs, to creating presentations, to publishing videos, to organizing events, to evaluating libraries, to helping in rollouts and implementations of their softwares, to…. you get it. Whatever you do in your organization on your project; the OSS also needs that to be done. Plus, you can be a QA contributing to Development tasks, or a Dev contributing to recording videos, and so on.. because no one cares what “role” you come from – it’s what you want to do!&lt;/p&gt;
+
+&lt;p&gt;Most OSS projects will have a chatroom on IRC/Slack/etc, a mailing list, a public version control repository (likely Github), a public task management system (like JIRA, Github Issues, Trello, etc), and periodic virtual meetings. If you go in with sincerity, and resolve — your work will be highly appreciated.&lt;/p&gt;
+
+&lt;h2 id=&quot;a-list-of-open-source-projects-you-might-consider&quot;&gt;A list of Open Source Projects you might consider&lt;/h2&gt;
+
+&lt;p&gt;A short list of suggestions from my side. It’s a drop in the ocean. The important thing is to choose a project you &lt;strong&gt;want&lt;/strong&gt; to contribute to. Find your holy grail.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://bahmni.org&quot;&gt;Bahmni&lt;/a&gt;: Open Source EMR &amp;amp; Hospital System (or &lt;a href=&quot;http://openmrs.org&quot;&gt;OpenMRS&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://pixelated-project.org/&quot;&gt;Pixelated&lt;/a&gt;: Encrypted/Private/Secure Web based email&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://moodle.org/&quot;&gt;Moodle&lt;/a&gt;: Free Learning Management System&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.bugzilla.org/&quot;&gt;BugZilla&lt;/a&gt;: Task Management and Issue Management System&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.ushahidi.com/&quot;&gt;Ushahidi&lt;/a&gt;: Real time, crowdsourced crisis management and mapping tool&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/audacity/audacity&quot;&gt;Audacity&lt;/a&gt;: Digital Audio Editor&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/List_of_free_and_open-source_software_packages&quot;&gt;Wikipedia/List of Open Source Softwares&lt;/a&gt;: Huge list of Open Source softwares by category&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The Open Source Software movement is big. It’s time to jump in. Give back. Learn. Soak. Become part of alternative communities, across multiple countries. You will be welcomed.&lt;/p&gt;
+
+&lt;h2 id=&quot;podcast-on-open-source-myths---with-karl-brown&quot;&gt;Podcast on Open Source Myths - With Karl Brown&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;If you liked this article, you may also like this podcast I recorded with Karl Brown from ThoughtWorks
+where we talk about &lt;a href=&quot;https://www.thoughtworks.com/insights/blog/podcast-open-source-myths-and-truths&quot;&gt;Myths &amp;amp; Truths in Open Source Software&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;further-reading-on-open-source&quot;&gt;Further Reading on Open Source&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.howtogeek.com/howto/31717/what-do-the-phrases-free-speech-vs.-free-beer-really-mean/&quot;&gt;Free as in Beer, or Free as in Speech – Understanding the difference&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://twiki.org/cgi-bin/view/Blog/BlogEntry201207x1&quot;&gt;Difference between Open Source License vs Copyright vs Trademark&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.amazon.in/Success-Open-Source-Steven-Weber/dp/0674018583&quot;&gt;Book: The Success of Open Source by Steven Weber&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Reduce Computer Eye Strain with F.lux</title>
+   <link href="http://life-lessons.in/2016/09/05/reduce-eye-strain-with-flux.html"/>
+   <published>2016-09-05T00:00:00+05:30</published>
+   <updated>2016-00-05T12:00:00+05:30</updated>
+   <id>http://life-lessons.in/2016/09/05/reduce-eye-strain-with-flux</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;/images/general/flux-logo.jpg&quot; alt=&quot;f.lux&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;About 3 years ago, one of my colleagues in ThoughtWorks, &lt;a href=&quot;https://www.thoughtworks.com/profiles/sam-gibson&quot;&gt;Sam Gibson&lt;/a&gt;, suggested I try out &lt;a href=&quot;https://justgetflux.com/&quot;&gt;f.lux&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;f.lux changes the &lt;a href=&quot;http://www.eizo.com/library/basics/color_temperature_on_an_LCD_monitor/&quot;&gt;Color temperature&lt;/a&gt; of my mac screen in the evening, so that the blue light from the screen is removed, and 
+instead a nice warm set of colors are emitted from the screen. This drastically reduced the strain that I felt on my screen
+at night. It felt weird, the first 3 or 4 days, when my screen colors changed in the evening. But then soon enough, I 
+even stopped realizing when f.lux changed the colors. It would only be a passerby, who would look at my screen, and wonder: 
+Hey what happened to your screen?&lt;/p&gt;
+
+&lt;p&gt;Over the last few months, I have recommended this app to many friends. One of whom used to get a headache by evening 
+working on the computer, and had resigned to the fact that such is life. After trying out f.lux, his incidences of headaches
+have drastically reduced!&lt;/p&gt;
+
+&lt;p&gt;As the f.lux website says: “&lt;em&gt;f.lux makes your computer screen look like the room you’re in, all the time. 
+When the sun sets, it makes your computer look like your indoor lights. In the morning, it makes things look 
+like sunlight again.&lt;/em&gt;”&lt;/p&gt;
+
+&lt;p&gt;I would recommend you to try (please note, I am not a doctor!). f.lux sits happily in your menu bar, and you can toggle it 
+temporarily off (for an hour) when you feel the need to switch back to normal color mode, say for doing some photoshop or color
+editing, etc. f.lux is also available for Windows, and I think similar apps are now available for tablets  &amp;amp; phones too.&lt;/p&gt;
+
+&lt;p&gt;Besides &lt;a href=&quot;https://justgetflux.com/&quot;&gt;f.lux&lt;/a&gt;, I am also using &lt;a href=&quot;http://iamfutureproof.com/tools/awareness/&quot;&gt;Awareness&lt;/a&gt;, to help 
+remind me how long I have not taken a break on the computer, and the
+&lt;a href=&quot;https://itunes.apple.com/us/app/pomodoro-time-focus-timer/id953426154?ls=1&amp;amp;mt=8&quot;&gt;Pomodoro timer&lt;/a&gt;, 
+to help me focus on a specific task at a time.&lt;/p&gt;
+
+&lt;p&gt;Do try out these apps.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Mars Rover Problem in Scala</title>
+   <link href="http://life-lessons.in/2016/04/24/mars-rover-problem-in-scala.html"/>
+   <published>2016-04-24T00:00:00+05:30</published>
+   <updated>2016-04-24T12:00:00+05:30</updated>
+   <id>http://life-lessons.in/2016/04/24/mars-rover-problem-in-scala</id>
+   <content type="html">&lt;p&gt;Priyank Gupta, a respected ex-ThoughtWorker from the Pune office, wrote an excellent blog series in 2014 titled:
+&lt;a href=&quot;http://priyaaank.tumblr.com/post/95095165285/decoding-thoughtworks-coding-problems&quot;&gt;Decoding ThoughtWorks Coding Problems&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;In this blog he explains what constitutes good code &amp;amp; design, using the now decommissioned Mars Rover problem as an example.
+His code is in Java. I decided to showcase the same design in Scala, using only “the good parts” of Scala, with an aim of keeping
+the solution easy to understand, and enhance.&lt;/p&gt;
+
+&lt;p&gt;My implementation can be seen on Github here: &lt;a href=&quot;https://github.com/gsluthra/mars-rover-scala&quot;&gt;mars-rover-scala&lt;/a&gt;.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>When Money gets in the way of Life</title>
+   <link href="http://life-lessons.in/2016/03/03/money-in-way-of-life.html"/>
+   <published>2016-03-03T00:00:00+05:30</published>
+   <updated>2016-03-03T12:00:00+05:30</updated>
+   <id>http://life-lessons.in/2016/03/03/money-in-way-of-life</id>
+   <content type="html">&lt;p&gt;I wrote this blog on Bahmni Community Blogs on Medium. Read the full blog here:
+&lt;a href=&quot;https://medium.com/bahmni-blog/when-money-gets-in-the-way-of-life-5162466a5c83#.iasyzsjru&quot;&gt;When Money gets in the way of Life - Bahmni Blogs&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Every Single Retro</title>
+   <link href="http://life-lessons.in/2016/02/03/every-single-retro.html"/>
+   <published>2016-02-03T00:00:00+05:30</published>
+   <updated>2016-02-03T12:00:00+05:30</updated>
+   <id>http://life-lessons.in/2016/02/03/every-single-retro</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;/images/general/EverySingleRetro.jpg&quot; alt=&quot;EverySingleRetro&quot; style=&quot;width: 500px;&quot; /&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>The Velocity Conundrum</title>
+   <link href="http://life-lessons.in/2015/12/25/The-Velocity-Conundrum.html"/>
+   <published>2015-12-25T00:00:00+05:30</published>
+   <updated>2015-12-25T12:00:00+05:30</updated>
+   <id>http://life-lessons.in/2015/12/25/The-Velocity-Conundrum</id>
+   <content type="html">&lt;p&gt;Velocity! It’s a term that has potentially confounded, frustrated and perhaps amused Agile practitioners and customers alike at some point. It’s a concept that can be quite helpful though, when used accurately as a planning &amp;amp; estimation tool.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Velocity is a measure of the number of story points delivered in an Iteration&lt;/em&gt;. The word &lt;strong&gt;delivered&lt;/strong&gt; here means - dev &amp;amp; test complete, and
+ready for Production. Depending on your organizational maturity it could also mean – &lt;strong&gt;in Production&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;velocity-as-a-guide&quot;&gt;Velocity as a Guide&lt;/h3&gt;
+
+&lt;p&gt;Let’s take an example of how one uses velocity as a guiding metric.&lt;/p&gt;
+
+&lt;p&gt;For instance, in Iteration-1 (I-1), if a team completes 12 story points, then the velocity of the team is 12. It means that, in next iteration you can assume the team will be able to deliver about 12 points worth of features. Another way of saying this, is that &lt;em&gt;yesterday’s weather&lt;/em&gt; is 12.&lt;/p&gt;
+
+&lt;p&gt;In I-2, if the team delivers 15 points, then for I-3 you can plan for approx 13 (avg of I-1 and I-2). On the other hand, if the team delivers say 10 points in I-2, then next time you plan for 11 (avg of I-1 and I-2).&lt;/p&gt;
+
+&lt;p&gt;In general, you average the velocity of the last three iterations, and use that as &lt;em&gt;yesterday’s weather&lt;/em&gt; to arrive at what you should expect as velocity for the next iteration.&lt;/p&gt;
+
+&lt;h3 id=&quot;low-velocity&quot;&gt;Low Velocity&lt;/h3&gt;
+
+&lt;p&gt;If the team achieves lesser points in an iteration than what you expected, should you be concerned? The answer is: &lt;em&gt;It depends&lt;/em&gt;. You should try
+and find out the possible cause, and then decide whether you should be concerned or not. &lt;em&gt;The aim is to reach a sustainable cadence
+that allows for healthy team productivity and greater customer satisfaction&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;A retrospective meeting at the end of an iteration, is a practical way to discuss potential reasons for drop (or increase) in velocity. Some possible reasons for a drop in velocity are:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;The features being developed were more complex than estimated (or expected).&lt;/li&gt;
+  &lt;li&gt;High technical debt in certain parts of the system is causing development to be slower than expected. Think of tech debt as hurdles on your way. The more the hurdles, the higher the friction, the slower you will move.&lt;/li&gt;
+  &lt;li&gt;Other factors like too many red builds, flaky acceptance tests, network issues, unnecessary meetings, bugs from previous iteration or holidays, could have sucked away precious time from the team – and hence they could not work on feature development as much as they otherwise would have.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Usually a drop in velocity is due to a combination of the above factors. You may be able to remove some hurdles and mitigate some challenges. Or, maybe you can’t do anything about some of the reasons. You note them down, voice them, and remember to account for them in future iteration plans where applicable.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-upper-management-effect&quot;&gt;The “Upper Management” Effect&lt;/h3&gt;
+
+&lt;p&gt;Many teams (and managers) don’t want to show a velocity drop. Because &lt;em&gt;upper management&lt;/em&gt; will frown upon them as an indicator of slacking
+and under achievement.&lt;/p&gt;
+
+&lt;p&gt;This leads to people coming up with various ways of showing that their velocity is the same as before.
+For instance, claims like: “&lt;em&gt;We were busy refactoring the service layer, so, we should claim 2 points for that&lt;/em&gt;”. Or, “&lt;em&gt;We were blocked due to
+network issues, and hence we claim 1 point for that&lt;/em&gt;”. So now, with these deviations, total velocity is shown to be:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;9&lt;/strong&gt;  (actual for feature development) + &lt;strong&gt;2&lt;/strong&gt;(for refactoring) + &lt;strong&gt;1&lt;/strong&gt; (for network issues) = &lt;strong&gt;12&lt;/strong&gt; (hey.. this is 1 point better than usual! All is good!)&lt;/p&gt;
+
+&lt;p&gt;This velocity adjustment for &lt;em&gt;upper management’s&lt;/em&gt; sake is a recipe for disaster. Instead of fixing organizational, technical and business issues, we have made everything look “OK” and reached a status-quo.&lt;/p&gt;
+
+&lt;p&gt;The fixation for treating velocity as a productivity measure, has led to a loss of agility and muddled priorities.&lt;/p&gt;
+
+&lt;h3 id=&quot;high-performance-teams--trust&quot;&gt;High Performance Teams &amp;amp; Trust&lt;/h3&gt;
+
+&lt;p&gt;Agile practices only work when you trust the team. Trust can only be developed, when you hire the right people for the job. The right people for the job are people who care about their work, and are good at what they do. Organizations have a duty to hire the best, and then get out of the way, whilst providing periodic and necessary support.&lt;/p&gt;
+
+&lt;p&gt;Velocity as a metric, will be useful only if the team is passionate about delivering and improving their own productivity. If the team is looking at answering the question - “How can we do better?”, then velocity can help the team to inform them if they are on the right track.&lt;/p&gt;
+
+&lt;p&gt;But, depending ONLY on &lt;em&gt;velocity&lt;/em&gt; as a measure of your improvement is wrong. You may see a drop in &lt;em&gt;velocity&lt;/em&gt; due to many external factors, even when the team is taking the right steps to improve the quality of the system. It is analogous to seeing &lt;em&gt;weight&lt;/em&gt; as the only measure of improving health.&lt;/p&gt;
+
+&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
+
+&lt;p&gt;Velocity should be treated as a guide using which you plan the next iteration and measure the impact of your adjustments or fixes. Velocity also acts as an approximate tool to provide visibility into when certain features will make it into the release.&lt;/p&gt;
+
+&lt;p&gt;Velocity is &lt;em&gt;NOT&lt;/em&gt; a measure of the quality of the work being done by the team or of the productivity of the team.&lt;/p&gt;
+
+&lt;h3 id=&quot;further-reading&quot;&gt;Further Reading&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://jimhighsmith.com/Velocity-is-killing-agility/&quot;&gt;Velocity is killing agility (Jim Highsmith)&lt;/a&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;em&gt;Over emphasis on velocity causes problems because of its wide use as a productivity measure. The proper use of velocity is as a calibration tool, a way to help do capacity-based planning…&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://martinfowler.com/bliki/XpVelocity.html&quot;&gt;XpVelocity (Martin Fowler)&lt;/a&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;em&gt;Velocity is a tool for calibrating estimations for YesterdaysWeather, it is not a measure of productivity.&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Technical_debt&quot;&gt;Technical Debt (Wikipedia)&lt;/a&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;em&gt;If the debt is not repaid, then it will keep on accumulating interest, making it hard to implement changes later on. Unaddressed technical debt increases software entropy.&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://www.infoq.com/articles/not-destroy-team-metrics&quot;&gt;How To Not Destroy your Agile Team with Metrics (InfoQ)&lt;/a&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;em&gt;The streetlight effect is our human tendency to look for answers where it’s easy to look rather than where the actual information is.&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Podcasts I Love</title>
+   <link href="http://life-lessons.in/2015/11/15/podcasts-i-love.html"/>
+   <published>2015-11-15T00:00:00+05:30</published>
+   <updated>2015-11-15T12:00:00+05:30</updated>
+   <id>http://life-lessons.in/2015/11/15/podcasts-i-love</id>
+   <content type="html">&lt;p&gt;Driving in India is a test of patience. And a waste of time.&lt;/p&gt;
+
+&lt;p&gt;A few months ago, I decided to try an experiment while driving to office (about a 30 minutes ride one way).
+Podcasts.&lt;/p&gt;
+
+&lt;p&gt;Turns out, I had uncovered something amazing. Podcasts made me forget the time I spend on the road, and instead opened a window to a world I didn’t know existed.
+I now found an opportunity to hear interviews and stories, of lives of people, in far away places.
+People, whose stories, I would otherwise never have heard.&lt;/p&gt;
+
+&lt;p&gt;He is a list (I plan to keep up-to-date), with a list of podcasts I really enjoyed, or were super thought-provoking. If you like these, please bookmark this post.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://englishminds.co.uk/wp-content/uploads/2014/06/Podcast.jpg&quot; alt=&quot;Podcasts&quot; style=&quot;width: 200px;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;list-of-podcasts&quot;&gt;List of Podcasts&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;http://fourhourworkweek.com/2015/01/15/pavel-tsatsouline/&quot;&gt;[Tim Ferris Interview] Pavel Tsatsouline on the Science of Strength and the Art of Physical Performance&lt;/a&gt;:
+Fundamentals of Strength training, kettle bell, no-nonsense, fitness, and many things under the world.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://fourhourworkweek.com/2015/07/05/stanley-mcchrystal/&quot;&gt;[Tim Ferris Interview] General Stan McChrystal on Eating One Meal Per Day, Leadership in the Military,
+Special Ops, and Mental Toughness&lt;/a&gt;: An interesting interview on Leadership challenges in the military
+and what can we learn from them, for navigating the civilian world.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://fourhourworkweek.com/2015/09/25/jocko-willink/&quot;&gt;[Tim Ferris Interview] The Scariest Navy SEAL Imaginable…And What He Taught Me&lt;/a&gt;: An interview with Jocko Willink
+about training for jiu-jitsu, managing fear, leadership in SEAL teams, fitness and discipline.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.npr.org/programs/ted-radio-hour/368757408/courage&quot;&gt;[NPR TED Talk] Courage&lt;/a&gt;: Understanding courage in people – talks by some remarkable people, with remarkable
+achievements.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.npr.org/programs/ted-radio-hour/377505449/keeping-secrets&quot;&gt;[NPR TED Talk] Keeping Secrets&lt;/a&gt;: Secrets in the world.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.npr.org/programs/ted-radio-hour/357846020/quiet&quot;&gt;[NPR TED Talk] Quiet&lt;/a&gt;: A Man who did not speak for 17 years. And the importance of Quiet.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.npr.org/2013/04/25/179010396/unstoppable-learning&quot;&gt;[NPR TED Talk] Unstoppable Learning&lt;/a&gt;: A fantastic experiment on how children can learn without any teachers.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.stuffyoushouldknow.com/podcasts/how-the-berlin-wall-worked/&quot;&gt;[Stuff You Should Know] How the Berlin Wall Worked&lt;/a&gt;: The amazing history of the wall that divided East
+and West Germany for 28 years.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.stuffyoushouldknow.com/podcasts/black-boxes-work/&quot;&gt;[Stuff You Should Know] How Black Boxes Work&lt;/a&gt;: An understanding of black boxes on the planes, and their history. Very fascinating.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.stuffyoushouldknow.com/podcasts/owning-gun-change-behavior-2/&quot;&gt;[Stuff You Should Know] Does Owning a Gun Change your Behavior&lt;/a&gt;: Gun Control, and the psychological impact of owning a gun.
+It isn’t what you think it is.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.stuffyoushouldknow.com/podcasts/bitcoin-works/&quot;&gt;[Stuff You Should Know] How Bitcoin Works&lt;/a&gt;: An explanation of Bitcoin.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.stuffyoushouldknow.com/podcasts/can-you-test-a-nuclear-weapon-without-a-fallout/&quot;&gt;[Stuff You Should Know] Can you test a Nuclear Weapon without a Fallout?&lt;/a&gt;: A history of the various nuclear weapon tests conducted on Planet Earth, and their repercussions.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.npr.org/2017/03/06/518786831/tribes-traitors-what-happens-when-you-empathize-with-the-enemy&quot;&gt;[NPR Hidden Brain] Tribes &amp;amp; Traitors&lt;/a&gt;: What Happens When You Empathize with the Enemy?: The more trauma an individual or a group has experienced, the harder it can be to acknowledge the suffering of the other side. A look into the life of a former Israeli paratrooper and a Palestinanian professor who empathized with the other side.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.npr.org/2016/11/29/503594516/in-praise-of-mess-why-disorder-may-be-good-for-us&quot;&gt;[NPR Hidden Brain] In Praise of Mess&lt;/a&gt;: Why Disorder May Be Good For Us: In this episode of Hidden Brain, economist and writer Tim Harford talks about how an embrace of chaos is beneficial to musicians, speechmakers, politicians – and the rest of us.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://fs.blog/naval-ravikant/&quot;&gt;[Farnam Street] Interview with Naval Ravikant&lt;/a&gt;: Words of wisdom on life, decision making, the importance of reading, meditation and a lot of other topics. This is one of the best podcasts I have heard. You can also read the audio transcript &lt;a href=&quot;https://www.fs.blog/wp-content/uploads/2017/02/Naval-Ravikant-TKP.pdf&quot;&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;I usually listen to podcasts on the &lt;a href=&quot;https://itunes.apple.com/in/app/podcasts/id525463029?mt=8&amp;amp;ign-mpt=uo%3D4&quot;&gt;Iphone podcast app&lt;/a&gt;.&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ 
+</feed>
