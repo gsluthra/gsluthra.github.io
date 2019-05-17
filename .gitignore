@@ -1,0 +1,16 @@
+/.sass-cache
+/_site
+/_story_photo_ideas
+
+# Ignore OSX files like:
+.DS_Store
+
+
+### JetBrains template
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm
+
+*.iml
+
+## Directory-based project format:
+.idea/
+
