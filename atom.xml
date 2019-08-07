@@ -4,7 +4,7 @@
  <title>life-lessons.in</title>
  <link href="http://life-lessons.in/atom.xml" rel="self"/>
  <link href="http://life-lessons.in"/>
- <updated>2019-05-17T12:09:12+04:00</updated>
+ <updated>2019-08-07T15:27:45+05:30</updated>
  <id>http://life-lessons.in/atom.xml</id>
  <author>
    <name>Gurpreet Luthra</name>
@@ -15,7 +15,7 @@
  <entry>
    <title>I Know That I Know Nothing</title>
    <link href="http://life-lessons.in/2018/05/12/i-know-nothing-socrates-paradox.html"/>
-   <published>2018-05-12T00:00:00+04:00</published>
+   <published>2018-05-12T00:00:00+05:30</published>
    <updated>2018-05-12T11:00:00+05:30</updated>
    <id>http://life-lessons.in/2018/05/12/i-know-nothing-socrates-paradox</id>
    <content type="html">&lt;h2 id=&quot;introduction-to-the-model&quot;&gt;Introduction to the Model&lt;/h2&gt;
@@ -177,7 +177,7 @@
  <entry>
    <title>Are You Telling A Story?</title>
    <link href="http://life-lessons.in/2018/03/31/art-of-story-telling.html"/>
-   <published>2018-03-31T00:00:00+04:00</published>
+   <published>2018-03-31T00:00:00+05:30</published>
    <updated>2018-03-31T11:00:00+05:30</updated>
    <id>http://life-lessons.in/2018/03/31/art-of-story-telling</id>
    <content type="html">&lt;p&gt;&lt;strong&gt;Student:&lt;/strong&gt;  &lt;em&gt;I am giving my first talk in 6 weeks.&lt;/em&gt; &lt;br /&gt;
@@ -291,7 +291,7 @@
  <entry>
    <title>12 Things I Learnt While Teaching Application Security</title>
    <link href="http://life-lessons.in/2017/04/12/app-security-learning.html"/>
-   <published>2017-04-12T00:00:00+04:00</published>
+   <published>2017-04-12T00:00:00+05:30</published>
    <updated>2017-04-12T12:00:00+05:30</updated>
    <id>http://life-lessons.in/2017/04/12/app-security-learning</id>
    <content type="html">&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
@@ -440,7 +440,7 @@
  <entry>
    <title>Understanding Open Source Software</title>
    <link href="http://life-lessons.in/2017/02/18/open-source-explained.html"/>
-   <published>2017-02-18T00:00:00+04:00</published>
+   <published>2017-02-18T00:00:00+05:30</published>
    <updated>2017-03-12T12:00:00+05:30</updated>
    <id>http://life-lessons.in/2017/02/18/open-source-explained</id>
    <content type="html">&lt;p&gt;I have been contributing to Open Source Software (OSS) for over 3 years now, at ThoughtWorks. Many people seem to have some misconceptions about OSS, or don’t fully realise the implications and impact of OSS. In this blog, I have shared a few  of my learnings and thoughts on this topic. If you are technologist – who has some familiarity with OSS, then it’s likely that this article will be helpful.&lt;/p&gt;
@@ -545,7 +545,7 @@ where we talk about &lt;a href=&quot;https://www.thoughtworks.com/insights/blog/
  <entry>
    <title>Reduce Computer Eye Strain with F.lux</title>
    <link href="http://life-lessons.in/2016/09/05/reduce-eye-strain-with-flux.html"/>
-   <published>2016-09-05T00:00:00+04:00</published>
+   <published>2016-09-05T00:00:00+05:30</published>
    <updated>2016-00-05T12:00:00+05:30</updated>
    <id>http://life-lessons.in/2016/09/05/reduce-eye-strain-with-flux</id>
    <content type="html">&lt;p&gt;&lt;img src=&quot;/images/general/flux-logo.jpg&quot; alt=&quot;f.lux&quot; /&gt;&lt;/p&gt;
@@ -582,7 +582,7 @@ to help me focus on a specific task at a time.&lt;/p&gt;
  <entry>
    <title>Mars Rover Problem in Scala</title>
    <link href="http://life-lessons.in/2016/04/24/mars-rover-problem-in-scala.html"/>
-   <published>2016-04-24T00:00:00+04:00</published>
+   <published>2016-04-24T00:00:00+05:30</published>
    <updated>2016-04-24T12:00:00+05:30</updated>
    <id>http://life-lessons.in/2016/04/24/mars-rover-problem-in-scala</id>
    <content type="html">&lt;p&gt;Priyank Gupta, a respected ex-ThoughtWorker from the Pune office, wrote an excellent blog series in 2014 titled:
@@ -599,7 +599,7 @@ the solution easy to understand, and enhance.&lt;/p&gt;
  <entry>
    <title>When Money gets in the way of Life</title>
    <link href="http://life-lessons.in/2016/03/03/money-in-way-of-life.html"/>
-   <published>2016-03-03T00:00:00+04:00</published>
+   <published>2016-03-03T00:00:00+05:30</published>
    <updated>2016-03-03T12:00:00+05:30</updated>
    <id>http://life-lessons.in/2016/03/03/money-in-way-of-life</id>
    <content type="html">&lt;p&gt;I wrote this blog on Bahmni Community Blogs on Medium. Read the full blog here:
@@ -610,7 +610,7 @@ the solution easy to understand, and enhance.&lt;/p&gt;
  <entry>
    <title>Every Single Retro</title>
    <link href="http://life-lessons.in/2016/02/03/every-single-retro.html"/>
-   <published>2016-02-03T00:00:00+04:00</published>
+   <published>2016-02-03T00:00:00+05:30</published>
    <updated>2016-02-03T12:00:00+05:30</updated>
    <id>http://life-lessons.in/2016/02/03/every-single-retro</id>
    <content type="html">&lt;p&gt;&lt;img src=&quot;/images/general/EverySingleRetro.jpg&quot; alt=&quot;EverySingleRetro&quot; style=&quot;width: 500px;&quot; /&gt;&lt;/p&gt;
@@ -620,7 +620,7 @@ the solution easy to understand, and enhance.&lt;/p&gt;
  <entry>
    <title>The Velocity Conundrum</title>
    <link href="http://life-lessons.in/2015/12/25/The-Velocity-Conundrum.html"/>
-   <published>2015-12-25T00:00:00+04:00</published>
+   <published>2015-12-25T00:00:00+05:30</published>
    <updated>2015-12-25T12:00:00+05:30</updated>
    <id>http://life-lessons.in/2015/12/25/The-Velocity-Conundrum</id>
    <content type="html">&lt;p&gt;Velocity! It’s a term that has potentially confounded, frustrated and perhaps amused Agile practitioners and customers alike at some point. It’s a concept that can be quite helpful though, when used accurately as a planning &amp;amp; estimation tool.&lt;/p&gt;
@@ -714,7 +714,7 @@ network issues, and hence we claim 1 point for that&lt;/em&gt;”. So now, with 
  <entry>
    <title>Podcasts I Love</title>
    <link href="http://life-lessons.in/2015/11/15/podcasts-i-love.html"/>
-   <published>2015-11-15T00:00:00+04:00</published>
+   <published>2015-11-15T00:00:00+05:30</published>
    <updated>2015-11-15T12:00:00+05:30</updated>
    <id>http://life-lessons.in/2015/11/15/podcasts-i-love</id>
    <content type="html">&lt;p&gt;Driving in India is a test of patience. And a waste of time.&lt;/p&gt;
