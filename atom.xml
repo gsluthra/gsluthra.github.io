@@ -4,13 +4,55 @@
  <title>life-lessons.in</title>
  <link href="http://life-lessons.in/atom.xml" rel="self"/>
  <link href="http://life-lessons.in"/>
- <updated>2020-01-16T10:45:53+05:30</updated>
+ <updated>2020-07-23T08:37:13+05:30</updated>
  <id>http://life-lessons.in/atom.xml</id>
  <author>
    <name>Gurpreet Luthra</name>
    <uri>http://life-lessons.in</uri>
  </author>
  
+ 
+ <entry>
+   <title>Art of Experience Design with Aditya Karle (Expertease Podcast)</title>
+   <link href="http://life-lessons.in/2020/07/22/podcast-art-of-experience-design.html"/>
+   <published>2020-07-22T00:00:00+05:30</published>
+   <updated>2020-07-22T11:00:00+05:30</updated>
+   <id>http://life-lessons.in/2020/07/22/podcast-art-of-experience-design</id>
+   <content type="html">&lt;iframe src=&quot;https://anchor.fm/expertease/embed/episodes/Episode-1---Art-of-Experience-Design-with-Aditya-Karle-Expertease-eh360u/a-a2ormjc&quot; height=&quot;204px&quot; width=&quot;800px&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Listen On: &lt;a href=&quot;https://open.spotify.com/episode/2QTq4UjyQoWx5jOZbgRQXr&quot;&gt;Spotify&lt;/a&gt;, &lt;a href=&quot;https://anchor.fm/expertease&quot;&gt;Anchor.fm&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;description&quot;&gt;Description&lt;/h3&gt;
+&lt;p&gt;In this first episode of &lt;a href=&quot;https://anchor.fm/expertease&quot;&gt;&lt;em&gt;Expertease&lt;/em&gt;&lt;/a&gt;, we have a light-hearted chat with &lt;a href=&quot;https://www.linkedin.com/in/adityakarle/&quot;&gt;Aditya Karle&lt;/a&gt;, Head of Design at ThoughtWorks India, to deconstruct the art of Experience Design (XD).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/general/podcast1/aditya-karle.jpeg&quot; alt=&quot;Aditya Karle&quot; style=&quot;width: 300px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;1:10:&lt;/strong&gt; We talk about his journey to becoming a Designer and getting involved in Software Design, discuss differences between UI design, UX and XD.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;28:50:&lt;/strong&gt; We have an interesting chat about applying design thinking to Bengaluru International Airport.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;53:30:&lt;/strong&gt; We finish the podcast with Adi giving us recommendations on books and conferences related to design.&lt;/p&gt;
+
+&lt;h3 id=&quot;show-notes&quot;&gt;Show Notes&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.thoughtworks.com/clients/bial&quot;&gt;ThoughtWorks Bangalore Airport case-study&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.amazon.in/dp/B06XCCZJ4L/ref=dp-kindle-redirect?_encoding=UTF8&amp;amp;btkr=1&quot;&gt;Book: Design of Everyday Things - Don Norman&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.amazon.in/Steal-Like-Artist-Austin-Kleon/dp/0761169253&quot;&gt;Book: Steal Like an Artist&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.amazon.in/Influence-Psychology-Persuasion-Business-Essentials-ebook/dp/B002BD2UUC/ref=tmm_kin_swatch_0?_encoding=UTF8&amp;amp;qid=&amp;amp;sr=&quot;&gt;Book: Influence: The Psychology of Persuasion&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://interaction20.ixda.org/&quot;&gt;Conferences: IXD - interaction design&lt;/a&gt;, &lt;a href=&quot;https://2020.agileindia.org/&quot;&gt;Agile India&lt;/a&gt;, &lt;a href=&quot;https://www.ux-india.org/&quot;&gt;UX India&lt;/a&gt;, &lt;a href=&quot;https://designup.io/attend/&quot;&gt;Design Up&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://neri.media.mit.edu/neri-oxman.html&quot;&gt;Neri Oxman: Architect, Designer, Inventor&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;credits&quot;&gt;Credits&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Background Music by &lt;a href=&quot;https://www.bensound.com/royalty-free-music&quot;&gt;BenSounds&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Wallpaper from Unsplash by &lt;a href=&quot;https://unsplash.com/photos/T6fDN60bMWY&quot;&gt;Edho Pratama&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+</content>
+ </entry>
  
  <entry>
    <title>10 reasons for buying the Ford EcoSport Petrol (Automatic) - Review</title>
@@ -760,100 +802,6 @@ the solution easy to understand, and enhance.&lt;/p&gt;
    <updated>2016-02-03T12:00:00+05:30</updated>
    <id>http://life-lessons.in/2016/02/03/every-single-retro</id>
    <content type="html">&lt;p&gt;&lt;img src=&quot;/images/general/EverySingleRetro.jpg&quot; alt=&quot;EverySingleRetro&quot; style=&quot;width: 500px;&quot; /&gt;&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>The Velocity Conundrum</title>
-   <link href="http://life-lessons.in/2015/12/25/The-Velocity-Conundrum.html"/>
-   <published>2015-12-25T00:00:00+05:30</published>
-   <updated>2015-12-25T12:00:00+05:30</updated>
-   <id>http://life-lessons.in/2015/12/25/The-Velocity-Conundrum</id>
-   <content type="html">&lt;p&gt;Velocity! It’s a term that has potentially confounded, frustrated and perhaps amused Agile practitioners and customers alike at some point. It’s a concept that can be quite helpful though, when used accurately as a planning &amp;amp; estimation tool.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Velocity is a measure of the number of story points delivered in an Iteration&lt;/em&gt;. The word &lt;strong&gt;delivered&lt;/strong&gt; here means - dev &amp;amp; test complete, and
-ready for Production. Depending on your organizational maturity it could also mean – &lt;strong&gt;in Production&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;h3 id=&quot;velocity-as-a-guide&quot;&gt;Velocity as a Guide&lt;/h3&gt;
-
-&lt;p&gt;Let’s take an example of how one uses velocity as a guiding metric.&lt;/p&gt;
-
-&lt;p&gt;For instance, in Iteration-1 (I-1), if a team completes 12 story points, then the velocity of the team is 12. It means that, in next iteration you can assume the team will be able to deliver about 12 points worth of features. Another way of saying this, is that &lt;em&gt;yesterday’s weather&lt;/em&gt; is 12.&lt;/p&gt;
-
-&lt;p&gt;In I-2, if the team delivers 15 points, then for I-3 you can plan for approx 13 (avg of I-1 and I-2). On the other hand, if the team delivers say 10 points in I-2, then next time you plan for 11 (avg of I-1 and I-2).&lt;/p&gt;
-
-&lt;p&gt;In general, you average the velocity of the last three iterations, and use that as &lt;em&gt;yesterday’s weather&lt;/em&gt; to arrive at what you should expect as velocity for the next iteration.&lt;/p&gt;
-
-&lt;h3 id=&quot;low-velocity&quot;&gt;Low Velocity&lt;/h3&gt;
-
-&lt;p&gt;If the team achieves lesser points in an iteration than what you expected, should you be concerned? The answer is: &lt;em&gt;It depends&lt;/em&gt;. You should try
-and find out the possible cause, and then decide whether you should be concerned or not. &lt;em&gt;The aim is to reach a sustainable cadence
-that allows for healthy team productivity and greater customer satisfaction&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;A retrospective meeting at the end of an iteration, is a practical way to discuss potential reasons for drop (or increase) in velocity. Some possible reasons for a drop in velocity are:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;The features being developed were more complex than estimated (or expected).&lt;/li&gt;
-  &lt;li&gt;High technical debt in certain parts of the system is causing development to be slower than expected. Think of tech debt as hurdles on your way. The more the hurdles, the higher the friction, the slower you will move.&lt;/li&gt;
-  &lt;li&gt;Other factors like too many red builds, flaky acceptance tests, network issues, unnecessary meetings, bugs from previous iteration or holidays, could have sucked away precious time from the team – and hence they could not work on feature development as much as they otherwise would have.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Usually a drop in velocity is due to a combination of the above factors. You may be able to remove some hurdles and mitigate some challenges. Or, maybe you can’t do anything about some of the reasons. You note them down, voice them, and remember to account for them in future iteration plans where applicable.&lt;/p&gt;
-
-&lt;h3 id=&quot;the-upper-management-effect&quot;&gt;The “Upper Management” Effect&lt;/h3&gt;
-
-&lt;p&gt;Many teams (and managers) don’t want to show a velocity drop. Because &lt;em&gt;upper management&lt;/em&gt; will frown upon them as an indicator of slacking
-and under achievement.&lt;/p&gt;
-
-&lt;p&gt;This leads to people coming up with various ways of showing that their velocity is the same as before.
-For instance, claims like: “&lt;em&gt;We were busy refactoring the service layer, so, we should claim 2 points for that&lt;/em&gt;”. Or, “&lt;em&gt;We were blocked due to
-network issues, and hence we claim 1 point for that&lt;/em&gt;”. So now, with these deviations, total velocity is shown to be:&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;9&lt;/strong&gt;  (actual for feature development) + &lt;strong&gt;2&lt;/strong&gt;(for refactoring) + &lt;strong&gt;1&lt;/strong&gt; (for network issues) = &lt;strong&gt;12&lt;/strong&gt; (hey.. this is 1 point better than usual! All is good!)&lt;/p&gt;
-
-&lt;p&gt;This velocity adjustment for &lt;em&gt;upper management’s&lt;/em&gt; sake is a recipe for disaster. Instead of fixing organizational, technical and business issues, we have made everything look “OK” and reached a status-quo.&lt;/p&gt;
-
-&lt;p&gt;The fixation for treating velocity as a productivity measure, has led to a loss of agility and muddled priorities.&lt;/p&gt;
-
-&lt;h3 id=&quot;high-performance-teams--trust&quot;&gt;High Performance Teams &amp;amp; Trust&lt;/h3&gt;
-
-&lt;p&gt;Agile practices only work when you trust the team. Trust can only be developed, when you hire the right people for the job. The right people for the job are people who care about their work, and are good at what they do. Organizations have a duty to hire the best, and then get out of the way, whilst providing periodic and necessary support.&lt;/p&gt;
-
-&lt;p&gt;Velocity as a metric, will be useful only if the team is passionate about delivering and improving their own productivity. If the team is looking at answering the question - “How can we do better?”, then velocity can help the team to inform them if they are on the right track.&lt;/p&gt;
-
-&lt;p&gt;But, depending ONLY on &lt;em&gt;velocity&lt;/em&gt; as a measure of your improvement is wrong. You may see a drop in &lt;em&gt;velocity&lt;/em&gt; due to many external factors, even when the team is taking the right steps to improve the quality of the system. It is analogous to seeing &lt;em&gt;weight&lt;/em&gt; as the only measure of improving health.&lt;/p&gt;
-
-&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
-
-&lt;p&gt;Velocity should be treated as a guide using which you plan the next iteration and measure the impact of your adjustments or fixes. Velocity also acts as an approximate tool to provide visibility into when certain features will make it into the release.&lt;/p&gt;
-
-&lt;p&gt;Velocity is &lt;em&gt;NOT&lt;/em&gt; a measure of the quality of the work being done by the team or of the productivity of the team.&lt;/p&gt;
-
-&lt;h3 id=&quot;further-reading&quot;&gt;Further Reading&lt;/h3&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;http://jimhighsmith.com/Velocity-is-killing-agility/&quot;&gt;Velocity is killing agility (Jim Highsmith)&lt;/a&gt;&lt;/p&gt;
-
-    &lt;p&gt;&lt;em&gt;Over emphasis on velocity causes problems because of its wide use as a productivity measure. The proper use of velocity is as a calibration tool, a way to help do capacity-based planning…&lt;/em&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;http://martinfowler.com/bliki/XpVelocity.html&quot;&gt;XpVelocity (Martin Fowler)&lt;/a&gt;&lt;/p&gt;
-
-    &lt;p&gt;&lt;em&gt;Velocity is a tool for calibrating estimations for YesterdaysWeather, it is not a measure of productivity.&lt;/em&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Technical_debt&quot;&gt;Technical Debt (Wikipedia)&lt;/a&gt;&lt;/p&gt;
-
-    &lt;p&gt;&lt;em&gt;If the debt is not repaid, then it will keep on accumulating interest, making it hard to implement changes later on. Unaddressed technical debt increases software entropy.&lt;/em&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;http://www.infoq.com/articles/not-destroy-team-metrics&quot;&gt;How To Not Destroy your Agile Team with Metrics (InfoQ)&lt;/a&gt;&lt;/p&gt;
-
-    &lt;p&gt;&lt;em&gt;The streetlight effect is our human tendency to look for answers where it’s easy to look rather than where the actual information is.&lt;/em&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
 </content>
  </entry>
  
