@@ -4,13 +4,64 @@
  <title>life-lessons.in</title>
  <link href="http://life-lessons.in/atom.xml" rel="self"/>
  <link href="http://life-lessons.in"/>
- <updated>2020-08-23T17:27:27+05:30</updated>
+ <updated>2020-10-02T13:24:57+05:30</updated>
  <id>http://life-lessons.in/atom.xml</id>
  <author>
    <name>Gurpreet Luthra</name>
    <uri>http://life-lessons.in</uri>
  </author>
  
+ 
+ <entry>
+   <title>Empowered Engineering Culture - Nikhil Prasad (Expertease Podcast #3)</title>
+   <link href="http://life-lessons.in/2020/10/02/podcast-empowered-engineers-nikhil-prasad.html"/>
+   <published>2020-10-02T00:00:00+05:30</published>
+   <updated>2020-10-02T11:00:00+05:30</updated>
+   <id>http://life-lessons.in/2020/10/02/podcast-empowered-engineers-nikhil-prasad</id>
+   <content type="html">&lt;iframe src=&quot;https://anchor.fm/expertease/embed/episodes/Episode-3---Empowered-Engineering-Culture-with-Nikhil-Prasad-Expertease-ekg2mi/a-a3dt5e3&quot; height=&quot;204px&quot; width=&quot;800px&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Listen On: &lt;a href=&quot;https://open.spotify.com/show/1jA35fmXfHzNoiauVLoU8B&quot;&gt;Spotify&lt;/a&gt;, &lt;a href=&quot;https://anchor.fm/expertease&quot;&gt;Anchor.fm&lt;/a&gt;, &lt;a href=&quot;https://podcasts.apple.com/in/podcast/expertease/id1524690855&quot;&gt;Apple&lt;/a&gt;, &lt;a href=&quot;https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8yY2JhOGVmOC9wb2RjYXN0L3Jzcw==&quot;&gt;Google Podcasts&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;nikhil-prasad---cultivating-an-empowered-engineering-culture&quot;&gt;Nikhil Prasad - Cultivating an Empowered Engineering Culture&lt;/h3&gt;
+&lt;p&gt;In this third episode of &lt;a href=&quot;https://anchor.fm/expertease&quot;&gt;&lt;em&gt;Expertease&lt;/em&gt;&lt;/a&gt;, we have a insightful chat with &lt;a href=&quot;https://www.linkedin.com/in/nikhilprasad/?originalSubdomain=in&quot;&gt;Nikhil Prasad&lt;/a&gt;, CTO and co-founder of &lt;a href=&quot;https://tavisca.com&quot;&gt;tavisca&lt;/a&gt;, a 700 people, product company, that is considered to be a strong people-centric organisation in Pune.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/general/podcast3/nikhilprasad.jpg&quot; alt=&quot;Nikhil Prasad&quot; style=&quot;width: 300px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Nikhil talks about…&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&amp;gt;&lt;/strong&gt; &lt;em&gt;“If the why is ambitious &amp;amp; empowering, then it adds Purpose to the mission. And people need a purpose to be motivated.”&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&amp;gt;&lt;/strong&gt; &lt;em&gt;“A fresher on your team, who likely doesn’t understand how company economics work, is not going to be motivated by a mission to triple your revenue.”&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&amp;gt;&lt;/strong&gt; &lt;em&gt;“Someone who has done fire-fighting due to bad code, will have a much stronger opinion about how to write code well, than someone who had just read it from a Design Pattern book.”&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&amp;gt;&lt;/strong&gt; &lt;em&gt;“Once an engineer sees how a casual decision in code, has created a scalability problem in production, they gain an unforgettable experience for life.”&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&amp;gt;&lt;/strong&gt; &lt;em&gt;“If you say you  are autonomous, but you penalise the first person that fails, 
+  then guess what  – people are not going to pick, being autonomous, any more.”&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;This is a really thought provoking episode that explains how Mastery, Autonomy and Purpose can act as foundational pillars on which an organisation can create an empowering engineering culture.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Episode Length: 53 mins (Part 1)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;show-notes&quot;&gt;Show Notes&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=u6XAPnuFjJc&quot;&gt;Drive - The Surprising Truth about what Motivates Us (YouTube Animation)&lt;/a&gt; and the &lt;a href=&quot;https://www.danpink.com/drive./&quot;&gt;book&lt;/a&gt; - Mastery, Autonomy &amp;amp; Purpose&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://life-lessons.in/2012/07/22/poke-yoke-mistake-proofing-software.html&quot;&gt;Poka Yoke - The Science of Mistake Proofing&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.nytimes.com/2016/02/28/magazine/what-google-learned-from-its-quest-to-build-the-perfect-team.html&quot;&gt;NYT - What Google learned from its Quest to Build the Perfect Team&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://fs.blog/knowledge-project/tobi-lutke/&quot;&gt;The Trust Battery - Podcast Interview with Shopify founder Toby Lutke&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;credits&quot;&gt;Credits&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Background Music by &lt;a href=&quot;https://www.bensound.com/royalty-free-music&quot;&gt;BenSounds&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Wallpaper from Unsplash by &lt;a href=&quot;https://unsplash.com/photos/tvc5imO5pXk&quot;&gt;Robert Collins&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+</content>
+ </entry>
  
  <entry>
    <title>Exiting the Rat Race -  The Entrepreneurial Journey of Sandeep Nanu (Expertease Podcast #2)</title>
@@ -832,17 +883,6 @@ His code is in Java. I decided to showcase the same design in Scala, using only 
 the solution easy to understand, and enhance.&lt;/p&gt;
 
 &lt;p&gt;My implementation can be seen on Github here: &lt;a href=&quot;https://github.com/gsluthra/mars-rover-scala&quot;&gt;mars-rover-scala&lt;/a&gt;.&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>When Money gets in the way of Life</title>
-   <link href="http://life-lessons.in/2016/03/03/money-in-way-of-life.html"/>
-   <published>2016-03-03T00:00:00+05:30</published>
-   <updated>2016-03-03T12:00:00+05:30</updated>
-   <id>http://life-lessons.in/2016/03/03/money-in-way-of-life</id>
-   <content type="html">&lt;p&gt;I wrote this blog on Bahmni Community Blogs on Medium. Read the full blog here:
-&lt;a href=&quot;https://medium.com/bahmni-blog/when-money-gets-in-the-way-of-life-5162466a5c83#.iasyzsjru&quot;&gt;When Money gets in the way of Life - Bahmni Blogs&lt;/a&gt;&lt;/p&gt;
 </content>
  </entry>
  
