@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Understanding Open Source Software &middot; Gurpreet Luthra</title>
+        <meta name="description" content="My thoughts and findings about questions concerning Open Source Software">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="generator" content="Hugo 0.83.1" />
+        <meta name="robots" content="index,follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:title" content="Understanding Open Source Software">
+<meta property="og:description" content="My thoughts and findings about questions concerning Open Source Software">
+<meta property="og:type" content="article">
+<meta property="og:url" content="/2017/03/12/open-source-explained.html/">
+<meta property="og:image" content="/images/general/martin-backpacker-guitar.jpg" />
+        <link rel="stylesheet" href="/dist/site.css">
+        <link rel="stylesheet" href="/dist/syntax.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,cyrillic-ext,latin-ext,cyrillic">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        
+        
+        
+        
+    </head>
+    <body>
+        
+<script type="application/javascript">
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-69555622-1', 'auto');
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+
+        <div id="wrapper">
+            <header class="site-header">
+                <div class="container">
+                    <div class="site-title-wrapper">
+                        
+                            <h1 class="site-title">
+                                <a href="/">life-lessons.in</a>
+                            </h1>
+                        
+                        
+                            <a class="button-square" href="/index.xml" aria-label="RSS"><i class="fa fa-rss" aria-hidden="true"></i></a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Twitter" aria-label="Twitter" href="https://twitter.com/_zenx_" rel="me" >
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Github" aria-label="Github" href="https://github.com/gsluthra" rel="me">
+                                <i class="fa fa-github-alt" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                        
+                        
+                    </div>
+
+                    <ul class="site-nav">
+                        
+    <li class="site-nav-item">
+        <a href="/">Blog</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/page/presentations/">Presentations</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/page/about/">About Me</a>
+    </li>
+
+
+                    </ul>
+                </div>
+            </header>
+
+            <div id="container">
+
+
+<div class="container">
+    <article class="post-container" itemscope="" itemtype="http://schema.org/BlogPosting">
+        <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Understanding Open Source Software</h1>
+    
+        <p class="post-description" itemprop="description">My thoughts and findings about questions concerning Open Source Software</p>
+    
+    <p class="post-date">
+        <span>Published <time datetime="2017-03-12" itemprop="datePublished">Sun, Mar 12, 2017</time></span>
+        <span>by</span>
+        <span itemscope="" itemprop="author" itemtype="https://schema.org/Person">
+            <span itemprop="name">
+                <a href="Principal%20Consultant%20at%20ThoughtWorks" itemprop="url" rel="author">Gurpreet Luthra</a>
+            </span>
+        </span>
+    </p>
+    
+        <p class="post-reading post-line">
+            <span>Estimated reading time: 10 min</span>
+        </p>
+    
+</header>
+
+        <div class="post-content clearfix" itemprop="articleBody">
+    
+
+    <p>
+  <figure>
+    <img src="/images/general/guitar.jpg" alt="My acoustic guitar - Greg Bennett" >
+    <figcaption 
+    	style=" 
+    	font-style: italic; 
+    	text-align: center; 
+    	color: grey; 
+    	font-size: 14px"
+    	>
+    	My acoustic guitar - Greg Bennett
+    </figcaption>
+  </figure>
+</p>
+<p>I have been contributing to Open Source Software (OSS) for over 3 years now, at ThoughtWorks. Many people seem to have some misconceptions about OSS, or don’t fully realise the implications and impact of OSS. In this blog, I have shared a few  of my learnings and thoughts on this topic. If you are technologist – who has some familiarity with OSS, then it’s likely that this article will be helpful.</p>
+<h2 id="just-because-the-source-code-is-available-does-not-mean-it-is-open-source">Just because the source code is available does not mean it is Open Source</h2>
+<p>Most people explain <em>Open Source Software (OSS)</em> as — a software that has made its source code available publicly. That is an incomplete and incorrect definition of the term <em>Open Source Software</em>.</p>
+<p>An Open Source Software is software where the code is not only freely available to view, but also to modify,  redistribute, and has an associated license that allows for this to happen. This is how Wikipedia defines <a href="https://en.wikipedia.org/wiki/Open-source_software">Open Source Software (OSS)</a>:</p>
+<p><strong>Open-source software (OSS) is computer software with its source code made available with a license
+in which the copyright holder provides the rights to study, change, and distribute the software to anyone
+and for any purpose.</strong></p>
+<p>Irrespective of the OSS license being applied, the above conditions should be true for a software to call itself Open Source.</p>
+<p>A more precise, easy-to-understand and widely referenced definition of Open Source Software is maintained and managed by the Open Source Initiative (OSI) on this page: <a href="https://opensource.org/osd-annotated">Open Source Definition</a>. It mentions ten criteria that should be satisfied by the distribution terms of the software license for it to be accepted as Open Source. Some of these criteria are: free redistribution, must have easy access to un-obfuscated source code, should allow modifications and distribution of these modifications, should be free of discrimination against people/geographies/groups/field of endeavour/technology stack, etc.</p>
+<p>So – just having access to source code isn’t Open Source. It’s a much broader term, associated with greater freedom.</p>
+<h2 id="so-then-what-is-the-deal-with-the-different-licenses----gpl-mpl-apache-etc">So then what is the deal with the different licenses &ndash; GPL, MPL, Apache, etc?</h2>
+<p><strong>Note: I  am not a lawyer. Please consult a qualified lawyer when you are inspecting / figuring out an OSS License for your company or software. My advice here is informal. Licenses are a complex beast – especially when softwares containing different licenses are put into the mix.</strong></p>
+<p>There are many available OSS licenses publicly recognized to make it convenient for you to choose the one that suits your needs. The Open Source Initiative (OSI) maintains a <a href="https://opensource.org/licenses/alphabetical">list of approved licenses here</a> for you to choose from.</p>
+<p>All these licenses are recognized as Open Source Licenses, and hence should provide the same freedom as mentioned above while explaining what does OSS mean – but there is always something unique about each license that makes them stand apart. This is why you need legal counsel. Your motivations and business model will affect the choice of license.</p>
+<p>Licenses like the GPL license are called <a href="https://en.wikipedia.org/wiki/Copyleft">Copyleft licenses</a> which are protective in nature. If you use a GPL Licensed software library in your software you will require to make your own software freely available under the GPL License. If you are a commercial / proprietary software team, you most likely do not want to open source your proprietary software, and therefore won’t be able to include libraries licensed under GPL. Do check out: <a href="https://softwareengineering.stackexchange.com/questions/47032/can-i-use-gpl-software-in-a-commercial-application">Can I use GPL software in a commercial application?</a> As an example – iText is a library for generating PDFs which is provided under an <a href="http://www.affero.org/oagf.html">AGPL license</a> (free) and also under a commercial license that allows you to include it in programs that are released under a license of your choice (paid). You will not be able to include its free version in the source code to closed-source software for the same reasons articulated above. Read about <a href="http://itextpdf.com/legal">iText License implications here</a>.</p>
+<p>Interesting articles to read: <a href="https://opensource.com/article/17/2/decline-gpl">The Decline of GPL?</a>
+and <a href="https://softwareengineering.stackexchange.com/questions/226111/can-i-use-mongodb-for-a-commercial-web-based-service">Can I use MongoDB for a commercial web based service?</a></p>
+<p><strong>Important Notes</strong>:</p>
+<ol>
+<li><em>I work on an open source hospital system called <a href="http://bahmni.org">Bahmni</a>, for low-resource environments. This software is licensed under AGPL license. Distributing the software under the AGPL means that any modifications or improvements done for Bahmni must be made available to all for free. In this way, the choice of license helps to ensure that the software will remain a public benefit to humanity and no one can capture it for their private gain. Read more about some problems with commercial EHR here: <a href="http://www.openhealthnews.com/blogs/ramaduro/2017-01-19/obama-and-biden-blast-ehr-vendors-data-blocking">Obama and Biden Blast EHR Vendors for Data Blocking</a>.</em></li>
+<li><em>Linux is licensed under GPLv2. For good reasons. From this <a href="http://www.zdnet.com/article/linus-torvaldss-love-hate-relationship-with-the-gpl/">article</a>, Linus Torvalds says: “The GPL ensures that nobody is ever going to take advantage of your code. It will remain free and nobody can take that away from you. I think that’s a big deal for community management.”</em></li>
+<li><em>Do you know the differences between Red Hat Enterprise Linux RHEL (paid) and CentOS Linux (free)? You might be surprised to know that the code of CentOS Linux is created from RHEL source code with all Red Hat trademark information removed – because Red Hat invests/pays for the trademark and logo, but the underlying Linux and its modifications are required to be made freely available as source code – which allows the creation of CentOS. This is why so many companies use CentOS – because they believe they get the same quality for free! Amazing. Isn’t it? Read more here: <a href="https://en.wikipedia.org/wiki/CentOS">Wikipedia/CentOS</a> and here: <a href="https://en.wikipedia.org/wiki/Red_Hat_Enterprise_Linux_derivatives">Wikipedia/RedHatDerivatives</a>.</em></li>
+</ol>
+<p>But some OSS would prefer to focus on getting lots of people to adopt them quickly and easily, especially software platforms and libraries – because the wider the adoption of a software, the more chances are that its bugs will surface quicker, it will become more stable, it will have more impact, and more people will contribute to it. Once a company or a team invests in a software stack, it’s unlikely that they would want to throw it away on the slightest excuse! This is why many Open Source Software projects choose a more permissive license which allows you to ship and use them in commercial packages. Think of <a href="https://github.com/angular/angular.js/blob/master/LICENSE">Angular.js</a>, <a href="http://react-etc.net/entry/your-license-to-use-react-js-can-be-revoked-if-you-compete-with-facebook">React.js</a>, <a href="https://www.postgresql.org/about/licence/">Postgres</a>, <a href="https://en.wikipedia.org/wiki/Spring_Framework">Spring Framework</a>, <a href="https://www.ruby-lang.org/en/about/license.txt">Ruby Language</a>, <a href="https://github.com/jquery/jquery/blob/master/LICENSE.txt">jQuery</a>, <a href="https://tomcat.apache.org/legal.html">Tomcat Server and other softwares from Apache</a>, <a href="https://en.wikipedia.org/wiki/Nginx">Nginx</a>, <a href="https://en.wikipedia.org/wiki/Selenium_(software)">Selenium Test Framework</a>, <a href="https://en.wikipedia.org/wiki/JUnit">jUnit</a> and many other libraries, tools and software which we all use in proprietary software – are all Open Source! They are licensed in a manner that allows others to benefit off them. Isn’t that awesome! So – have you given them back something? Have you helped making them better or popular?</p>
+<h2 id="so-do-people-make-any-money-with-open-source-softwares">So do people make any money with Open Source Softwares?</h2>
+<p>I think it’s important to separate this question into two areas &ndash; one for the company and the other for an individual.</p>
+<p>So, let’s ask the first question: <strong>As a company, if I open source my software - can I make money?</strong> The answer is: <strong>Unlikely</strong>. The software after all is free, and hence you can’t really make money from it. But it might make long term business and financial sense to still do it &ndash; for reasons like adoption and maintenance. Platform products like Android and OpenStack are open source so that people can use them widely and build commercial models on top of them. The more people adopt Android for instance, the more people use Google Search and related services. That drives revenue and profits for Google. Open sourcing their platform, helps companies stay relevant.</p>
+<p>For instance in this article on Tech Radar (<a href="http://www.in.techradar.com/news/software/The-reasons-behind-Microsofts-drive-for-open-source/articleshow/51512501.cms">The reasons behind Microsoft&rsquo;s drive for open source</a>) Wes Miller, Vice President at analyst group Directions on Microsoft points out:
+<em>&ldquo;Much like Apple and Google, whose open source projects may be strategic to a degree of mindshare (but not revenue), the projects that Microsoft has chosen to open source are intended to help build community/collaboration and mindshare. The areas of the company that are still breadwinners are not open source, nor do I believe we should expect them to be anytime soon&rdquo;.</em></p>
+<p>This is not to say that companies are not making money from Open Source software. There are <a href="https://en.wikipedia.org/wiki/Business_models_for_open-source_software">15+ business models with OSS</a> mentioned on Wikipedia. The obvious ones are Support and Professional Services around the software package, but people can do a lot more including writing paid add-ons, software-as-a-service, advertisements, trainings, etc.</p>
+<p>For good examples of businesses that rely on Open Source Software, and the associated struggle, I would recommend reading this article by TechCrunch (<a href="https://techcrunch.com/2016/02/09/the-money-in-open-source-software/">Money in Open Source Software</a>). It says: <em>“Despite the growing popularity of open-source software, though, many open-source companies are not financially healthy. Just like eyeballs didn’t translate into actual online purchases during the first dot-com era in the late 1990s, millions of free-software downloads do not always lead to sustainable revenue streams.”</em></p>
+<p>Now - lets ask the second question: <strong>As a developer or a technologist - can I make money by working on Open Source Software?</strong> The answer is: <strong>Pretty Likely &ndash; if you are good at what you do and your chosen OSS is in-demand</strong>. Developing and maintaining good software is hard - especially if it’s being used by multiple customers.</p>
+<p>With Open Source, the advantage is that there are very few geographical barriers for team members &ndash; since the code and software is available online easily. So, people from across cities can contribute to the project, and be paid to consult, maintain, develop and deploy softwares. This can also help the individual build their brand, connect with other like minded people around the world, and be called upon for important gigs. Plus, once a company has already invested in a particular open source stack, they would be compelled and happy to pay for its evolution &ndash; to keep their own systems up-and-running, or even to beat the competition.</p>
+<p><strong>But most contributors worldwide contribute to Open Source software for free. Because the returns themselves are worth it.</strong></p>
+<h2 id="this-sounds-very-interesting-should-i-participate-in-a-particular-open-source-software">This sounds very interesting. Should I participate in a particular Open Source software?</h2>
+<p>If you are a developer, a QA, a BA, a technologist – you have very little excuse to not be involved in some Open Source Software. Why should you limit your exposure, experience and learnings to only the project you are on? Why not contribute and learn from the zillions of OSS that are out there? Most of these softwares are looking for technical contributions and to make greater impact.</p>
+<p>Pick a topic that you love. Or a software you would be interested in. Do you like Security, Music, Medicine, Programming Languages, Painting, Maths, Teaching, Kids, Criminology, Guitar, Sports, Gym, FILL-IN-THE-BLANKS? Find an OSS in your chosen area, whatever motivates you, and jump in. Projects need help on everything under the sun – from developing small/large features, to writing unit/integration/functional tests, to setting up CI/CD servers, to documentation, to creating stories, to fixing bugs, to creating presentations, to publishing videos, to organizing events, to evaluating libraries, to helping in rollouts and implementations of their softwares, to…. you get it. Whatever you do in your organization on your project; the OSS also needs that to be done. Plus, you can be a QA contributing to Development tasks, or a Dev contributing to recording videos, and so on.. because no one cares what “role” you come from – it’s what you want to do!</p>
+<p>Most OSS projects will have a chatroom on IRC/Slack/etc, a mailing list, a public version control repository (likely Github), a public task management system (like JIRA, Github Issues, Trello, etc), and periodic virtual meetings. If you go in with sincerity, and resolve — your work will be highly appreciated.</p>
+<h2 id="a-list-of-open-source-projects-you-might-consider">A list of Open Source Projects you might consider</h2>
+<p>A short list of suggestions from my side. It&rsquo;s a drop in the ocean. The important thing is to choose a project you <strong>want</strong> to contribute to. Find your holy grail.</p>
+<ul>
+<li><a href="http://bahmni.org">Bahmni</a>: Open Source EMR &amp; Hospital System (or <a href="http://openmrs.org">OpenMRS</a>)</li>
+<li><a href="https://pixelated-project.org/">Pixelated</a>: Encrypted/Private/Secure Web based email</li>
+<li><a href="https://moodle.org/">Moodle</a>: Free Learning Management System</li>
+<li><a href="https://www.bugzilla.org/">BugZilla</a>: Task Management and Issue Management System</li>
+<li><a href="https://www.ushahidi.com/">Ushahidi</a>: Real time, crowdsourced crisis management and mapping tool</li>
+<li><a href="https://github.com/audacity/audacity">Audacity</a>: Digital Audio Editor</li>
+<li><a href="https://en.wikipedia.org/wiki/List_of_free_and_open-source_software_packages">Wikipedia/List of Open Source Softwares</a>: Huge list of Open Source softwares by category</li>
+</ul>
+<p>The Open Source Software movement is big. It’s time to jump in. Give back. Learn. Soak. Become part of alternative communities, across multiple countries. You will be welcomed.</p>
+<h2 id="podcast-on-open-source-myths---with-karl-brown">Podcast on Open Source Myths - With Karl Brown</h2>
+<p><strong>If you liked this article, you may also like this podcast I recorded with Karl Brown from ThoughtWorks
+where we talk about <a href="https://www.thoughtworks.com/insights/blog/podcast-open-source-myths-and-truths">Myths &amp; Truths in Open Source Software</a>.</strong></p>
+<h2 id="further-reading-on-open-source">Further Reading on Open Source</h2>
+<ul>
+<li><a href="https://www.howtogeek.com/howto/31717/what-do-the-phrases-free-speech-vs.-free-beer-really-mean/">Free as in Beer, or Free as in Speech &ndash; Understanding the difference</a></li>
+<li><a href="http://twiki.org/cgi-bin/view/Blog/BlogEntry201207x1">Difference between Open Source License vs Copyright vs Trademark</a></li>
+<li><a href="http://www.amazon.in/Success-Open-Source-Steven-Weber/dp/0674018583">Book: The Success of Open Source by Steven Weber</a></li>
+</ul>
+
+</div>
+
+        <footer class="post-footer clearfix">
+    
+        <p class="post-tags">
+            <span>Tagged:</span>
+            
+            
+                <a href="/tags/opensource/">opensource</a>, 
+            
+                <a href="/tags/programming/">programming</a>, 
+            
+                <a href="/tags/technical/">technical</a>, 
+            
+                <a href="/tags/podcast/">podcast</a>, 
+            
+                <a href="/tags/thoughtworks/">thoughtworks</a>
+            
+        </p>
+    
+
+    <div class="share">
+        
+            <a class="icon-twitter" href="https://twitter.com/share?text=Understanding%20Open%20Source%20Software&url=%2f2017%2f03%2f12%2fopen-source-explained.html%2f"
+                onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" aria-label="Share on Twitter">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+        
+
+        
+            <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=%2f2017%2f03%2f12%2fopen-source-explained.html%2f"
+                onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" aria-label="Share on Facebook">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+        
+
+
+        
+            <a class="icon-linkedin" href="https://www.linkedin.com/shareArticle?mini=true&title=Understanding%20Open%20Source%20Software&url=%2f2017%2f03%2f12%2fopen-source-explained.html%2f&summary=My%20thoughts%20and%20findings%20about%20questions%20concerning%20Open%20Source%20Software"
+               onclick="window.open(this.href, 'linkedin-share', 'width=554,height=481');return false;" aria-label="Share on LinkedIn">
+               <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </a>
+        
+    </div>
+</footer>
+
+
+        
+    <div class="comments">
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "life-lessons-in" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    </div>
+
+    </article>
+</div>
+
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="site-title-wrapper">
+                    <h1 class="site-title">
+                        <a href="/">life-lessons.in</a>
+                    </h1>
+                    <a class="button-square button-jump-top js-jump-top" href="#" aria-label="Back to Top">
+                        <i class="fa fa-angle-up" aria-hidden="true"></i>
+                    </a>
+                </div>
+
+                <p class="footer-copyright">
+                    <span>&copy; 2021 / Powered by <a href="https://gohugo.io/">Hugo</a></span>
+                </p>
+                <p class="footer-copyright">
+                    <span><a href="https://github.com/roryg/ghostwriter">Ghostwriter theme</a> By <a href="http://jollygoodthemes.com">JollyGoodThemes</a></span>
+                    <span>/ <a href="https://github.com/jbub/ghostwriter">Ported</a> to Hugo By <a href="https://github.com/jbub">jbub</a></span>
+                </p>
+            </div>
+        </footer>
+
+        <script src="/js/jquery-1.11.3.min.js"></script>
+        <script src="/js/jquery.fitvids.js"></script>
+        <script src="/js/scripts.js"></script>
+    </body>
+</html>
+

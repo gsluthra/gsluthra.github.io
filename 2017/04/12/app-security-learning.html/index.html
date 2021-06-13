@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>12 Things I Learnt While Teaching Application Security &middot; Gurpreet Luthra</title>
+        <meta name="description" content="Fascinating stuff I stumbled upon while preparing for security training">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="generator" content="Hugo 0.83.1" />
+        <meta name="robots" content="index,follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:title" content="12 Things I Learnt While Teaching Application Security">
+<meta property="og:description" content="Fascinating stuff I stumbled upon while preparing for security training">
+<meta property="og:type" content="article">
+<meta property="og:url" content="/2017/04/12/app-security-learning.html/">
+<meta property="og:image" content="/images/general/martin-backpacker-guitar.jpg" />
+        <link rel="stylesheet" href="/dist/site.css">
+        <link rel="stylesheet" href="/dist/syntax.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,cyrillic-ext,latin-ext,cyrillic">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        
+        
+        
+        
+    </head>
+    <body>
+        
+<script type="application/javascript">
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-69555622-1', 'auto');
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+
+        <div id="wrapper">
+            <header class="site-header">
+                <div class="container">
+                    <div class="site-title-wrapper">
+                        
+                            <h1 class="site-title">
+                                <a href="/">life-lessons.in</a>
+                            </h1>
+                        
+                        
+                            <a class="button-square" href="/index.xml" aria-label="RSS"><i class="fa fa-rss" aria-hidden="true"></i></a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Twitter" aria-label="Twitter" href="https://twitter.com/_zenx_" rel="me" >
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Github" aria-label="Github" href="https://github.com/gsluthra" rel="me">
+                                <i class="fa fa-github-alt" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                        
+                        
+                    </div>
+
+                    <ul class="site-nav">
+                        
+    <li class="site-nav-item">
+        <a href="/">Blog</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/page/presentations/">Presentations</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/page/about/">About Me</a>
+    </li>
+
+
+                    </ul>
+                </div>
+            </header>
+
+            <div id="container">
+
+
+<div class="container">
+    <article class="post-container" itemscope="" itemtype="http://schema.org/BlogPosting">
+        <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">12 Things I Learnt While Teaching Application Security</h1>
+    
+        <p class="post-description" itemprop="description">Fascinating stuff I stumbled upon while preparing for security training</p>
+    
+    <p class="post-date">
+        <span>Published <time datetime="2017-04-12" itemprop="datePublished">Wed, Apr 12, 2017</time></span>
+        <span>by</span>
+        <span itemscope="" itemprop="author" itemtype="https://schema.org/Person">
+            <span itemprop="name">
+                <a href="Principal%20Consultant%20at%20ThoughtWorks" itemprop="url" rel="author">Gurpreet Luthra</a>
+            </span>
+        </span>
+    </p>
+    
+        <p class="post-reading post-line">
+            <span>Estimated reading time: 10 min</span>
+        </p>
+    
+</header>
+
+        <div class="post-content clearfix" itemprop="articleBody">
+    
+
+    <p>
+  <figure>
+    <img src="/images/general/turkey-ocean-1.jpg" alt="Turkey (Istanbul)" >
+    <figcaption 
+    	style=" 
+    	font-style: italic; 
+    	text-align: center; 
+    	color: grey; 
+    	font-size: 14px"
+    	>
+    	Turkey (Istanbul)
+    </figcaption>
+  </figure>
+</p>
+<h2 id="introduction">Introduction</h2>
+<p>ThoughtWorks runs an Application Security 101 training for people not very familiar with common security topics. The training curriculum covers topics like Threat Modelling, Same Origin Policy, CSRF, Secret Management, Library Vulnerabilities, STRIDE among many others.</p>
+<p>I was a trainer for one of the recent batches in ThoughtWorks Pune, and in researching some of these topics, I came across many interesting links, videos and information. I decided to write a blog outlining them as a reference for my &lsquo;students&rsquo;. I hope that my technologist friends out there will also find this information fascinating.</p>
+<h2 id="topic-1-continuous-authentication--typing-pattern-detection">Topic 1: Continuous Authentication / Typing pattern detection</h2>
+<p>Technology now exists that can detect if the person who is typing on the keyboard is actually YOU or someone else. It is marketed as Continuous Authentication &ndash; where the system is continously checking if the person using the system or the website is the one who is an authorized user, or is someone else impersonating the user. See demos here:</p>
+<ol>
+<li><a href="https://www.keytrac.net/en/tryout/authenticate">KeyTrac online demo</a></li>
+<li><a href="http://typingdna.com/demo-api.html">TypingDNA online demo</a> (<a href="https://www.youtube.com/watch?v=yH2CqAiY4KA">YouTube Video</a>)</li>
+<li><a href="https://www.behaviosec.com/features/#how-it-works">BehavioSec</a>: Uses keyboard and touch gestures to identify you!</li>
+</ol>
+<h2 id="topic-2-how-not-to-store-passwords">Topic 2: How NOT to store passwords</h2>
+<p>In this video <a href="https://www.youtube.com/watch?v=8ZtInClXe1Q">How not to store passwords</a>, Tom Scott (Computerphile) explains how websites and application might incorrectly store passwords. And no, encryption isn&rsquo;t a good idea. He explains how <a href="https://www.youtube.com/watch?v=b4b8ktEV4Bg">hashing</a> with a random salt is the way to go as far as password storage is concerned.</p>
+<h2 id="topic-3-has-my-email-id-been-leaked">Topic 3: Has my email ID been leaked?</h2>
+<p>Go to this link <a href="https://haveibeenpwned.com/">Have I been Pwned?</a> to check if any of your Email IDs, and associated credentials, have ever leaked on the internet. If so, it tells you which source got compromised (Adobe, LinkedIn, etc) and what information got leaked. So, for instance if your email id and credentials have been leaked, then you better not only change your password for the compromised website, but you should also change your password in EACH AND EVERY account where you re-used the same password!</p>
+<p>This is why you should not ever re-use passwords across applications, websites and services. Instead, use a strong password manager and generator like <a href="https://github.com/keepassx/keepassx">KeePassX</a> or <a href="https://1password.com/">1Password</a>.</p>
+<h2 id="topic-4-creating-strong-passwords--dice-ware">Topic 4: Creating strong passwords &amp; Dice-Ware</h2>
+<p>A strong password is one that is very difficult to predict, and cannot easily be brute forced. See this website for examples of extremely strong passwords: <a href="https://passwordcreator.org/#amazing">Password Creator</a>. The good thing about this website is that it runs <em>fully in your browser</em> (so you can go offline and then ask it to generate password recommendations).</p>
+<p>Whenever you use an ONLINE Password CHECKER, or GENERATOR you run the risk of actually <em>leaking</em> your password to the internet. That is why you would want to use OFFLINE tools to generate your passwords, and most good password managers are a safe bet.</p>
+<p><a href="http://world.std.com/~reinhold/diceware.html">Diceware</a> passwords are a simple and strong option for creating your passwords. An example of a diceware password is: &ldquo;edwin curse clue bose axes bandy&rdquo;. The idea of diceware was to:</p>
+<ol>
+<li>Provide very strong passwords.</li>
+<li>Make it easy to type on a phone (no capitals, no special characters, etc).</li>
+<li>Make it easy to remember.</li>
+</ol>
+<p>You randomly choose five or six (or more) words from a list of 7500+ pre-defined word list. Selecting words from the list is done by throwing a dice a pre-defined number of times per word. Read more about what makes Diceware so strong here: <a href="http://world.std.com/~reinhold/dicewarefaq.html#someoneknows">If someone knows that I am using Diceware, can&rsquo;t they just use the word list to search for my passphrase?</a></p>
+<h2 id="topic-5-creating-fake-webpages-for-phishing-attacks">Topic 5: Creating Fake Webpages for Phishing Attacks</h2>
+<p>There are many easy-to-use tools available that allow you to create an exact copy of the website you wish to impersonate, so that you can trick a user into entering their credentials into a website that looks exactly like the original. See this <a href="https://www.youtube.com/watch?v=RMCUIQaqw6E">video</a> which explains how one can use a simple tool called SuperPhisher to create a fake  Gmail login page.</p>
+<h2 id="topic-6-understanding-same-origin-policy">Topic 6: Understanding Same Origin Policy</h2>
+<p>When a web-page fires an HTTP Request to a different origin (URI Scheme + hostname + port combination), the request will reach the server, but the response will be blocked by the browser (unless authorized by the server using a CORS header). Read more on this here: <a href="https://en.wikipedia.org/wiki/Same-origin_policy">Wikipedia/Same-origin-policy</a>. The same is true for Javascript in a browser not being allowed access to elements created in another &ldquo;origin&rdquo;.</p>
+<p>Broadly, one origin is permitted to <strong>send</strong> information to another origin, but one origin is not permitted to <strong>receive</strong> information from another origin. The prohibition on receiving information is intended to prevent malicious web sites from reading confidential information from other web sites, but also prevents web content from legitimately reading information offered by other web sites.</p>
+<p>The restrictions on reading information received from other origins is also somewhat subtle. For example, the HTML &lt;script&gt; element can execute content retrieved from foreign origins, which means web sites should not rely on the same-origin policy to protect the confidentiality of information in a format that happens to parse as script. You need this to happen so that you can load Javascripts hosted on CDNs like for instance <a href="https://code.jquery.com/">JQuery</a>.</p>
+<p>This is also true for the &lt;img&gt; tag which can fire GET requests for loading images, but someone may use them for firing any GET request (and if this GET request modifies data, then a CSRF attack becomes possible). Read more on preventing CSRF here: <a href="https://www.owasp.org/index.php/Cross-Site_Request_Forgery_(CSRF)_Prevention_Cheat_Sheet#General_Recommendation:_Synchronizer_Token_Pattern">OWASP CSRF Prevention Cheat Sheet</a></p>
+<p>In other words, the SOP does not prevent attackers to <strong>write</strong> data to their origin, it only disallows them to <strong>read</strong> data from your domain (cookie, localStorage or other) or to do anything with a response received from their domain.</p>
+<p>Watch this video to grasp the details:
+<a href="https://www.youtube.com/watch?v=jDE0cntjOq8">HTML5 Security Part 1/3 - Same Origin Policy Basics</a></p>
+<h2 id="topic-7-how-can-md5-hashes-be-broken-using-non-secure-passwords">Topic 7: How can MD5 Hashes be broken using non-secure passwords</h2>
+<p>This article by Jack Singleton on Martin Fowler&rsquo;s website <a href="https://martinfowler.com/articles/session-secret.html">One Line of Code that Compromises Your Server</a> shows how easy it is to use a dictionary attack using something like the <a href="https://crackstation.net/">CrackStation Lookup tables</a>.</p>
+<p>To quote from CrackStation itself:</p>
+<p><em>Crackstation&rsquo;s lookup tables were created by extracting every word from the Wikipedia databases and adding with every password list we could find. We also applied intelligent word mangling (brute force hybrid) to our wordlists to make them much more effective. For MD5 and SHA1 hashes, we have a 190GB, 15-billion-entry lookup table, and for other hashes, we have a 19GB 1.5-billion-entry lookup table.</em></p>
+<p>To quote from Jack&rsquo;s article:</p>
+<p><em>Wow! In just 43 seconds we blasted through over a billion hashes and, 85.34% of the way through the list, correctly guessed &lsquo;super secret&rsquo;.</em></p>
+<p>So in essense, if a password created by you or by someone else in the world, ever leaked somehow on the internet, it has most likely reached a dictionary or a password list like CrackStation. You better not re-use it. It&rsquo;s just simply easier to generate a new password for each usecase, using a strong password generator.</p>
+<p>Related reading: <a href="https://security.stackexchange.com/questions/60691/length-of-passwords-that-are-rainbow-table-safe">Strong passwords and Rainbow Tables</a></p>
+<h2 id="topic-8-easy-hacking-via-social-engineering">Topic 8: Easy hacking via Social Engineering</h2>
+<p>Watch this video to see how easily sometimes people can hack into a person&rsquo;s account by fooling a call center employee to believe them: <a href="https://www.youtube.com/watch?v=lc7scxvKQOo">Hacker on Call in DEFCON</a>. This technique of tricking people into performing an action they don&rsquo;t really want to, or reveal information that shouldn&rsquo;t be, is called Social Engineering.</p>
+<p>Accidental disclosure of information can happen even with SMS based Two Factor Authentication. For instance, if you have SMS preview enabled (which is common nowadays for mobiles), and if the OTP password is present in the first few characters of the SMS, then anyone can see your OTP SMS even if your phone is locked. This is dangerous, and that is why smart implementations of OTP SMS will always put your OTP password at the end of a slightly long SMS message so that message previews don&rsquo;t accidentaly give away the password to snooping eyes.</p>
+<h2 id="topic-9-the-danger-of-using-fingerprints-for-authentication">Topic 9: The danger of using fingerprints for authentication</h2>
+<p>Fingerprint based authentication is becoming quite common nowadays, with phones and laptops allowing you to swipe a finger, or register multiple fingers for quick access. There are two issues at play here:</p>
+<ol>
+<li>
+<p>Your fingerprint cannot be modified. Once its lost, or compromised, you pretty much cannot do anything about it. You can&rsquo;t change your fingerprint! For this reason you need to be very careful of where you give your fingerprint information. You don&rsquo;t want someone storing your fingerprint in a database which eventually gets compromised. For this reason the recommendations for fingerprint security implementations is to store some representation  of the fingerprint, rather than the fingerprint itself, so that in case of a compromise, the original fingerprint information is still safe. Read more about this here: <a href="https://support.apple.com/en-us/HT204587">Apple Fingerprint Security</a></p>
+</li>
+<li>
+<p>Your fingerprint works even when you are sleeping or unconscious. So, if someone whacked you, they can use your fingerprint to access any device by just touching your hand to the device. The same is true if you passed out after a heavy bout of drinking. Think about it.</p>
+</li>
+</ol>
+<h2 id="topic-10-understanding-https--ssl--tls">Topic 10: Understanding HTTPs / SSL / TLS</h2>
+<p>To understand HTTPs, one needs to understand the following concepts:</p>
+<ol>
+<li>
+<p>Asymmetric Encryption, which uses a public/private key pair in which the private key remains private and secret, while the public key is shared. This helps in ensuring that data sent to the server (or bank website) which has been encrypted using the server&rsquo;s public key can only be decrypted using the server&rsquo;s private key (and not by anyone snooping in between). Also, data sent by the server by encrypting with the private key can only be decrypted by using the public key which guarantees that the message was indeed sent by the trusted server (proving its identity).</p>
+</li>
+<li>
+<p>Symmetric Encryption, which uses a single shared key, is faster than Asymmetric Encryption. Hence the Asymmetric Encryption method is used only for initial handshake, verification and then a random session key is generated to be used for further communication between the client and server for faster and <em>secret</em> communication. Of course, the session key is also sent encrypted using the Asymmetric Encryption mechanism for safe delivery, before switching over.</p>
+</li>
+</ol>
+<p><strong>Related links to grasp HTTPs better:</strong></p>
+<ol>
+<li>
+<p>Watch this video to get a good high level understanding of HTTPs/SSL/TLS: <a href="https://www.youtube.com/watch?v=JCvPnwpWVUQ">What is HTTPs?</a> (11 mins)</p>
+</li>
+<li>
+<p>An excellent explanation of HTTPs: <a href="http://robertheaton.com/2014/03/27/how-does-https-actually-work/">How does HTTPs actually work - by Rob Heaton</a></p>
+</li>
+<li>
+<p><a href="https://stackoverflow.com/questions/589622/ssl-question-how-does-a-root-ca-verify-a-signature">How does verification with Root CA Work</a>: <em>&hellip; mathematically computed against the <strong>public</strong> part of the CA to verify that the <strong>private</strong> part of the CA actually signed the cert.</em></p>
+</li>
+</ol>
+<h2 id="topic-11-evercookie-hard-to-delete-cookies">Topic 11: Evercookie: Hard-to-delete cookies</h2>
+<p>Evercookie is a Javascript API, created by Sam Kamkar (of the <a href="https://samy.pl/popular/">Samy worm</a> fame!) that produces extremely persistent cookies in a browser. Its goal is to identify a client even after they&rsquo;ve removed standard cookies, Flash cookies (Local Shared Objects or LSOs), and others.</p>
+<p>This is accomplished by storing the cookie data into as many browser storage mechanisms as possible. If cookie data is removed from any of the storage mechanisms, evercookie aggressively re-creates it in each mechanism as long as one is still intact.</p>
+<p>It is totally NOT recommended to use Evercookie, but it is a good idea to understand how they work, so that you can understand how you might be tracked!</p>
+<p>Read more about it here on <a href="https://github.com/samyk/evercookie">Github/smayk/evercookie</a>, and play with a demo here on Samy&rsquo;s website <a href="https://samy.pl/evercookie/">Try Evercookie</a>.</p>
+<h2 id="topic-12-vulnerability-checker-for-npm-libraries---bithound">Topic 12: Vulnerability Checker for NPM Libraries - Bithound</h2>
+<p>Check out <a href="https://www.bithound.io/">bithound.io</a> to see how a Node.JS project can use a static code analyser and dependency checker to identify components in your project which may have known vulnerabilities. <a href="https://www.bithound.io/">bithound.io</a> is free for Open Source projects, so you should be able to plug it in your public Github projects. See the most popular libraries like <a href="https://www.bithound.io/github/angular/angular.js">Angular.JS</a> and <a href="https://www.bithound.io/github/d3/d3">d3</a> reports on bithound here: <a href="https://www.bithound.io/popular">Popular Bithound Projects</a></p>
+<h2 id="conclusion">Conclusion</h2>
+<p>Teaching is a great way to learn. Just as I did, hopefully you found some of above topics and links fascinating. The field of security is always growing and while new attacks are being uncovered everyday, so are new counter-measures being designed.</p>
+
+</div>
+
+        <footer class="post-footer clearfix">
+    
+        <p class="post-tags">
+            <span>Tagged:</span>
+            
+            
+                <a href="/tags/security/">security</a>, 
+            
+                <a href="/tags/learning/">learning</a>, 
+            
+                <a href="/tags/technical/">technical</a>, 
+            
+                <a href="/tags/architecture/">architecture</a>, 
+            
+                <a href="/tags/thoughtworks/">thoughtworks</a>
+            
+        </p>
+    
+
+    <div class="share">
+        
+            <a class="icon-twitter" href="https://twitter.com/share?text=12%20Things%20I%20Learnt%20While%20Teaching%20Application%20Security&url=%2f2017%2f04%2f12%2fapp-security-learning.html%2f"
+                onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" aria-label="Share on Twitter">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+        
+
+        
+            <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=%2f2017%2f04%2f12%2fapp-security-learning.html%2f"
+                onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" aria-label="Share on Facebook">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+        
+
+
+        
+            <a class="icon-linkedin" href="https://www.linkedin.com/shareArticle?mini=true&title=12%20Things%20I%20Learnt%20While%20Teaching%20Application%20Security&url=%2f2017%2f04%2f12%2fapp-security-learning.html%2f&summary=Fascinating%20stuff%20I%20stumbled%20upon%20while%20preparing%20for%20security%20training"
+               onclick="window.open(this.href, 'linkedin-share', 'width=554,height=481');return false;" aria-label="Share on LinkedIn">
+               <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </a>
+        
+    </div>
+</footer>
+
+
+        
+    <div class="comments">
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "life-lessons-in" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    </div>
+
+    </article>
+</div>
+
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="site-title-wrapper">
+                    <h1 class="site-title">
+                        <a href="/">life-lessons.in</a>
+                    </h1>
+                    <a class="button-square button-jump-top js-jump-top" href="#" aria-label="Back to Top">
+                        <i class="fa fa-angle-up" aria-hidden="true"></i>
+                    </a>
+                </div>
+
+                <p class="footer-copyright">
+                    <span>&copy; 2021 / Powered by <a href="https://gohugo.io/">Hugo</a></span>
+                </p>
+                <p class="footer-copyright">
+                    <span><a href="https://github.com/roryg/ghostwriter">Ghostwriter theme</a> By <a href="http://jollygoodthemes.com">JollyGoodThemes</a></span>
+                    <span>/ <a href="https://github.com/jbub/ghostwriter">Ported</a> to Hugo By <a href="https://github.com/jbub">jbub</a></span>
+                </p>
+            </div>
+        </footer>
+
+        <script src="/js/jquery-1.11.3.min.js"></script>
+        <script src="/js/jquery.fitvids.js"></script>
+        <script src="/js/scripts.js"></script>
+    </body>
+</html>
+

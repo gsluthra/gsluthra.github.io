@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>agile on life-lessons.in</title>
+    <link>/tags/agile/</link>
+    <description>Recent content in agile on life-lessons.in</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Gurpreet Luthra 2021</copyright>
+    <lastBuildDate>Wed, 03 Feb 2016 02:13:50 +0000</lastBuildDate><atom:link href="/tags/agile/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Every Single Retro</title>
+      <link>/2016/02/03/every-single-retro.html/</link>
+      <pubDate>Wed, 03 Feb 2016 02:13:50 +0000</pubDate>
+      
+      <guid>/2016/02/03/every-single-retro.html/</guid>
+      <description>The outcome of almost every retro can be captured easily by this poster:
+  Every Single Retro   </description>
+    </item>
+    
+    <item>
+      <title>The Velocity Conundrum</title>
+      <link>/2015/12/25/the-velocity-conundrum.html/</link>
+      <pubDate>Fri, 25 Dec 2015 02:13:50 +0000</pubDate>
+      
+      <guid>/2015/12/25/the-velocity-conundrum.html/</guid>
+      <description>Near Chinatown street in Singapore   Velocity! It&amp;rsquo;s a term that has potentially confounded, frustrated and perhaps amused Agile practitioners and customers alike at some point. It&amp;rsquo;s a concept that can be quite helpful though, when used accurately as a planning &amp;amp; estimation tool.
+Velocity is a measure of the number of story points delivered in an Iteration. The word delivered here means - dev &amp;amp; test complete, and ready for Production.</description>
+    </item>
+    
+  </channel>
+</rss>

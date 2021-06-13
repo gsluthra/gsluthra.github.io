@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>health on life-lessons.in</title>
+    <link>/tags/health/</link>
+    <description>Recent content in health on life-lessons.in</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Gurpreet Luthra 2021</copyright>
+    <lastBuildDate>Mon, 05 Sep 2016 02:13:50 +0000</lastBuildDate><atom:link href="/tags/health/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reduce Computer Eye Strain with F.lux</title>
+      <link>/2016/09/05/reduce-eye-strain-with-flux.html/</link>
+      <pubDate>Mon, 05 Sep 2016 02:13:50 +0000</pubDate>
+      
+      <guid>/2016/09/05/reduce-eye-strain-with-flux.html/</guid>
+      <description>About 3 years ago, one of my colleagues in ThoughtWorks, Sam Gibson, suggested I try out f.lux.
+f.lux changes the Color temperature of my mac screen in the evening, so that the blue light from the screen is removed, and instead a nice warm set of colors are emitted from the screen. This drastically reduced the strain that I felt on my screen at night. It felt weird, the first 3 or 4 days, when my screen colors changed in the evening.</description>
+    </item>
+    
+  </channel>
+</rss>

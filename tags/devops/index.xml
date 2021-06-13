@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>devops on life-lessons.in</title>
+    <link>/tags/devops/</link>
+    <description>Recent content in devops on life-lessons.in</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Gurpreet Luthra 2021</copyright>
+    <lastBuildDate>Sat, 03 Oct 2015 02:13:50 +0000</lastBuildDate><atom:link href="/tags/devops/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Understanding Vagrant Boxes and VMs</title>
+      <link>/2015/10/03/understanding-vagrant-boxes.html/</link>
+      <pubDate>Sat, 03 Oct 2015 02:13:50 +0000</pubDate>
+      
+      <guid>/2015/10/03/understanding-vagrant-boxes.html/</guid>
+      <description>On top of Mt Billing in Dharamshala, India   Vagrant does a lot of things auto-magically under the hoods, and most of the times people are left confused when they want to delete or add boxes or VMs. I will try and explain the relationships between Base Boxes, VMs, Virtual Box Instances among other things, in this post.
+Vagrant is an awesome tool for developers to get their own sandboxed environments to play with.</description>
+    </item>
+    
+    <item>
+      <title>Installing ThoughtWorks GoCD Server on a Digital Ocean Droplet</title>
+      <link>/2015/08/16/gocd-on-digital-ocean.html/</link>
+      <pubDate>Sun, 16 Aug 2015 02:13:50 +0000</pubDate>
+      
+      <guid>/2015/08/16/gocd-on-digital-ocean.html/</guid>
+      <description>Near Chinatown street in Singapore   Today I experimented with installing ThoughtWorks GoCD Server and agent on a Digital Ocean CentOS droplet. Note that you will need to ensure that you setup swap space on your digital ocean droplet, before proceeding with installing GoCD.
+Read the steps here on my old blog: Installing ThoughtWorks GoCD Server and Agent on Digital Ocean Droplet.</description>
+    </item>
+    
+    <item>
+      <title>Vagrant: Setup development environments FAST!</title>
+      <link>/2012/12/16/vagrant-an-interesting-approach-dev.html/</link>
+      <pubDate>Sun, 16 Dec 2012 02:13:50 +0000</pubDate>
+      
+      <guid>/2012/12/16/vagrant-an-interesting-approach-dev.html/</guid>
+      <description>Near the Norbulingka Institute, Dharamshala, India   If you have never heard of Vagrant, or are interested in understanding what is Vagrant, then this blog should be useful to you.
+Setting up a development environment for many projects now-a-days isn&amp;rsquo;t a matter of simply running a script or downloading a piece of software. On most projects, the average setup time to get all up and running is usually a day, and sometimes more.</description>
+    </item>
+    
+  </channel>
+</rss>

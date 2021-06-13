@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>security on life-lessons.in</title>
+    <link>/tags/security/</link>
+    <description>Recent content in security on life-lessons.in</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Gurpreet Luthra 2021</copyright>
+    <lastBuildDate>Sat, 31 Mar 2018 02:13:50 +0000</lastBuildDate><atom:link href="/tags/security/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Are You Telling A Story?</title>
+      <link>/2018/03/31/art-of-story-telling.html/</link>
+      <pubDate>Sat, 31 Mar 2018 02:13:50 +0000</pubDate>
+      
+      <guid>/2018/03/31/art-of-story-telling.html/</guid>
+      <description>My Martin Backpaker Guitar   Student: I am giving my first talk in 6 weeks.
+Teacher: Excellent.
+Student: When would you call a presentation a success?
+Teacher: The audience vividly remembers it 3 days after you presented it.
+Student: How can I make this happen?
+Teacher: By telling a compelling story, instead of stating the facts.
+Student: Why is a story important?
+Teacher: Imagine this. You are sitting for lunch with your team, and you suddenly remember that one of your colleagues attended the XP conference yesterday.</description>
+    </item>
+    
+    <item>
+      <title>12 Things I Learnt While Teaching Application Security</title>
+      <link>/2017/04/12/app-security-learning.html/</link>
+      <pubDate>Wed, 12 Apr 2017 02:13:50 +0000</pubDate>
+      
+      <guid>/2017/04/12/app-security-learning.html/</guid>
+      <description>Turkey (Istanbul)   Introduction ThoughtWorks runs an Application Security 101 training for people not very familiar with common security topics. The training curriculum covers topics like Threat Modelling, Same Origin Policy, CSRF, Secret Management, Library Vulnerabilities, STRIDE among many others.
+I was a trainer for one of the recent batches in ThoughtWorks Pune, and in researching some of these topics, I came across many interesting links, videos and information.</description>
+    </item>
+    
+    <item>
+      <title>Web Vulnerabilities - Phishing, Cookies, XSS and CSRF</title>
+      <link>/2012/04/29/understanding-web-vulnerabilities-cookies.html/</link>
+      <pubDate>Sun, 29 Apr 2012 02:13:50 +0000</pubDate>
+      
+      <guid>/2012/04/29/understanding-web-vulnerabilities-cookies.html/</guid>
+      <description>Near the Norbulingka Institute, Dharamshala, India   Last week I gave a presentation on &amp;ldquo;Web Application Vulnerabilities&amp;rdquo; as part of our weekly Dev meetup at ThoughtWorks. The presentation was aimed at covering some vulnerabilities and risks that plague Web based applications, and to make folks aware of risks and possible mitigation options. In specific, topics covered were Phishing, Social Engineering, Cookies and Cross Site Request Forgery (CSRF or XSRF).</description>
+    </item>
+    
+  </channel>
+</rss>
