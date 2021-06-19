@@ -2,10 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/page/about/</loc>
-    <lastmod>2021-01-01T01:01:50+00:00</lastmod>
+    <loc>/tags/design/</loc>
+    <lastmod>2021-06-19T02:13:50+00:00</lastmod>
+  </url><url>
+    <loc>/tags/food/</loc>
+    <lastmod>2021-06-19T02:13:50+00:00</lastmod>
+  </url><url>
+    <loc>/tags/india/</loc>
+    <lastmod>2021-06-19T02:13:50+00:00</lastmod>
+  </url><url>
+    <loc>/2021/06/19/29-indian-food-recipes-app-nocode.html/</loc>
+    <lastmod>2021-06-19T02:13:50+00:00</lastmod>
   </url><url>
     <loc>/</loc>
+    <lastmod>2021-06-19T02:13:50+00:00</lastmod>
+  </url><url>
+    <loc>/post/</loc>
+    <lastmod>2021-06-19T02:13:50+00:00</lastmod>
+  </url><url>
+    <loc>/tags/programming/</loc>
+    <lastmod>2021-06-19T02:13:50+00:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2021-06-19T02:13:50+00:00</lastmod>
+  </url><url>
+    <loc>/tags/technical/</loc>
+    <lastmod>2021-06-19T02:13:50+00:00</lastmod>
+  </url><url>
+    <loc>/page/about/</loc>
     <lastmod>2021-01-01T01:01:50+00:00</lastmod>
   </url><url>
     <loc>/page/</loc>
@@ -17,22 +41,10 @@
     <loc>/tags/culture/</loc>
     <lastmod>2020-11-29T02:13:50+00:00</lastmod>
   </url><url>
-    <loc>/tags/india/</loc>
-    <lastmod>2020-11-29T02:13:50+00:00</lastmod>
-  </url><url>
     <loc>/2020/11/29/podcast-building-engineering-career-nikhil-prasad.html/</loc>
     <lastmod>2020-11-29T02:13:50+00:00</lastmod>
   </url><url>
     <loc>/tags/podcast/</loc>
-    <lastmod>2020-11-29T02:13:50+00:00</lastmod>
-  </url><url>
-    <loc>/post/</loc>
-    <lastmod>2020-11-29T02:13:50+00:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
-    <lastmod>2020-11-29T02:13:50+00:00</lastmod>
-  </url><url>
-    <loc>/tags/technical/</loc>
     <lastmod>2020-11-29T02:13:50+00:00</lastmod>
   </url><url>
     <loc>/2020/10/02/podcast-empowered-engineers-nikhil-prasad.html/</loc>
@@ -45,9 +57,6 @@
     <lastmod>2020-08-01T02:13:50+00:00</lastmod>
   </url><url>
     <loc>/2020/07/22/podcast-art-of-experience-design.html/</loc>
-    <lastmod>2020-07-22T02:13:50+00:00</lastmod>
-  </url><url>
-    <loc>/tags/design/</loc>
     <lastmod>2020-07-22T02:13:50+00:00</lastmod>
   </url><url>
     <loc>/tags/thoughtworks/</loc>
@@ -90,9 +99,6 @@
     <lastmod>2017-04-12T02:13:50+00:00</lastmod>
   </url><url>
     <loc>/tags/opensource/</loc>
-    <lastmod>2017-03-12T02:13:50+00:00</lastmod>
-  </url><url>
-    <loc>/tags/programming/</loc>
     <lastmod>2017-03-12T02:13:50+00:00</lastmod>
   </url><url>
     <loc>/2017/03/12/open-source-explained.html/</loc>
