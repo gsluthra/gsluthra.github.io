@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Gurpreet Luthra 2021</copyright>
-    <lastBuildDate>Mon, 05 Sep 2016 02:13:50 +0000</lastBuildDate><atom:link href="/tags/health/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 25 Feb 2021 02:13:50 +0000</lastBuildDate><atom:link href="/tags/health/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bahmni - Open Source EMR with 1 Million Lines of Code</title>
+      <link>/2021/02/25/30-bahmni-1million-loc.html/</link>
+      <pubDate>Thu, 25 Feb 2021 02:13:50 +0000</pubDate>
+      
+      <guid>/2021/02/25/30-bahmni-1million-loc.html/</guid>
+      <description>Image courtsey: Friends without borders   Bahmni Codebase - Moving out of AngularJS Bahmni, an open source hospital management system and EMR has over 1 Million lines of code (LoC)! Out of that over 164,000 LoC are in AngularJS (Angular 1.x). AngularJS is going to be end-of-life in Dec-2021, with no likely SLAs around fixes after Dec-2021.
+In this article, I would like to shed some light into what parts of Bahmni depend on AngularJS, what parts are already in React; and suggest some steps forward to remove dependence on AngularJS.</description>
+    </item>
+    
     <item>
       <title>Reduce Computer Eye Strain with F.lux</title>
       <link>/2016/09/05/reduce-eye-strain-with-flux.html/</link>

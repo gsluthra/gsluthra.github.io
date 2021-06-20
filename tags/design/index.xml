@@ -18,6 +18,16 @@
     </item>
     
     <item>
+      <title>Bahmni - Open Source EMR with 1 Million Lines of Code</title>
+      <link>/2021/02/25/30-bahmni-1million-loc.html/</link>
+      <pubDate>Thu, 25 Feb 2021 02:13:50 +0000</pubDate>
+      
+      <guid>/2021/02/25/30-bahmni-1million-loc.html/</guid>
+      <description>Image courtsey: Friends without borders   Bahmni Codebase - Moving out of AngularJS Bahmni, an open source hospital management system and EMR has over 1 Million lines of code (LoC)! Out of that over 164,000 LoC are in AngularJS (Angular 1.x). AngularJS is going to be end-of-life in Dec-2021, with no likely SLAs around fixes after Dec-2021.
+In this article, I would like to shed some light into what parts of Bahmni depend on AngularJS, what parts are already in React; and suggest some steps forward to remove dependence on AngularJS.</description>
+    </item>
+    
+    <item>
       <title>Art of Experience Design with Aditya Karle (Expertease Podcast #1)</title>
       <link>/2020/07/22/podcast-art-of-experience-design.html/</link>
       <pubDate>Wed, 22 Jul 2020 02:13:50 +0000</pubDate>
