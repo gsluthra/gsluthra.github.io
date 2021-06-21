@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>blogging on life-lessons.in</title>
-    <link>/tags/blogging/</link>
+    <link>/tags/blogging.html</link>
     <description>Recent content in blogging on life-lessons.in</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,10 +10,10 @@
     <lastBuildDate>Sun, 01 Nov 2015 02:13:50 +0000</lastBuildDate><atom:link href="/tags/blogging/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>I moved to Jekyll</title>
-      <link>/2015/11/01/i-moved-to-jekyll.html/</link>
+      <link>/2015/11/01/i-moved-to-jekyll.html</link>
       <pubDate>Sun, 01 Nov 2015 02:13:50 +0000</pubDate>
       
-      <guid>/2015/11/01/i-moved-to-jekyll.html/</guid>
+      <guid>/2015/11/01/i-moved-to-jekyll.html</guid>
       <description>Tibetan artists in Norbulingka Institute, Dharamshala, India   My blog on Google Blogspot techie-notebook.blogspot.com hit the 100,000 views mark. I am super excited. But, I didn&amp;rsquo;t really like the way my blog looked. I wanted it to be simple. I wanted it to be elegant. I wanted to render code, like it should. I wanted the programmer in me, to be in control. So I moved to Jekyll.</description>
     </item>
     

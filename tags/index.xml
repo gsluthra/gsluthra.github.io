@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on life-lessons.in</title>
-    <link>/tags/</link>
+    <link>/tags.html</link>
     <description>Recent content in Tags on life-lessons.in</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,298 +10,298 @@
     <lastBuildDate>Sat, 19 Jun 2021 02:13:50 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>design</title>
-      <link>/tags/design/</link>
+      <link>/tags/design.html</link>
       <pubDate>Sat, 19 Jun 2021 02:13:50 +0000</pubDate>
       
-      <guid>/tags/design/</guid>
+      <guid>/tags/design.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>food</title>
-      <link>/tags/food/</link>
+      <link>/tags/food.html</link>
       <pubDate>Sat, 19 Jun 2021 02:13:50 +0000</pubDate>
       
-      <guid>/tags/food/</guid>
+      <guid>/tags/food.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>india</title>
-      <link>/tags/india/</link>
+      <link>/tags/india.html</link>
       <pubDate>Sat, 19 Jun 2021 02:13:50 +0000</pubDate>
       
-      <guid>/tags/india/</guid>
+      <guid>/tags/india.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>programming</title>
-      <link>/tags/programming/</link>
+      <link>/tags/programming.html</link>
       <pubDate>Sat, 19 Jun 2021 02:13:50 +0000</pubDate>
       
-      <guid>/tags/programming/</guid>
+      <guid>/tags/programming.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>technical</title>
-      <link>/tags/technical/</link>
+      <link>/tags/technical.html</link>
       <pubDate>Sat, 19 Jun 2021 02:13:50 +0000</pubDate>
       
-      <guid>/tags/technical/</guid>
+      <guid>/tags/technical.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>frontend</title>
-      <link>/tags/frontend/</link>
+      <link>/tags/frontend.html</link>
       <pubDate>Thu, 25 Feb 2021 02:13:50 +0000</pubDate>
       
-      <guid>/tags/frontend/</guid>
+      <guid>/tags/frontend.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>health</title>
-      <link>/tags/health/</link>
+      <link>/tags/health.html</link>
       <pubDate>Thu, 25 Feb 2021 02:13:50 +0000</pubDate>
       
-      <guid>/tags/health/</guid>
+      <guid>/tags/health.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>opensource</title>
-      <link>/tags/opensource/</link>
+      <link>/tags/opensource.html</link>
       <pubDate>Thu, 25 Feb 2021 02:13:50 +0000</pubDate>
       
-      <guid>/tags/opensource/</guid>
+      <guid>/tags/opensource.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>career</title>
-      <link>/tags/career/</link>
+      <link>/tags/career.html</link>
       <pubDate>Sun, 29 Nov 2020 02:13:50 +0000</pubDate>
       
-      <guid>/tags/career/</guid>
+      <guid>/tags/career.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>culture</title>
-      <link>/tags/culture/</link>
+      <link>/tags/culture.html</link>
       <pubDate>Sun, 29 Nov 2020 02:13:50 +0000</pubDate>
       
-      <guid>/tags/culture/</guid>
+      <guid>/tags/culture.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>podcast</title>
-      <link>/tags/podcast/</link>
+      <link>/tags/podcast.html</link>
       <pubDate>Sun, 29 Nov 2020 02:13:50 +0000</pubDate>
       
-      <guid>/tags/podcast/</guid>
+      <guid>/tags/podcast.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>entrepreneur</title>
-      <link>/tags/entrepreneur/</link>
+      <link>/tags/entrepreneur.html</link>
       <pubDate>Sat, 01 Aug 2020 02:13:50 +0000</pubDate>
       
-      <guid>/tags/entrepreneur/</guid>
+      <guid>/tags/entrepreneur.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>thoughtworks</title>
-      <link>/tags/thoughtworks/</link>
+      <link>/tags/thoughtworks.html</link>
       <pubDate>Wed, 22 Jul 2020 02:13:50 +0000</pubDate>
       
-      <guid>/tags/thoughtworks/</guid>
+      <guid>/tags/thoughtworks.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>adventure</title>
-      <link>/tags/adventure/</link>
+      <link>/tags/adventure.html</link>
       <pubDate>Mon, 30 Dec 2019 02:13:50 +0000</pubDate>
       
-      <guid>/tags/adventure/</guid>
+      <guid>/tags/adventure.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>cars</title>
-      <link>/tags/cars/</link>
+      <link>/tags/cars.html</link>
       <pubDate>Mon, 30 Dec 2019 02:13:50 +0000</pubDate>
       
-      <guid>/tags/cars/</guid>
+      <guid>/tags/cars.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>review</title>
-      <link>/tags/review/</link>
+      <link>/tags/review.html</link>
       <pubDate>Mon, 30 Dec 2019 02:13:50 +0000</pubDate>
       
-      <guid>/tags/review/</guid>
+      <guid>/tags/review.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>learning</title>
-      <link>/tags/learning/</link>
+      <link>/tags/learning.html</link>
       <pubDate>Sat, 12 May 2018 02:13:50 +0000</pubDate>
       
-      <guid>/tags/learning/</guid>
+      <guid>/tags/learning.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>self-help</title>
-      <link>/tags/self-help/</link>
+      <link>/tags/self-help.html</link>
       <pubDate>Sat, 12 May 2018 02:13:50 +0000</pubDate>
       
-      <guid>/tags/self-help/</guid>
+      <guid>/tags/self-help.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>architecture</title>
-      <link>/tags/architecture/</link>
+      <link>/tags/architecture.html</link>
       <pubDate>Sat, 31 Mar 2018 02:13:50 +0000</pubDate>
       
-      <guid>/tags/architecture/</guid>
+      <guid>/tags/architecture.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>security</title>
-      <link>/tags/security/</link>
+      <link>/tags/security.html</link>
       <pubDate>Sat, 31 Mar 2018 02:13:50 +0000</pubDate>
       
-      <guid>/tags/security/</guid>
+      <guid>/tags/security.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>neat-apps</title>
-      <link>/tags/neat-apps/</link>
+      <link>/tags/neat-apps.html</link>
       <pubDate>Mon, 05 Sep 2016 02:13:50 +0000</pubDate>
       
-      <guid>/tags/neat-apps/</guid>
+      <guid>/tags/neat-apps.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>healthcare</title>
-      <link>/tags/healthcare/</link>
+      <link>/tags/healthcare.html</link>
       <pubDate>Thu, 03 Mar 2016 02:13:50 +0000</pubDate>
       
-      <guid>/tags/healthcare/</guid>
+      <guid>/tags/healthcare.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>humans</title>
-      <link>/tags/humans/</link>
+      <link>/tags/humans.html</link>
       <pubDate>Thu, 03 Mar 2016 02:13:50 +0000</pubDate>
       
-      <guid>/tags/humans/</guid>
+      <guid>/tags/humans.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>policy</title>
-      <link>/tags/policy/</link>
+      <link>/tags/policy.html</link>
       <pubDate>Thu, 03 Mar 2016 02:13:50 +0000</pubDate>
       
-      <guid>/tags/policy/</guid>
+      <guid>/tags/policy.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>agile</title>
-      <link>/tags/agile/</link>
+      <link>/tags/agile.html</link>
       <pubDate>Wed, 03 Feb 2016 02:13:50 +0000</pubDate>
       
-      <guid>/tags/agile/</guid>
+      <guid>/tags/agile.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>teams</title>
-      <link>/tags/teams/</link>
+      <link>/tags/teams.html</link>
       <pubDate>Wed, 03 Feb 2016 02:13:50 +0000</pubDate>
       
-      <guid>/tags/teams/</guid>
+      <guid>/tags/teams.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>podcasts</title>
-      <link>/tags/podcasts/</link>
+      <link>/tags/podcasts.html</link>
       <pubDate>Sun, 15 Nov 2015 02:13:50 +0000</pubDate>
       
-      <guid>/tags/podcasts/</guid>
+      <guid>/tags/podcasts.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>self-improvement</title>
-      <link>/tags/self-improvement/</link>
+      <link>/tags/self-improvement.html</link>
       <pubDate>Sun, 15 Nov 2015 02:13:50 +0000</pubDate>
       
-      <guid>/tags/self-improvement/</guid>
+      <guid>/tags/self-improvement.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>blogging</title>
-      <link>/tags/blogging/</link>
+      <link>/tags/blogging.html</link>
       <pubDate>Sun, 01 Nov 2015 02:13:50 +0000</pubDate>
       
-      <guid>/tags/blogging/</guid>
+      <guid>/tags/blogging.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>devops</title>
-      <link>/tags/devops/</link>
+      <link>/tags/devops.html</link>
       <pubDate>Sat, 03 Oct 2015 02:13:50 +0000</pubDate>
       
-      <guid>/tags/devops/</guid>
+      <guid>/tags/devops.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>quality</title>
-      <link>/tags/quality/</link>
+      <link>/tags/quality.html</link>
       <pubDate>Fri, 10 Jan 2014 02:13:50 +0000</pubDate>
       
-      <guid>/tags/quality/</guid>
+      <guid>/tags/quality.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>testing</title>
-      <link>/tags/testing/</link>
+      <link>/tags/testing.html</link>
       <pubDate>Fri, 10 Jan 2014 02:13:50 +0000</pubDate>
       
-      <guid>/tags/testing/</guid>
+      <guid>/tags/testing.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>pune</title>
-      <link>/tags/pune/</link>
+      <link>/tags/pune.html</link>
       <pubDate>Sat, 25 Feb 2012 02:13:50 +0000</pubDate>
       
-      <guid>/tags/pune/</guid>
+      <guid>/tags/pune.html</guid>
       <description></description>
     </item>
     

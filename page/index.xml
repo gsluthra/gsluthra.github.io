@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pages on life-lessons.in</title>
-    <link>/page/</link>
+    <link>/page.html</link>
     <description>Recent content in Pages on life-lessons.in</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,10 +10,10 @@
     <lastBuildDate>Fri, 01 Jan 2021 01:01:50 +0000</lastBuildDate><atom:link href="/page/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Gurpreet Luthra</title>
-      <link>/page/about/</link>
+      <link>/page/about.html</link>
       <pubDate>Fri, 01 Jan 2021 01:01:50 +0000</pubDate>
       
-      <guid>/page/about/</guid>
+      <guid>/page/about.html</guid>
       <description>I am currenty focussing my energies towards Social Impact, Open Source, Public Health, Bahmni and related areas of Tech4Good, with the hope that all I do helps make the world a better place. I work at ThoughtWorks as part of the Social Impact &amp;amp; India Public Health Team.
  
  In 2 years at tavisca, Pune (2018-2020), I played the role of the Head of Product Practice, where I focussed towards instilling a culture of excellence in Product design and development.</description>
@@ -21,10 +21,10 @@
     
     <item>
       <title>Presentations</title>
-      <link>/page/presentations/</link>
+      <link>/page/presentations.html</link>
       <pubDate>Mon, 01 Jan 2018 02:13:50 +0000</pubDate>
       
-      <guid>/page/presentations/</guid>
+      <guid>/page/presentations.html</guid>
       <description>Public Speaking and Sharing&amp;hellip; I enjoy sharing information on things I learn and do. Listed below are some of my recent presentations on various Technical and Open Source topics. Most presentations need a voice over, since I am big on visuals and keeping slides clutter free. If you have any questions about these topics, or would like me to present them at your office, or a conference, I would be very glad to help out.</description>
     </item>
     

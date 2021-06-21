@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>thoughtworks on life-lessons.in</title>
-    <link>/tags/thoughtworks/</link>
+    <link>/tags/thoughtworks.html</link>
     <description>Recent content in thoughtworks on life-lessons.in</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,10 +10,10 @@
     <lastBuildDate>Wed, 22 Jul 2020 02:13:50 +0000</lastBuildDate><atom:link href="/tags/thoughtworks/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Art of Experience Design with Aditya Karle (Expertease Podcast #1)</title>
-      <link>/2020/07/22/podcast-art-of-experience-design.html/</link>
+      <link>/2020/07/22/podcast-art-of-experience-design.html</link>
       <pubDate>Wed, 22 Jul 2020 02:13:50 +0000</pubDate>
       
-      <guid>/2020/07/22/podcast-art-of-experience-design.html/</guid>
+      <guid>/2020/07/22/podcast-art-of-experience-design.html</guid>
       <description>Listen On: Spotify, Anchor.fm, Apple, Google Podcasts
  Description In this first episode of Expertease, we have a light-hearted chat with Aditya Karle, Head of Design at ThoughtWorks India, to deconstruct the art of Experience Design (XD).
   Aditya Karle   1:10: We talk about his journey to becoming a Designer and getting involved in Software Design, discuss differences between UI design, UX and XD.
@@ -22,20 +22,20 @@
     
     <item>
       <title>I Know That I Know Nothing</title>
-      <link>/2018/05/12/i-know-nothing-socrates-paradox.html/</link>
+      <link>/2018/05/12/i-know-nothing-socrates-paradox.html</link>
       <pubDate>Sat, 12 May 2018 02:13:50 +0000</pubDate>
       
-      <guid>/2018/05/12/i-know-nothing-socrates-paradox.html/</guid>
+      <guid>/2018/05/12/i-know-nothing-socrates-paradox.html</guid>
       <description>In this blog I introduce a model for helping us articulate unknowns in our knowledge and in projects.
   Beach side in Colombo, Sri Lanka   Introduction to the Model Some months ago, while attending a ThoughtWorks Leadership training program, I encountered a very fascinating awareness model (** It’s inspired from the Johari Window model. See notes at the end of the blog). I was captivated by its implications.</description>
     </item>
     
     <item>
       <title>Are You Telling A Story?</title>
-      <link>/2018/03/31/art-of-story-telling.html/</link>
+      <link>/2018/03/31/art-of-story-telling.html</link>
       <pubDate>Sat, 31 Mar 2018 02:13:50 +0000</pubDate>
       
-      <guid>/2018/03/31/art-of-story-telling.html/</guid>
+      <guid>/2018/03/31/art-of-story-telling.html</guid>
       <description>My Martin Backpaker Guitar   Student: I am giving my first talk in 6 weeks.
 Teacher: Excellent.
 Student: When would you call a presentation a success?
@@ -48,49 +48,49 @@ Teacher: Imagine this. You are sitting for lunch with your team, and you suddenl
     
     <item>
       <title>12 Things I Learnt While Teaching Application Security</title>
-      <link>/2017/04/12/app-security-learning.html/</link>
+      <link>/2017/04/12/app-security-learning.html</link>
       <pubDate>Wed, 12 Apr 2017 02:13:50 +0000</pubDate>
       
-      <guid>/2017/04/12/app-security-learning.html/</guid>
+      <guid>/2017/04/12/app-security-learning.html</guid>
       <description>Turkey (Istanbul)   Introduction ThoughtWorks runs an Application Security 101 training for people not very familiar with common security topics. The training curriculum covers topics like Threat Modelling, Same Origin Policy, CSRF, Secret Management, Library Vulnerabilities, STRIDE among many others.
 I was a trainer for one of the recent batches in ThoughtWorks Pune, and in researching some of these topics, I came across many interesting links, videos and information.</description>
     </item>
     
     <item>
       <title>Understanding Open Source Software</title>
-      <link>/2017/03/12/open-source-explained.html/</link>
+      <link>/2017/03/12/open-source-explained.html</link>
       <pubDate>Sun, 12 Mar 2017 02:13:50 +0000</pubDate>
       
-      <guid>/2017/03/12/open-source-explained.html/</guid>
+      <guid>/2017/03/12/open-source-explained.html</guid>
       <description>My acoustic guitar - Greg Bennett   I have been contributing to Open Source Software (OSS) for over 3 years now, at ThoughtWorks. Many people seem to have some misconceptions about OSS, or don’t fully realise the implications and impact of OSS. In this blog, I have shared a few of my learnings and thoughts on this topic. If you are technologist – who has some familiarity with OSS, then it’s likely that this article will be helpful.</description>
     </item>
     
     <item>
       <title>Mars Rover Problem in Scala</title>
-      <link>/2016/04/24/mars-rover-problem-in-scala.html/</link>
+      <link>/2016/04/24/mars-rover-problem-in-scala.html</link>
       <pubDate>Sun, 24 Apr 2016 02:13:50 +0000</pubDate>
       
-      <guid>/2016/04/24/mars-rover-problem-in-scala.html/</guid>
+      <guid>/2016/04/24/mars-rover-problem-in-scala.html</guid>
       <description>Priyank Gupta, a respected ex-ThoughtWorker from the Pune office, wrote an excellent blog series in 2014 titled: Decoding ThoughtWorks Coding Problems.
 In this blog he explains what constitutes good code &amp;amp; design, using the now decommissioned Mars Rover problem as an example. His code is in Java. I decided to showcase the same design in Scala, using only &amp;ldquo;the good parts&amp;rdquo; of Scala, with an aim of keeping the solution easy to understand, and enhance.</description>
     </item>
     
     <item>
       <title>Recommended Reading for Lateral Dev Hires at ThoughtWorks</title>
-      <link>/2012/07/29/recommended-reading-for-devs-thoughtworks.html/</link>
+      <link>/2012/07/29/recommended-reading-for-devs-thoughtworks.html</link>
       <pubDate>Sun, 29 Jul 2012 02:13:50 +0000</pubDate>
       
-      <guid>/2012/07/29/recommended-reading-for-devs-thoughtworks.html/</guid>
+      <guid>/2012/07/29/recommended-reading-for-devs-thoughtworks.html</guid>
       <description>ThoughtWorks Tech Radar - Times Square   Quite often experienced folks joining ThoughtWorks have a common set of questions: What should I read to prepare myself for ThoughtWorks? What kind of technologies does ThoughtWorks work on? Will I go on a Ruby or Java or Mobile project?
 I doubt there is any good and precise answer to these questions. But, there certainly are some practices that I feel our in the DNA of ThoughtWorks.</description>
     </item>
     
     <item>
       <title>8 months at ThoughtWorks Pune</title>
-      <link>/2012/02/25/eight-months-at-tw-pune.html/</link>
+      <link>/2012/02/25/eight-months-at-tw-pune.html</link>
       <pubDate>Sat, 25 Feb 2012 02:13:50 +0000</pubDate>
       
-      <guid>/2012/02/25/eight-months-at-tw-pune.html/</guid>
+      <guid>/2012/02/25/eight-months-at-tw-pune.html</guid>
       <description>Near the Norbulingka Institute, Dharamshala, India   I joined ThoughtWorks, Pune in June 2011. 8 months ago. Previously I had worked with Persistent Systems, IBM Software Labs and Performix (a start-up). I would like to pen down my ThoughtWorks journey so far. Correction. Incredible journey.
 For sake of readability, let&amp;rsquo;s list down the things I feel are awesome and different about ThoughtWorks, and why I catch myself wondering why the hell did I not apply to ThoughtWorks earlier.</description>
     </item>
