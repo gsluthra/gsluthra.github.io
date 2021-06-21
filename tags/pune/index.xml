@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>pune on life-lessons.in</title>
-    <link>/tags/pune.html</link>
+    <link>/tags/pune/</link>
     <description>Recent content in pune on life-lessons.in</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,10 +10,10 @@
     <lastBuildDate>Sat, 25 Feb 2012 02:13:50 +0000</lastBuildDate><atom:link href="/tags/pune/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>8 months at ThoughtWorks Pune</title>
-      <link>/2012/02/25/eight-months-at-tw-pune.html</link>
+      <link>/2012/02/25/eight-months-at-tw-pune.html/</link>
       <pubDate>Sat, 25 Feb 2012 02:13:50 +0000</pubDate>
       
-      <guid>/2012/02/25/eight-months-at-tw-pune.html</guid>
+      <guid>/2012/02/25/eight-months-at-tw-pune.html/</guid>
       <description>Near the Norbulingka Institute, Dharamshala, India   I joined ThoughtWorks, Pune in June 2011. 8 months ago. Previously I had worked with Persistent Systems, IBM Software Labs and Performix (a start-up). I would like to pen down my ThoughtWorks journey so far. Correction. Incredible journey.
 For sake of readability, let&amp;rsquo;s list down the things I feel are awesome and different about ThoughtWorks, and why I catch myself wondering why the hell did I not apply to ThoughtWorks earlier.</description>
     </item>

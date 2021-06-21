@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>adventure on life-lessons.in</title>
-    <link>/tags/adventure.html</link>
+    <link>/tags/adventure/</link>
     <description>Recent content in adventure on life-lessons.in</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,10 +10,10 @@
     <lastBuildDate>Mon, 30 Dec 2019 02:13:50 +0000</lastBuildDate><atom:link href="/tags/adventure/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>10 reasons for buying the Ford EcoSport Petrol (Automatic) - Review</title>
-      <link>/2019/12/30/ford-ecosport-automatic.html</link>
+      <link>/2019/12/30/ford-ecosport-automatic.html/</link>
       <pubDate>Mon, 30 Dec 2019 02:13:50 +0000</pubDate>
       
-      <guid>/2019/12/30/ford-ecosport-automatic.html</guid>
+      <guid>/2019/12/30/ford-ecosport-automatic.html/</guid>
       <description>I spent a few months researching automatic petrol vehicles in India, before finally settling on the Ford EcoSport. Read on to find out why.
   Ford EcoSport   Disclaimer: Car specifications and quality are always changing. Please contact respective brands and companies for current specifications. This blog is based on my research to purchase a good petrol automatic vehicle for my needs, and I do not take any liability on the accuracy of the information mentioned here.</description>
     </item>

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>opensource on life-lessons.in</title>
-    <link>/tags/opensource.html</link>
+    <link>/tags/opensource/</link>
     <description>Recent content in opensource on life-lessons.in</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,20 +10,20 @@
     <lastBuildDate>Thu, 25 Feb 2021 02:13:50 +0000</lastBuildDate><atom:link href="/tags/opensource/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bahmni - Open Source EMR with 1 Million Lines of Code</title>
-      <link>/2021/02/25/30-bahmni-1million-loc.html</link>
+      <link>/2021/02/25/30-bahmni-1million-loc.html/</link>
       <pubDate>Thu, 25 Feb 2021 02:13:50 +0000</pubDate>
       
-      <guid>/2021/02/25/30-bahmni-1million-loc.html</guid>
+      <guid>/2021/02/25/30-bahmni-1million-loc.html/</guid>
       <description>Image courtsey: Friends without borders   Bahmni Codebase - Moving out of AngularJS Bahmni, an open source hospital management system and EMR has over 1 Million lines of code (LoC)! Out of that over 164,000 LoC are in AngularJS (Angular 1.x). AngularJS is going to be end-of-life in Dec-2021, with no likely SLAs around fixes after Dec-2021.
 In this article, I would like to shed some light into what parts of Bahmni depend on AngularJS, what parts are already in React; and suggest some steps forward to remove dependence on AngularJS.</description>
     </item>
     
     <item>
       <title>Understanding Open Source Software</title>
-      <link>/2017/03/12/open-source-explained.html</link>
+      <link>/2017/03/12/open-source-explained.html/</link>
       <pubDate>Sun, 12 Mar 2017 02:13:50 +0000</pubDate>
       
-      <guid>/2017/03/12/open-source-explained.html</guid>
+      <guid>/2017/03/12/open-source-explained.html/</guid>
       <description>My acoustic guitar - Greg Bennett   I have been contributing to Open Source Software (OSS) for over 3 years now, at ThoughtWorks. Many people seem to have some misconceptions about OSS, or don’t fully realise the implications and impact of OSS. In this blog, I have shared a few of my learnings and thoughts on this topic. If you are technologist – who has some familiarity with OSS, then it’s likely that this article will be helpful.</description>
     </item>
     

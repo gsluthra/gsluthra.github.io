@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>design on life-lessons.in</title>
-    <link>/tags/design.html</link>
+    <link>/tags/design/</link>
     <description>Recent content in design on life-lessons.in</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,29 +10,29 @@
     <lastBuildDate>Sat, 19 Jun 2021 02:13:50 +0000</lastBuildDate><atom:link href="/tags/design/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Indian Food Recipes App built with GlideApps [NoCode]</title>
-      <link>/2021/06/19/29-indian-food-recipes-app-nocode.html</link>
+      <link>/2021/06/19/29-indian-food-recipes-app-nocode.html/</link>
       <pubDate>Sat, 19 Jun 2021 02:13:50 +0000</pubDate>
       
-      <guid>/2021/06/19/29-indian-food-recipes-app-nocode.html</guid>
+      <guid>/2021/06/19/29-indian-food-recipes-app-nocode.html/</guid>
       <description>Free App with over 100&amp;#43; Indian recipes   Food Recipes App - NoCode My brother (Simarpreet), who is a home-chef, wanted to create a mobile app with Indian food recipes (mostly as made in Punjabi homes). The idea being that one has an app in their pocket that can be pulled out while doing grocery shopping, or standing in the kitchen, to quickly see simple home made recipes &amp;amp; ingredients.</description>
     </item>
     
     <item>
       <title>Bahmni - Open Source EMR with 1 Million Lines of Code</title>
-      <link>/2021/02/25/30-bahmni-1million-loc.html</link>
+      <link>/2021/02/25/30-bahmni-1million-loc.html/</link>
       <pubDate>Thu, 25 Feb 2021 02:13:50 +0000</pubDate>
       
-      <guid>/2021/02/25/30-bahmni-1million-loc.html</guid>
+      <guid>/2021/02/25/30-bahmni-1million-loc.html/</guid>
       <description>Image courtsey: Friends without borders   Bahmni Codebase - Moving out of AngularJS Bahmni, an open source hospital management system and EMR has over 1 Million lines of code (LoC)! Out of that over 164,000 LoC are in AngularJS (Angular 1.x). AngularJS is going to be end-of-life in Dec-2021, with no likely SLAs around fixes after Dec-2021.
 In this article, I would like to shed some light into what parts of Bahmni depend on AngularJS, what parts are already in React; and suggest some steps forward to remove dependence on AngularJS.</description>
     </item>
     
     <item>
       <title>Art of Experience Design with Aditya Karle (Expertease Podcast #1)</title>
-      <link>/2020/07/22/podcast-art-of-experience-design.html</link>
+      <link>/2020/07/22/podcast-art-of-experience-design.html/</link>
       <pubDate>Wed, 22 Jul 2020 02:13:50 +0000</pubDate>
       
-      <guid>/2020/07/22/podcast-art-of-experience-design.html</guid>
+      <guid>/2020/07/22/podcast-art-of-experience-design.html/</guid>
       <description>Listen On: Spotify, Anchor.fm, Apple, Google Podcasts
  Description In this first episode of Expertease, we have a light-hearted chat with Aditya Karle, Head of Design at ThoughtWorks India, to deconstruct the art of Experience Design (XD).
   Aditya Karle   1:10: We talk about his journey to becoming a Designer and getting involved in Software Design, discuss differences between UI design, UX and XD.
