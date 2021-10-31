@@ -7,7 +7,70 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Gurpreet Luthra 2021</copyright>
-    <lastBuildDate>Sat, 19 Jun 2021 02:13:50 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 31 Oct 2021 02:13:50 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>architecture</title>
+      <link>/tags/architecture/</link>
+      <pubDate>Sun, 31 Oct 2021 02:13:50 +0000</pubDate>
+      
+      <guid>/tags/architecture/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>career</title>
+      <link>/tags/career/</link>
+      <pubDate>Sun, 31 Oct 2021 02:13:50 +0000</pubDate>
+      
+      <guid>/tags/career/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>india</title>
+      <link>/tags/india/</link>
+      <pubDate>Sun, 31 Oct 2021 02:13:50 +0000</pubDate>
+      
+      <guid>/tags/india/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>podcast</title>
+      <link>/tags/podcast/</link>
+      <pubDate>Sun, 31 Oct 2021 02:13:50 +0000</pubDate>
+      
+      <guid>/tags/podcast/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>scala</title>
+      <link>/tags/scala/</link>
+      <pubDate>Sun, 31 Oct 2021 02:13:50 +0000</pubDate>
+      
+      <guid>/tags/scala/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>technical</title>
+      <link>/tags/technical/</link>
+      <pubDate>Sun, 31 Oct 2021 02:13:50 +0000</pubDate>
+      
+      <guid>/tags/technical/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>thoughtworks</title>
+      <link>/tags/thoughtworks/</link>
+      <pubDate>Sun, 31 Oct 2021 02:13:50 +0000</pubDate>
+      
+      <guid>/tags/thoughtworks/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>design</title>
       <link>/tags/design/</link>
@@ -27,29 +90,11 @@
     </item>
     
     <item>
-      <title>india</title>
-      <link>/tags/india/</link>
-      <pubDate>Sat, 19 Jun 2021 02:13:50 +0000</pubDate>
-      
-      <guid>/tags/india/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>programming</title>
       <link>/tags/programming/</link>
       <pubDate>Sat, 19 Jun 2021 02:13:50 +0000</pubDate>
       
       <guid>/tags/programming/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>technical</title>
-      <link>/tags/technical/</link>
-      <pubDate>Sat, 19 Jun 2021 02:13:50 +0000</pubDate>
-      
-      <guid>/tags/technical/</guid>
       <description></description>
     </item>
     
@@ -81,15 +126,6 @@
     </item>
     
     <item>
-      <title>career</title>
-      <link>/tags/career/</link>
-      <pubDate>Sun, 29 Nov 2020 02:13:50 +0000</pubDate>
-      
-      <guid>/tags/career/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>culture</title>
       <link>/tags/culture/</link>
       <pubDate>Sun, 29 Nov 2020 02:13:50 +0000</pubDate>
@@ -99,29 +135,11 @@
     </item>
     
     <item>
-      <title>podcast</title>
-      <link>/tags/podcast/</link>
-      <pubDate>Sun, 29 Nov 2020 02:13:50 +0000</pubDate>
-      
-      <guid>/tags/podcast/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>entrepreneur</title>
       <link>/tags/entrepreneur/</link>
       <pubDate>Sat, 01 Aug 2020 02:13:50 +0000</pubDate>
       
       <guid>/tags/entrepreneur/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>thoughtworks</title>
-      <link>/tags/thoughtworks/</link>
-      <pubDate>Wed, 22 Jul 2020 02:13:50 +0000</pubDate>
-      
-      <guid>/tags/thoughtworks/</guid>
       <description></description>
     </item>
     
@@ -167,15 +185,6 @@
       <pubDate>Sat, 12 May 2018 02:13:50 +0000</pubDate>
       
       <guid>/tags/self-help/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>architecture</title>
-      <link>/tags/architecture/</link>
-      <pubDate>Sat, 31 Mar 2018 02:13:50 +0000</pubDate>
-      
-      <guid>/tags/architecture/</guid>
       <description></description>
     </item>
     
