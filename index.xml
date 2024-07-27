@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© Gurpreet Luthra 2021</copyright>
-    <lastBuildDate>Sun, 31 Oct 2021 02:13:50 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jul 2024 01:01:50 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gurpreet Luthra</title>
+      <link>/page/about/</link>
+      <pubDate>Mon, 01 Jul 2024 01:01:50 +0000</pubDate>
+      <guid>/page/about/</guid>
+      <description>Product Development | Product Strategy | High Performance Engineering Teams| Open Source Evangelist | Social Impact | Responsible Tech | Ex-Thoughtworks | 23+ years of Software Experience&#xA;As a Consultant, I focus on helping organizations build impactful products and create a culture of excellence through modern Product Development &amp;amp; Engineering practices.&#xA;For over 5 years, I have been a Product &amp;amp; Community Leader for Open Source Bahmni hospital software which has been adopted in over 800+ facilities worldwide.</description>
+    </item>
     <item>
       <title>Mushtaq: Doctor to Coding Architect (Expertease Podcast #5)</title>
       <link>/2021/10/31/31-podcast-expertease-mushtaq-doctor-to-architect/</link>
@@ -29,13 +36,6 @@
       <pubDate>Thu, 25 Feb 2021 02:13:50 +0000</pubDate>
       <guid>/2021/02/25/30-bahmni-1million-loc/</guid>
       <description>Image courtsey: Friends without borders Bahmni Codebase - Moving out of AngularJS Bahmni, an open source hospital management system and EMR has over 1 Million lines of code (LoC)! Out of that over 164,000 LoC are in AngularJS (Angular 1.x). AngularJS is going to be end-of-life in Dec-2021, with no likely SLAs around fixes after Dec-2021.&#xA;In this article, I would like to shed some light into what parts of Bahmni depend on AngularJS, what parts are already in React; and suggest some steps forward to remove dependence on AngularJS.</description>
-    </item>
-    <item>
-      <title>Gurpreet Luthra</title>
-      <link>/page/about/</link>
-      <pubDate>Fri, 01 Jan 2021 01:01:50 +0000</pubDate>
-      <guid>/page/about/</guid>
-      <description>I am currenty focussing my energies towards Social Impact, Open Source, Public Health, Bahmni and related areas of Tech4Good, with the hope that all I do helps make the world a better place. I work at ThoughtWorks as part of the Social Impact &amp;amp; India Public Health Team.&#xA;In 2 years at tavisca, Pune (2018-2020), I played the role of the Head of Product Practice, where I focussed towards instilling a culture of excellence in Product design and development.</description>
     </item>
     <item>
       <title>Insights on Career, Mastery and Craftsmanship (Expertease Podcast #4)</title>
