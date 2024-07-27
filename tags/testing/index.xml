@@ -1,23 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>testing on life-lessons.in</title>
+    <title>Testing on life-lessons.in</title>
     <link>/tags/testing/</link>
-    <description>Recent content in testing on life-lessons.in</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Testing on life-lessons.in</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© Gurpreet Luthra 2021</copyright>
-    <lastBuildDate>Fri, 10 Jan 2014 02:13:50 +0000</lastBuildDate><atom:link href="/tags/testing/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 10 Jan 2014 02:13:50 +0000</lastBuildDate>
+    <atom:link href="/tags/testing/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Using Capybara and Rspec assertions in Page Objects</title>
       <link>/2014/01/10/using-capybara-and-rspec/</link>
       <pubDate>Fri, 10 Jan 2014 02:13:50 +0000</pubDate>
-      
       <guid>/2014/01/10/using-capybara-and-rspec/</guid>
-      <description>Near the Norbulingka Institute, Dharamshala, India   On my Rails project, I am using RSpec and Capybara to write functional tests.
-I did not want to specify any HTML elements in my Capybara feature files, since that makes the feature files brittle to HTML / CSS changes. It also violates the DRY principle and basic code hygiene.
-Read the full blog on my older blog site here: Using Capybara and Rspec assertions in Page Objects</description>
+      <description>Near the Norbulingka Institute, Dharamshala, India On my Rails project, I am using RSpec and Capybara to write functional tests.&#xA;I did not want to specify any HTML elements in my Capybara feature files, since that makes the feature files brittle to HTML / CSS changes. It also violates the DRY principle and basic code hygiene.&#xA;Read the full blog on my older blog site here: Using Capybara and Rspec assertions in Page Objects</description>
     </item>
-    
   </channel>
 </rss>

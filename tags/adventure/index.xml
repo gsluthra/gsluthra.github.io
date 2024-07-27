@@ -1,22 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>adventure on life-lessons.in</title>
+    <title>Adventure on life-lessons.in</title>
     <link>/tags/adventure/</link>
-    <description>Recent content in adventure on life-lessons.in</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Adventure on life-lessons.in</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© Gurpreet Luthra 2021</copyright>
-    <lastBuildDate>Mon, 30 Dec 2019 02:13:50 +0000</lastBuildDate><atom:link href="/tags/adventure/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 30 Dec 2019 02:13:50 +0000</lastBuildDate>
+    <atom:link href="/tags/adventure/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>10 reasons for buying the Ford EcoSport Petrol (Automatic) - Review</title>
       <link>/2019/12/30/ford-ecosport-automatic/</link>
       <pubDate>Mon, 30 Dec 2019 02:13:50 +0000</pubDate>
-      
       <guid>/2019/12/30/ford-ecosport-automatic/</guid>
-      <description>I spent a few months researching automatic petrol vehicles in India, before finally settling on the Ford EcoSport. Read on to find out why.
-  Ford EcoSport   UPDATE: 9-Sep-2021: Today Ford announced a shutdown of most of its car manufacturing facilities in India. Read the annoucement here. I NO LONGER RECOMMEND CONSIDERING BUYING A FORD ECOSPORT CAR. This blog post is still useful for historical perspective and might give you an idea on how to evaluate a Car for purchase.</description>
+      <description>I spent a few months researching automatic petrol vehicles in India, before finally settling on the Ford EcoSport. Read on to find out why.&#xA;Ford EcoSport UPDATE: 9-Sep-2021: Today Ford announced a shutdown of most of its car manufacturing facilities in India. Read the annoucement here. I NO LONGER RECOMMEND CONSIDERING BUYING A FORD ECOSPORT CAR. This blog post is still useful for historical perspective and might give you an idea on how to evaluate a Car for purchase.</description>
     </item>
-    
   </channel>
 </rss>

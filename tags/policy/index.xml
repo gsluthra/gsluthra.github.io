@@ -1,22 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>policy on life-lessons.in</title>
+    <title>Policy on life-lessons.in</title>
     <link>/tags/policy/</link>
-    <description>Recent content in policy on life-lessons.in</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Policy on life-lessons.in</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© Gurpreet Luthra 2021</copyright>
-    <lastBuildDate>Thu, 03 Mar 2016 02:13:50 +0000</lastBuildDate><atom:link href="/tags/policy/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 03 Mar 2016 02:13:50 +0000</lastBuildDate>
+    <atom:link href="/tags/policy/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>When Money gets in the way of Life</title>
       <link>/2016/03/03/money-in-way-of-life/</link>
       <pubDate>Thu, 03 Mar 2016 02:13:50 +0000</pubDate>
-      
       <guid>/2016/03/03/money-in-way-of-life/</guid>
-      <description>Credits: Singapore Art Museum   A dialog between a Human and a Doctor goes like this in most parts of the world&amp;hellip;
-I wrote this blog on Bahmni Community Blogs on Medium. Read the full blog here: When Money gets in the way of Life - Bahmni Blogs</description>
+      <description>Credits: Singapore Art Museum A dialog between a Human and a Doctor goes like this in most parts of the world&amp;hellip;&#xA;I wrote this blog on Bahmni Community Blogs on Medium. Read the full blog here: When Money gets in the way of Life - Bahmni Blogs</description>
     </item>
-    
   </channel>
 </rss>

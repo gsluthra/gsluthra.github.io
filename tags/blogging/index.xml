@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>blogging on life-lessons.in</title>
+    <title>Blogging on life-lessons.in</title>
     <link>/tags/blogging/</link>
-    <description>Recent content in blogging on life-lessons.in</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Blogging on life-lessons.in</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© Gurpreet Luthra 2021</copyright>
-    <lastBuildDate>Sun, 01 Nov 2015 02:13:50 +0000</lastBuildDate><atom:link href="/tags/blogging/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 01 Nov 2015 02:13:50 +0000</lastBuildDate>
+    <atom:link href="/tags/blogging/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>I moved to Jekyll</title>
       <link>/2015/11/01/i-moved-to-jekyll/</link>
       <pubDate>Sun, 01 Nov 2015 02:13:50 +0000</pubDate>
-      
       <guid>/2015/11/01/i-moved-to-jekyll/</guid>
-      <description>Tibetan artists in Norbulingka Institute, Dharamshala, India   My blog on Google Blogspot techie-notebook.blogspot.com hit the 100,000 views mark. I am super excited. But, I didn&amp;rsquo;t really like the way my blog looked. I wanted it to be simple. I wanted it to be elegant. I wanted to render code, like it should. I wanted the programmer in me, to be in control. So I moved to Jekyll.</description>
+      <description>Tibetan artists in Norbulingka Institute, Dharamshala, India My blog on Google Blogspot techie-notebook.blogspot.com hit the 100,000 views mark. I am super excited. But, I didn&amp;rsquo;t really like the way my blog looked. I wanted it to be simple. I wanted it to be elegant. I wanted to render code, like it should. I wanted the programmer in me, to be in control. So I moved to Jekyll.&#xA;Moving forward, I will write my lessons, and thoughts here; and life-lessons.</description>
     </item>
-    
   </channel>
 </rss>

@@ -1,108 +1,76 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>architecture on life-lessons.in</title>
+    <title>Architecture on life-lessons.in</title>
     <link>/tags/architecture/</link>
-    <description>Recent content in architecture on life-lessons.in</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Architecture on life-lessons.in</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© Gurpreet Luthra 2021</copyright>
-    <lastBuildDate>Sun, 31 Oct 2021 02:13:50 +0000</lastBuildDate><atom:link href="/tags/architecture/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 31 Oct 2021 02:13:50 +0000</lastBuildDate>
+    <atom:link href="/tags/architecture/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mushtaq: Doctor to Coding Architect (Expertease Podcast #5)</title>
       <link>/2021/10/31/31-podcast-expertease-mushtaq-doctor-to-architect/</link>
       <pubDate>Sun, 31 Oct 2021 02:13:50 +0000</pubDate>
-      
       <guid>/2021/10/31/31-podcast-expertease-mushtaq-doctor-to-architect/</guid>
-      <description>Listen On: Spotify, Anchor.fm, Apple, Google Podcasts
- Mushtaq Ahmed: From Doctor to Coding Architect - Episode #5 In this episode on Expertease, we have an honest and insightful conversation with a dear friend and colleague Mushtaq Ahmed, Principal Consultant at Thoughtworks Pune. We cover topics ranging from his interests, his journey from studying to be a Doctor, then becoming a BA, then a Developer and now a Senior Technical Leader; and his passion for programming.</description>
+      <description>Listen On: Spotify, Anchor.fm, Apple, Google Podcasts&#xA;Mushtaq Ahmed: From Doctor to Coding Architect - Episode #5 In this episode on Expertease, we have an honest and insightful conversation with a dear friend and colleague Mushtaq Ahmed, Principal Consultant at Thoughtworks Pune. We cover topics ranging from his interests, his journey from studying to be a Doctor, then becoming a BA, then a Developer and now a Senior Technical Leader; and his passion for programming.</description>
     </item>
-    
     <item>
       <title>Are You Telling A Story?</title>
       <link>/2018/03/31/art-of-story-telling/</link>
       <pubDate>Sat, 31 Mar 2018 02:13:50 +0000</pubDate>
-      
       <guid>/2018/03/31/art-of-story-telling/</guid>
-      <description>My Martin Backpaker Guitar   Student: I am giving my first talk in 6 weeks.
-Teacher: Excellent.
-Student: When would you call a presentation a success?
-Teacher: The audience vividly remembers it 3 days after you presented it.
-Student: How can I make this happen?
-Teacher: By telling a compelling story, instead of stating the facts.
-Student: Why is a story important?
-Teacher: Imagine this. You are sitting for lunch with your team, and you suddenly remember that one of your colleagues attended the XP conference yesterday.</description>
+      <description>My Martin Backpaker Guitar Student: I am giving my first talk in 6 weeks.&#xA;Teacher: Excellent.&#xA;Student: When would you call a presentation a success?&#xA;Teacher: The audience vividly remembers it 3 days after you presented it.&#xA;Student: How can I make this happen?&#xA;Teacher: By telling a compelling story, instead of stating the facts.&#xA;Student: Why is a story important?&#xA;Teacher: Imagine this. You are sitting for lunch with your team, and you suddenly remember that one of your colleagues attended the XP conference yesterday.</description>
     </item>
-    
     <item>
       <title>12 Things I Learnt While Teaching Application Security</title>
       <link>/2017/04/12/app-security-learning/</link>
       <pubDate>Wed, 12 Apr 2017 02:13:50 +0000</pubDate>
-      
       <guid>/2017/04/12/app-security-learning/</guid>
-      <description>Turkey (Istanbul)   Introduction ThoughtWorks runs an Application Security 101 training for people not very familiar with common security topics. The training curriculum covers topics like Threat Modelling, Same Origin Policy, CSRF, Secret Management, Library Vulnerabilities, STRIDE among many others.
-I was a trainer for one of the recent batches in ThoughtWorks Pune, and in researching some of these topics, I came across many interesting links, videos and information.</description>
+      <description>Turkey (Istanbul) Introduction ThoughtWorks runs an Application Security 101 training for people not very familiar with common security topics. The training curriculum covers topics like Threat Modelling, Same Origin Policy, CSRF, Secret Management, Library Vulnerabilities, STRIDE among many others.&#xA;I was a trainer for one of the recent batches in ThoughtWorks Pune, and in researching some of these topics, I came across many interesting links, videos and information. I decided to write a blog outlining them as a reference for my &amp;lsquo;students&amp;rsquo;.</description>
     </item>
-    
     <item>
       <title>Installing ThoughtWorks GoCD Server on a Digital Ocean Droplet</title>
       <link>/2015/08/16/gocd-on-digital-ocean/</link>
       <pubDate>Sun, 16 Aug 2015 02:13:50 +0000</pubDate>
-      
       <guid>/2015/08/16/gocd-on-digital-ocean/</guid>
-      <description>Near Chinatown street in Singapore   Today I experimented with installing ThoughtWorks GoCD Server and agent on a Digital Ocean CentOS droplet. Note that you will need to ensure that you setup swap space on your digital ocean droplet, before proceeding with installing GoCD.
-Read the steps here on my old blog: Installing ThoughtWorks GoCD Server and Agent on Digital Ocean Droplet.</description>
+      <description>Near Chinatown street in Singapore Today I experimented with installing ThoughtWorks GoCD Server and agent on a Digital Ocean CentOS droplet. Note that you will need to ensure that you setup swap space on your digital ocean droplet, before proceeding with installing GoCD.&#xA;Read the steps here on my old blog: Installing ThoughtWorks GoCD Server and Agent on Digital Ocean Droplet.</description>
     </item>
-    
     <item>
       <title>Building Applications for Multiple Countries and Languages</title>
       <link>/2015/02/14/building-apps-for-multiple-countries/</link>
       <pubDate>Sat, 14 Feb 2015 02:13:50 +0000</pubDate>
-      
       <guid>/2015/02/14/building-apps-for-multiple-countries/</guid>
-      <description>Near Chinatown street in Singapore   I have worked on a couple of projects where we had to make the application multi-country savvy (also called internationalisation or i18n), and I think it would be good to pen down various areas we considered, and the tools we used. Note that, these practices are from the perspective of a Java/Scala project, but can easily be adapted to other platforms too &amp;ndash; since the basic requirements are similar.</description>
+      <description>Near Chinatown street in Singapore I have worked on a couple of projects where we had to make the application multi-country savvy (also called internationalisation or i18n), and I think it would be good to pen down various areas we considered, and the tools we used. Note that, these practices are from the perspective of a Java/Scala project, but can easily be adapted to other platforms too &amp;ndash; since the basic requirements are similar.</description>
     </item>
-    
     <item>
       <title>Difference between sorted, sortWith and sortBy in Scala</title>
       <link>/2014/07/26/scala-diff-between-sort-methods/</link>
       <pubDate>Sat, 26 Jul 2014 02:13:50 +0000</pubDate>
-      
       <guid>/2014/07/26/scala-diff-between-sort-methods/</guid>
-      <description>Near the Norbulingka Institute, Dharamshala, India   Scala collections provide you three options for sorting: sorted(), sortWith() and sortBy(). Here is a simplified explanation:
-sorted Will sort the list using the natural ordering (based on the implicit Ordering passed)
-sortBy (an attribute) Sort by a given attribute using the attribute&amp;rsquo;s type. e.g. given a list of Person objects, if you want to sort them in ascending order of their age (which is an Int), you could simply say:</description>
+      <description>Near the Norbulingka Institute, Dharamshala, India Scala collections provide you three options for sorting: sorted(), sortWith() and sortBy(). Here is a simplified explanation:&#xA;sorted Will sort the list using the natural ordering (based on the implicit Ordering passed)&#xA;sortBy (an attribute) Sort by a given attribute using the attribute&amp;rsquo;s type. e.g. given a list of Person objects, if you want to sort them in ascending order of their age (which is an Int), you could simply say:</description>
     </item>
-    
     <item>
       <title>Vagrant: Setup development environments FAST!</title>
       <link>/2012/12/16/vagrant-an-interesting-approach-dev/</link>
       <pubDate>Sun, 16 Dec 2012 02:13:50 +0000</pubDate>
-      
       <guid>/2012/12/16/vagrant-an-interesting-approach-dev/</guid>
-      <description>Near the Norbulingka Institute, Dharamshala, India   If you have never heard of Vagrant, or are interested in understanding what is Vagrant, then this blog should be useful to you.
-Setting up a development environment for many projects now-a-days isn&amp;rsquo;t a matter of simply running a script or downloading a piece of software. On most projects, the average setup time to get all up and running is usually a day, and sometimes more.</description>
+      <description>Near the Norbulingka Institute, Dharamshala, India If you have never heard of Vagrant, or are interested in understanding what is Vagrant, then this blog should be useful to you.&#xA;Setting up a development environment for many projects now-a-days isn&amp;rsquo;t a matter of simply running a script or downloading a piece of software. On most projects, the average setup time to get all up and running is usually a day, and sometimes more.</description>
     </item>
-    
     <item>
       <title>Recommended Reading for Lateral Dev Hires at ThoughtWorks</title>
       <link>/2012/07/29/recommended-reading-for-devs-thoughtworks/</link>
       <pubDate>Sun, 29 Jul 2012 02:13:50 +0000</pubDate>
-      
       <guid>/2012/07/29/recommended-reading-for-devs-thoughtworks/</guid>
-      <description>ThoughtWorks Tech Radar - Times Square   Quite often experienced folks joining ThoughtWorks have a common set of questions: What should I read to prepare myself for ThoughtWorks? What kind of technologies does ThoughtWorks work on? Will I go on a Ruby or Java or Mobile project?
-I doubt there is any good and precise answer to these questions. But, there certainly are some practices that I feel our in the DNA of ThoughtWorks.</description>
+      <description>ThoughtWorks Tech Radar - Times Square Quite often experienced folks joining ThoughtWorks have a common set of questions: What should I read to prepare myself for ThoughtWorks? What kind of technologies does ThoughtWorks work on? Will I go on a Ruby or Java or Mobile project?&#xA;I doubt there is any good and precise answer to these questions. But, there certainly are some practices that I feel our in the DNA of ThoughtWorks.</description>
     </item>
-    
     <item>
       <title>POKA YOKE - Applying Mistake Proofing to Software</title>
       <link>/2012/07/22/poke-yoke-mistake-proofing-software/</link>
       <pubDate>Sun, 22 Jul 2012 02:13:50 +0000</pubDate>
-      
       <guid>/2012/07/22/poke-yoke-mistake-proofing-software/</guid>
-      <description>Near the Norbulingka Institute, Dharamshala, India   Note: This has been one of my highest read blog posts ever with over 100,000 views. I am humbled. Thank you!
-For years, automobile companies have utilized &amp;ldquo;Mistake Proofing&amp;rdquo; as a technique for ensuring high quality, high speed manufacturing &amp;ndash; especially in cases of mass scale production. This is also known as Poka-Yoke (in Japanese) and was adopted and formalized as part of the Toyota Production System.</description>
+      <description>Near the Norbulingka Institute, Dharamshala, India Note: This has been one of my highest read blog posts ever with over 100,000 views. I am humbled. Thank you!&#xA;For years, automobile companies have utilized &amp;ldquo;Mistake Proofing&amp;rdquo; as a technique for ensuring high quality, high speed manufacturing &amp;ndash; especially in cases of mass scale production. This is also known as Poka-Yoke (in Japanese) and was adopted and formalized as part of the Toyota Production System.</description>
     </item>
-    
   </channel>
 </rss>

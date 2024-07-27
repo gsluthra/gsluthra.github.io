@@ -1,22 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>frontend on life-lessons.in</title>
+    <title>Frontend on life-lessons.in</title>
     <link>/tags/frontend/</link>
-    <description>Recent content in frontend on life-lessons.in</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Frontend on life-lessons.in</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© Gurpreet Luthra 2021</copyright>
-    <lastBuildDate>Thu, 25 Feb 2021 02:13:50 +0000</lastBuildDate><atom:link href="/tags/frontend/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 25 Feb 2021 02:13:50 +0000</lastBuildDate>
+    <atom:link href="/tags/frontend/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bahmni - Open Source EMR with 1 Million Lines of Code</title>
       <link>/2021/02/25/30-bahmni-1million-loc/</link>
       <pubDate>Thu, 25 Feb 2021 02:13:50 +0000</pubDate>
-      
       <guid>/2021/02/25/30-bahmni-1million-loc/</guid>
-      <description>Image courtsey: Friends without borders   Bahmni Codebase - Moving out of AngularJS Bahmni, an open source hospital management system and EMR has over 1 Million lines of code (LoC)! Out of that over 164,000 LoC are in AngularJS (Angular 1.x). AngularJS is going to be end-of-life in Dec-2021, with no likely SLAs around fixes after Dec-2021.
-In this article, I would like to shed some light into what parts of Bahmni depend on AngularJS, what parts are already in React; and suggest some steps forward to remove dependence on AngularJS.</description>
+      <description>Image courtsey: Friends without borders Bahmni Codebase - Moving out of AngularJS Bahmni, an open source hospital management system and EMR has over 1 Million lines of code (LoC)! Out of that over 164,000 LoC are in AngularJS (Angular 1.x). AngularJS is going to be end-of-life in Dec-2021, with no likely SLAs around fixes after Dec-2021.&#xA;In this article, I would like to shed some light into what parts of Bahmni depend on AngularJS, what parts are already in React; and suggest some steps forward to remove dependence on AngularJS.</description>
     </item>
-    
   </channel>
 </rss>

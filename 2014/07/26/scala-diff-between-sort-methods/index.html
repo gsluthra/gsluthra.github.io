@@ -7,7 +7,7 @@
         <meta name="description" content="Understand which sort method to use in what situation.">
         <meta name="HandheldFriendly" content="True">
         <meta name="MobileOptimized" content="320">
-        <meta name="generator" content="Hugo 0.83.1" />
+        <meta name="generator" content="Hugo 0.129.0">
         <meta name="robots" content="index,follow">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta property="og:title" content="Difference between sorted, sortWith and sortBy in Scala">
@@ -32,19 +32,13 @@
     </head>
     <body>
         
-<script type="application/javascript">
-var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
-var doNotTrack = (dnt == "1" || dnt == "yes");
-if (!doNotTrack) {
-	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-	ga('create', 'UA-69555622-1', 'auto');
-	ga('set', 'anonymizeIp', true);
-	ga('send', 'pageview');
-}
-</script>
+  
+    
+      
+    
+  
+
+
 
         <div id="wrapper">
             <header class="site-header">
@@ -144,89 +138,89 @@ if (!doNotTrack) {
 <p>Sort by a given attribute using the attribute&rsquo;s type.
 e.g. given a list of <code>Person</code> objects, if you want to sort them in ascending order of their age
 (which is an <code>Int</code>), you could simply say:</p>
-<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
-<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-scala" data-lang="scala">	personList.sortBy(<span style="font-weight:bold">_</span>.age)</code></pre></td></tr></table>
+<pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-scala" data-lang="scala"><span style="display:flex;"><span>	personList.sortBy(<span style="font-weight:bold">_</span>.age)</span></span></code></pre></td></tr></table>
 </div>
 </div>
 <h3 id="sortwith-a-function">sortWith (a function)</h3>
 <p>Takes a comparator function. Useful when you want to specify a custom sorting logic.
 e.g. if you want to sort by age descending, you could write this as:</p>
-<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
-<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-scala" data-lang="scala">	personList.sortWith{(leftE,rightE) <span style="font-weight:bold">=&gt;</span>
-	     leftE.age &gt; rightE.age
-	}</code></pre></td></tr></table>
+<pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-scala" data-lang="scala"><span style="display:flex;"><span>	personList.sortWith{(leftE,rightE) <span style="font-weight:bold">=&gt;</span>
+</span></span><span style="display:flex;"><span>	     leftE.age &gt; rightE.age
+</span></span><span style="display:flex;"><span>	}</span></span></code></pre></td></tr></table>
 </div>
 </div>
 <p>Or, more simply:</p>
-<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
-<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-scala" data-lang="scala">	personList.sortWith(<span style="font-weight:bold">_</span>.age &gt; <span style="font-weight:bold">_</span>.age)</code></pre></td></tr></table>
+<pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-scala" data-lang="scala"><span style="display:flex;"><span>	personList.sortWith(<span style="font-weight:bold">_</span>.age &gt; <span style="font-weight:bold">_</span>.age)</span></span></code></pre></td></tr></table>
 </div>
 </div>
 <h3 id="a-full-example">A full example</h3>
-<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
-<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">21
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">22
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">23
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">21
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">22
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">23
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-scala" data-lang="scala">	<span style="font-style:italic">// Sequence of numbers
-</span><span style="font-style:italic"></span>	<span style="font-weight:bold">val</span> xs <span style="font-weight:bold">=</span> <span style="font-weight:bold">Seq</span>(1, 5, 3, 4, 6, 2)
-
-	<span style="font-style:italic">// Sort using Natural ordering as defined for Integers in Scala Library
-</span><span style="font-style:italic"></span>	xs.sorted <span style="font-style:italic">//1,2,3,4,5,6
-</span><span style="font-style:italic"></span>
-	<span style="font-style:italic">// Sort &#39;with&#39; a comparator function
-</span><span style="font-style:italic"></span>	xs.sortWith(<span style="font-weight:bold">_</span>&lt;<span style="font-weight:bold">_</span>) <span style="font-style:italic">//1,2,3,4,5,6
-</span><span style="font-style:italic"></span>	xs.sortWith(<span style="font-weight:bold">_</span>&gt;<span style="font-weight:bold">_</span>) <span style="font-style:italic">//6,5,4,3,2,1
-</span><span style="font-style:italic"></span>	xs.sortWith((left,right) <span style="font-weight:bold">=&gt;</span> left &gt; right) <span style="font-style:italic">//6,5,4,3,2,1
-</span><span style="font-style:italic"></span>
-	<span style="font-style:italic">// Create a Person class
-</span><span style="font-style:italic"></span>	<span style="font-weight:bold">case</span> <span style="font-weight:bold">class</span> <span style="font-weight:bold">Person</span>(<span style="font-weight:bold">val</span> name<span style="font-weight:bold">:</span><span style="">String</span>, <span style="font-weight:bold">val</span> age<span style="font-weight:bold">:</span><span style="">Int</span>)
-
-	<span style="font-style:italic">// Define a list of Persons
-</span><span style="font-style:italic"></span>	<span style="font-weight:bold">val</span> ps <span style="font-weight:bold">=</span> <span style="font-weight:bold">Seq</span>(<span style="font-weight:bold">Person</span>(<span style="font-style:italic">&#34;John&#34;</span>, 32), <span style="font-weight:bold">Person</span>(<span style="font-style:italic">&#34;Bruce&#34;</span>, 24), <span style="font-weight:bold">Person</span>(<span style="font-style:italic">&#34;Cindy&#34;</span>, 33), <span style="font-weight:bold">Person</span>(<span style="font-style:italic">&#34;Sandra&#34;</span>, 18))
-
-	<span style="font-style:italic">// Sort People by increasing Age (natural ordering of Int will kick in)
-</span><span style="font-style:italic"></span>	ps.sortBy(<span style="font-weight:bold">_</span>.age) <span style="font-style:italic">//List(Person(Sandra,18), Person(Bruce,24), Person(John,32), Person(Cindy,33))
-</span><span style="font-style:italic"></span>
-
-	<span style="font-style:italic">// Sort People by decreasing Age, using a comparator function
-</span><span style="font-style:italic"></span>	ps.sortWith(<span style="font-weight:bold">_</span>.age &gt; <span style="font-weight:bold">_</span>.age) //<span style="font-weight:bold">List</span>(<span style="font-weight:bold">Person</span>(<span style="font-weight:bold">Cindy</span>,33), <span style="font-weight:bold">Person</span>(<span style="font-weight:bold">John</span>,32), <span style="font-weight:bold">Person</span>(<span style="font-weight:bold">Bruce</span>,24), <span style="font-weight:bold">Person</span>(<span style="font-weight:bold">Sandra</span>,18))</code></pre></td></tr></table>
+<pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-scala" data-lang="scala"><span style="display:flex;"><span>	<span style="font-style:italic">// Sequence of numbers
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic"></span>	<span style="font-weight:bold">val</span> xs <span style="font-weight:bold">=</span> <span style="font-weight:bold">Seq</span>(1, 5, 3, 4, 6, 2)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>	<span style="font-style:italic">// Sort using Natural ordering as defined for Integers in Scala Library
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic"></span>	xs.sorted <span style="font-style:italic">//1,2,3,4,5,6
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic"></span>
+</span></span><span style="display:flex;"><span>	<span style="font-style:italic">// Sort &#39;with&#39; a comparator function
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic"></span>	xs.sortWith(<span style="font-weight:bold">_</span>&lt;<span style="font-weight:bold">_</span>) <span style="font-style:italic">//1,2,3,4,5,6
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic"></span>	xs.sortWith(<span style="font-weight:bold">_</span>&gt;<span style="font-weight:bold">_</span>) <span style="font-style:italic">//6,5,4,3,2,1
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic"></span>	xs.sortWith((left,right) <span style="font-weight:bold">=&gt;</span> left &gt; right) <span style="font-style:italic">//6,5,4,3,2,1
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic"></span>
+</span></span><span style="display:flex;"><span>	<span style="font-style:italic">// Create a Person class
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic"></span>	<span style="font-weight:bold">case</span> <span style="font-weight:bold">class</span> <span style="font-weight:bold">Person</span>(<span style="font-weight:bold">val</span> name<span style="font-weight:bold">:</span><span style="">String</span>, <span style="font-weight:bold">val</span> age<span style="font-weight:bold">:</span><span style="">Int</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>	<span style="font-style:italic">// Define a list of Persons
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic"></span>	<span style="font-weight:bold">val</span> ps <span style="font-weight:bold">=</span> <span style="font-weight:bold">Seq</span>(<span style="font-weight:bold">Person</span>(<span style="font-style:italic">&#34;John&#34;</span>, 32), <span style="font-weight:bold">Person</span>(<span style="font-style:italic">&#34;Bruce&#34;</span>, 24), <span style="font-weight:bold">Person</span>(<span style="font-style:italic">&#34;Cindy&#34;</span>, 33), <span style="font-weight:bold">Person</span>(<span style="font-style:italic">&#34;Sandra&#34;</span>, 18))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>	<span style="font-style:italic">// Sort People by increasing Age (natural ordering of Int will kick in)
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic"></span>	ps.sortBy(<span style="font-weight:bold">_</span>.age) <span style="font-style:italic">//List(Person(Sandra,18), Person(Bruce,24), Person(John,32), Person(Cindy,33))
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic"></span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>	<span style="font-style:italic">// Sort People by decreasing Age, using a comparator function
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic"></span>	ps.sortWith(<span style="font-weight:bold">_</span>.age &gt; <span style="font-weight:bold">_</span>.age) //<span style="font-weight:bold">List</span>(<span style="font-weight:bold">Person</span>(<span style="font-weight:bold">Cindy</span>,33), <span style="font-weight:bold">Person</span>(<span style="font-weight:bold">John</span>,32), <span style="font-weight:bold">Person</span>(<span style="font-weight:bold">Bruce</span>,24), <span style="font-weight:bold">Person</span>(<span style="font-weight:bold">Sandra</span>,18))</span></span></code></pre></td></tr></table>
 </div>
 </div>
 
@@ -276,8 +270,8 @@ e.g. if you want to sort by age descending, you could write this as:</p>
         
     <div class="comments">
         <div id="disqus_thread"></div>
-<script type="application/javascript">
-    var disqus_config = function () {
+<script>
+    window.disqus_config = function () {
     
     
     
