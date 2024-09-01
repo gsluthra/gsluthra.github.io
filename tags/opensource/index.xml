@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© Gurpreet Luthra 2021</copyright>
-    <lastBuildDate>Thu, 25 Feb 2021 02:13:50 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 31 Aug 2024 07:30:50 +0000</lastBuildDate>
     <atom:link href="/tags/opensource/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Your documentation is also the Product</title>
+      <link>/2024/08/31/32-documentation-is-also-product/</link>
+      <pubDate>Sat, 31 Aug 2024 07:30:50 +0000</pubDate>
+      <guid>/2024/08/31/32-documentation-is-also-product/</guid>
+      <description>Your documentation is also the Product Introduction I spent over 8 years on Bahmni, an opensource EMR &amp;amp; hospital system. As part of that work, I was involved in introducing Confluence into the product in 2012. The initial focus was to introduce public-facing documentation for implementing organisations (aka Implementors), to understand how to implement, deploy, configure and support Bahmni.&#xA;Since then Bahmni Wiki documentation has evolved to over a 1000 pages comprising of User Guide, Feature Guide, Implementer Guide, Install Guide, Security Guide, Developer Guide, etc.</description>
+    </item>
     <item>
       <title>Bahmni - Open Source EMR with 1 Million Lines of Code</title>
       <link>/2021/02/25/30-bahmni-1million-loc/</link>

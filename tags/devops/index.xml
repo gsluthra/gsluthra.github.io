@@ -21,7 +21,7 @@
       <link>/2015/08/16/gocd-on-digital-ocean/</link>
       <pubDate>Sun, 16 Aug 2015 02:13:50 +0000</pubDate>
       <guid>/2015/08/16/gocd-on-digital-ocean/</guid>
-      <description>Near Chinatown street in Singapore Today I experimented with installing ThoughtWorks GoCD Server and agent on a Digital Ocean CentOS droplet. Note that you will need to ensure that you setup swap space on your digital ocean droplet, before proceeding with installing GoCD.&#xA;Read the steps here on my old blog: Installing ThoughtWorks GoCD Server and Agent on Digital Ocean Droplet.</description>
+      <description>Near Chinatown street in Singapore Today I experimented with installing ThoughtWorks GoCD Server and agent on a Digital Ocean CentOS droplet. Note that you will need to ensure that you setup swap space on your digital ocean droplet , before proceeding with installing GoCD.&#xA;Read the steps here on my old blog: Installing ThoughtWorks GoCD Server and Agent on Digital Ocean Droplet .</description>
     </item>
     <item>
       <title>Vagrant: Setup development environments FAST!</title>

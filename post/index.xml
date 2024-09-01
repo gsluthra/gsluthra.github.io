@@ -7,14 +7,21 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© Gurpreet Luthra 2021</copyright>
-    <lastBuildDate>Sun, 31 Oct 2021 02:13:50 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 31 Aug 2024 07:30:50 +0000</lastBuildDate>
     <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Your documentation is also the Product</title>
+      <link>/2024/08/31/32-documentation-is-also-product/</link>
+      <pubDate>Sat, 31 Aug 2024 07:30:50 +0000</pubDate>
+      <guid>/2024/08/31/32-documentation-is-also-product/</guid>
+      <description>Your documentation is also the Product Introduction I spent over 8 years on Bahmni, an opensource EMR &amp;amp; hospital system. As part of that work, I was involved in introducing Confluence into the product in 2012. The initial focus was to introduce public-facing documentation for implementing organisations (aka Implementors), to understand how to implement, deploy, configure and support Bahmni.&#xA;Since then Bahmni Wiki documentation has evolved to over a 1000 pages comprising of User Guide, Feature Guide, Implementer Guide, Install Guide, Security Guide, Developer Guide, etc.</description>
+    </item>
     <item>
       <title>Mushtaq: Doctor to Coding Architect (Expertease Podcast #5)</title>
       <link>/2021/10/31/31-podcast-expertease-mushtaq-doctor-to-architect/</link>
       <pubDate>Sun, 31 Oct 2021 02:13:50 +0000</pubDate>
       <guid>/2021/10/31/31-podcast-expertease-mushtaq-doctor-to-architect/</guid>
-      <description>Listen On: Spotify, Anchor.fm, Apple, Google Podcasts&#xA;Mushtaq Ahmed: From Doctor to Coding Architect - Episode #5 In this episode on Expertease, we have an honest and insightful conversation with a dear friend and colleague Mushtaq Ahmed, Principal Consultant at Thoughtworks Pune. We cover topics ranging from his interests, his journey from studying to be a Doctor, then becoming a BA, then a Developer and now a Senior Technical Leader; and his passion for programming.</description>
+      <description>Listen On: Spotify , Anchor.fm , Apple , Google Podcasts Mushtaq Ahmed: From Doctor to Coding Architect - Episode #5 In this episode on Expertease , we have an honest and insightful conversation with a dear friend and colleague Mushtaq Ahmed , Principal Consultant at Thoughtworks Pune. We cover topics ranging from his interests, his journey from studying to be a Doctor, then becoming a BA, then a Developer and now a Senior Technical Leader; and his passion for programming.</description>
     </item>
     <item>
       <title>Indian Food Recipes App built with GlideApps [NoCode]</title>
@@ -35,35 +42,35 @@
       <link>/2020/11/29/podcast-building-engineering-career-nikhil-prasad/</link>
       <pubDate>Sun, 29 Nov 2020 02:13:50 +0000</pubDate>
       <guid>/2020/11/29/podcast-building-engineering-career-nikhil-prasad/</guid>
-      <description>Listen On: Spotify, Anchor.fm, Apple, Google Podcasts&#xA;Nikhil Prasad (Part1) - Empowered Engineering Culture - Episode #3 In Part 1 of our conversation with Nikhil Prasad, CTO and co-founder of tavisca, we discussed ways &amp;amp; means of building an empowered Engineering culture, and how Mastery, Autonomy and Purpose play a key role in building a vibrant company culture. You can listen to the insighful conversation here: Nikhil Prasad - Part 1 - Engineering culture.</description>
+      <description>Listen On: Spotify , Anchor.fm , Apple , Google Podcasts Nikhil Prasad (Part1) - Empowered Engineering Culture - Episode #3 In Part 1 of our conversation with Nikhil Prasad , CTO and co-founder of tavisca , we discussed ways &amp;amp; means of building an empowered Engineering culture, and how Mastery, Autonomy and Purpose play a key role in building a vibrant company culture. You can listen to the insighful conversation here: Nikhil Prasad - Part 1 - Engineering culture .</description>
     </item>
     <item>
       <title>Empowered Engineering Culture - Nikhil Prasad (Expertease Podcast #3)</title>
       <link>/2020/10/02/podcast-empowered-engineers-nikhil-prasad/</link>
       <pubDate>Fri, 02 Oct 2020 02:13:50 +0000</pubDate>
       <guid>/2020/10/02/podcast-empowered-engineers-nikhil-prasad/</guid>
-      <description>Listen On: Spotify, Anchor.fm, Apple, Google Podcasts&#xA;Nikhil Prasad - Cultivating an Empowered Engineering Culture (Part1) In this third episode of Expertease, we have an insightful chat with Nikhil Prasad, CTO and co-founder of tavisca, a 700 people, product company, that is considered to be a strong people-centric organisation in Pune.&#xA;Nikhil Prasad Nikhil talks about&amp;hellip;&#xA;&amp;gt; &amp;ldquo;If the why is ambitious &amp;amp; empowering, then it adds Purpose to the mission.</description>
+      <description>Listen On: Spotify , Anchor.fm , Apple , Google Podcasts Nikhil Prasad - Cultivating an Empowered Engineering Culture (Part1) In this third episode of Expertease , we have an insightful chat with Nikhil Prasad , CTO and co-founder of tavisca , a 700 people, product company, that is considered to be a strong people-centric organisation in Pune.&#xA;Nikhil Prasad Nikhil talks about&amp;hellip;&#xA;&amp;gt; &amp;ldquo;If the why is ambitious &amp;amp; empowering, then it adds Purpose to the mission.</description>
     </item>
     <item>
       <title>Exiting the Rat Race -  The Entrepreneurial Journey of Sandeep Nanu (Expertease Podcast #2)</title>
       <link>/2020/08/01/podcast-exiting-the-rat-race-sandeep-nanu/</link>
       <pubDate>Sat, 01 Aug 2020 02:13:50 +0000</pubDate>
       <guid>/2020/08/01/podcast-exiting-the-rat-race-sandeep-nanu/</guid>
-      <description>Listen On: Spotify, Anchor.fm, Apple, Google Podcasts&#xA;Sandeep Nanu - Exiting the Rat Race In this second episode of Expertease, we have a spirited chat with Sandeep Nanu, serial entrepreneur and founder of a brand and communication consulting firm WriteClick.&#xA;Sandeep Nanu Sandeep talks about his first job as a WebDesigner and the lessons he learnt there, including the important of respecting your commitments to other and their time. We discuss his first company, CBeyond &amp;ndash; his challenges in dealing with large corporations and his motivation to instead find a better way to work sustainably, which led him to start WriteClick eventually in 2010.</description>
+      <description>Listen On: Spotify , Anchor.fm , Apple , Google Podcasts Sandeep Nanu - Exiting the Rat Race In this second episode of Expertease , we have a spirited chat with Sandeep Nanu , serial entrepreneur and founder of a brand and communication consulting firm WriteClick .&#xA;Sandeep Nanu Sandeep talks about his first job as a WebDesigner and the lessons he learnt there, including the important of respecting your commitments to other and their time.</description>
     </item>
     <item>
       <title>Art of Experience Design with Aditya Karle (Expertease Podcast #1)</title>
       <link>/2020/07/22/podcast-art-of-experience-design/</link>
       <pubDate>Wed, 22 Jul 2020 02:13:50 +0000</pubDate>
       <guid>/2020/07/22/podcast-art-of-experience-design/</guid>
-      <description>Listen On: Spotify, Anchor.fm, Apple, Google Podcasts&#xA;Description In this first episode of Expertease, we have a light-hearted chat with Aditya Karle, Head of Design at ThoughtWorks India, to deconstruct the art of Experience Design (XD).&#xA;Aditya Karle 1:10: We talk about his journey to becoming a Designer and getting involved in Software Design, discuss differences between UI design, UX and XD.&#xA;28:50: We have an interesting chat about applying design thinking to Bengaluru International Airport.</description>
+      <description>Listen On: Spotify , Anchor.fm , Apple , Google Podcasts Description In this first episode of Expertease , we have a light-hearted chat with Aditya Karle , Head of Design at ThoughtWorks India, to deconstruct the art of Experience Design (XD).&#xA;Aditya Karle 1:10: We talk about his journey to becoming a Designer and getting involved in Software Design, discuss differences between UI design, UX and XD.&#xA;28:50: We have an interesting chat about applying design thinking to Bengaluru International Airport.</description>
     </item>
     <item>
       <title>10 reasons for buying the Ford EcoSport Petrol (Automatic) - Review</title>
       <link>/2019/12/30/ford-ecosport-automatic/</link>
       <pubDate>Mon, 30 Dec 2019 02:13:50 +0000</pubDate>
       <guid>/2019/12/30/ford-ecosport-automatic/</guid>
-      <description>I spent a few months researching automatic petrol vehicles in India, before finally settling on the Ford EcoSport. Read on to find out why.&#xA;Ford EcoSport UPDATE: 9-Sep-2021: Today Ford announced a shutdown of most of its car manufacturing facilities in India. Read the annoucement here. I NO LONGER RECOMMEND CONSIDERING BUYING A FORD ECOSPORT CAR. This blog post is still useful for historical perspective and might give you an idea on how to evaluate a Car for purchase.</description>
+      <description>I spent a few months researching automatic petrol vehicles in India, before finally settling on the Ford EcoSport. Read on to find out why.&#xA;Ford EcoSport UPDATE: 9-Sep-2021: Today Ford announced a shutdown of most of its car manufacturing facilities in India. Read the annoucement here . I NO LONGER RECOMMEND CONSIDERING BUYING A FORD ECOSPORT CAR. This blog post is still useful for historical perspective and might give you an idea on how to evaluate a Car for purchase.</description>
     </item>
     <item>
       <title>I Know That I Know Nothing</title>
@@ -98,21 +105,21 @@
       <link>/2016/09/05/reduce-eye-strain-with-flux/</link>
       <pubDate>Mon, 05 Sep 2016 02:13:50 +0000</pubDate>
       <guid>/2016/09/05/reduce-eye-strain-with-flux/</guid>
-      <description>About 3 years ago, one of my colleagues in ThoughtWorks, Sam Gibson, suggested I try out f.lux.&#xA;f.lux changes the Color temperature of my mac screen in the evening, so that the blue light from the screen is removed, and instead a nice warm set of colors are emitted from the screen. This drastically reduced the strain that I felt on my screen at night. It felt weird, the first 3 or 4 days, when my screen colors changed in the evening.</description>
+      <description>About 3 years ago, one of my colleagues in ThoughtWorks, Sam Gibson , suggested I try out f.lux .&#xA;f.lux changes the Color temperature of my mac screen in the evening, so that the blue light from the screen is removed, and instead a nice warm set of colors are emitted from the screen. This drastically reduced the strain that I felt on my screen at night. It felt weird, the first 3 or 4 days, when my screen colors changed in the evening.</description>
     </item>
     <item>
       <title>Mars Rover Problem in Scala</title>
       <link>/2016/04/24/mars-rover-problem-in-scala/</link>
       <pubDate>Sun, 24 Apr 2016 02:13:50 +0000</pubDate>
       <guid>/2016/04/24/mars-rover-problem-in-scala/</guid>
-      <description>Priyank Gupta, a respected ex-ThoughtWorker from the Pune office, wrote an excellent blog series in 2014 titled: Decoding ThoughtWorks Coding Problems.&#xA;In this blog he explains what constitutes good code &amp;amp; design, using the now decommissioned Mars Rover problem as an example. His code is in Java. I decided to showcase the same design in Scala, using only &amp;ldquo;the good parts&amp;rdquo; of Scala, with an aim of keeping the solution easy to understand, and enhance.</description>
+      <description>Priyank Gupta, a respected ex-ThoughtWorker from the Pune office, wrote an excellent blog series in 2014 titled: Decoding ThoughtWorks Coding Problems .&#xA;In this blog he explains what constitutes good code &amp;amp; design, using the now decommissioned Mars Rover problem as an example. His code is in Java. I decided to showcase the same design in Scala, using only &amp;ldquo;the good parts&amp;rdquo; of Scala, with an aim of keeping the solution easy to understand, and enhance.</description>
     </item>
     <item>
       <title>When Money gets in the way of Life</title>
       <link>/2016/03/03/money-in-way-of-life/</link>
       <pubDate>Thu, 03 Mar 2016 02:13:50 +0000</pubDate>
       <guid>/2016/03/03/money-in-way-of-life/</guid>
-      <description>Credits: Singapore Art Museum A dialog between a Human and a Doctor goes like this in most parts of the world&amp;hellip;&#xA;I wrote this blog on Bahmni Community Blogs on Medium. Read the full blog here: When Money gets in the way of Life - Bahmni Blogs</description>
+      <description> Credits: Singapore Art Museum A dialog between a Human and a Doctor goes like this in most parts of the world&amp;hellip;&#xA;I wrote this blog on Bahmni Community Blogs on Medium. Read the full blog here: When Money gets in the way of Life - Bahmni Blogs </description>
     </item>
     <item>
       <title>Every Single Retro</title>
@@ -140,7 +147,7 @@
       <link>/2015/11/01/i-moved-to-jekyll/</link>
       <pubDate>Sun, 01 Nov 2015 02:13:50 +0000</pubDate>
       <guid>/2015/11/01/i-moved-to-jekyll/</guid>
-      <description>Tibetan artists in Norbulingka Institute, Dharamshala, India My blog on Google Blogspot techie-notebook.blogspot.com hit the 100,000 views mark. I am super excited. But, I didn&amp;rsquo;t really like the way my blog looked. I wanted it to be simple. I wanted it to be elegant. I wanted to render code, like it should. I wanted the programmer in me, to be in control. So I moved to Jekyll.&#xA;Moving forward, I will write my lessons, and thoughts here; and life-lessons.</description>
+      <description>Tibetan artists in Norbulingka Institute, Dharamshala, India My blog on Google Blogspot techie-notebook.blogspot.com hit the 100,000 views mark. I am super excited. But, I didn&amp;rsquo;t really like the way my blog looked. I wanted it to be simple. I wanted it to be elegant. I wanted to render code, like it should. I wanted the programmer in me, to be in control. So I moved to Jekyll .&#xA;Moving forward, I will write my lessons, and thoughts here; and life-lessons.</description>
     </item>
     <item>
       <title>Understanding Vagrant Boxes and VMs</title>
@@ -154,7 +161,7 @@
       <link>/2015/08/16/gocd-on-digital-ocean/</link>
       <pubDate>Sun, 16 Aug 2015 02:13:50 +0000</pubDate>
       <guid>/2015/08/16/gocd-on-digital-ocean/</guid>
-      <description>Near Chinatown street in Singapore Today I experimented with installing ThoughtWorks GoCD Server and agent on a Digital Ocean CentOS droplet. Note that you will need to ensure that you setup swap space on your digital ocean droplet, before proceeding with installing GoCD.&#xA;Read the steps here on my old blog: Installing ThoughtWorks GoCD Server and Agent on Digital Ocean Droplet.</description>
+      <description>Near Chinatown street in Singapore Today I experimented with installing ThoughtWorks GoCD Server and agent on a Digital Ocean CentOS droplet. Note that you will need to ensure that you setup swap space on your digital ocean droplet , before proceeding with installing GoCD.&#xA;Read the steps here on my old blog: Installing ThoughtWorks GoCD Server and Agent on Digital Ocean Droplet .</description>
     </item>
     <item>
       <title>Building Applications for Multiple Countries and Languages</title>
@@ -182,7 +189,7 @@
       <link>/2014/01/10/using-capybara-and-rspec/</link>
       <pubDate>Fri, 10 Jan 2014 02:13:50 +0000</pubDate>
       <guid>/2014/01/10/using-capybara-and-rspec/</guid>
-      <description>Near the Norbulingka Institute, Dharamshala, India On my Rails project, I am using RSpec and Capybara to write functional tests.&#xA;I did not want to specify any HTML elements in my Capybara feature files, since that makes the feature files brittle to HTML / CSS changes. It also violates the DRY principle and basic code hygiene.&#xA;Read the full blog on my older blog site here: Using Capybara and Rspec assertions in Page Objects</description>
+      <description> Near the Norbulingka Institute, Dharamshala, India On my Rails project, I am using RSpec and Capybara to write functional tests.&#xA;I did not want to specify any HTML elements in my Capybara feature files, since that makes the feature files brittle to HTML / CSS changes. It also violates the DRY principle and basic code hygiene.&#xA;Read the full blog on my older blog site here: Using Capybara and Rspec assertions in Page Objects </description>
     </item>
     <item>
       <title>Vagrant: Setup development environments FAST!</title>

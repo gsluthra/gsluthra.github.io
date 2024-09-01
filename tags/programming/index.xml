@@ -35,14 +35,14 @@
       <link>/2016/09/05/reduce-eye-strain-with-flux/</link>
       <pubDate>Mon, 05 Sep 2016 02:13:50 +0000</pubDate>
       <guid>/2016/09/05/reduce-eye-strain-with-flux/</guid>
-      <description>About 3 years ago, one of my colleagues in ThoughtWorks, Sam Gibson, suggested I try out f.lux.&#xA;f.lux changes the Color temperature of my mac screen in the evening, so that the blue light from the screen is removed, and instead a nice warm set of colors are emitted from the screen. This drastically reduced the strain that I felt on my screen at night. It felt weird, the first 3 or 4 days, when my screen colors changed in the evening.</description>
+      <description>About 3 years ago, one of my colleagues in ThoughtWorks, Sam Gibson , suggested I try out f.lux .&#xA;f.lux changes the Color temperature of my mac screen in the evening, so that the blue light from the screen is removed, and instead a nice warm set of colors are emitted from the screen. This drastically reduced the strain that I felt on my screen at night. It felt weird, the first 3 or 4 days, when my screen colors changed in the evening.</description>
     </item>
     <item>
       <title>Mars Rover Problem in Scala</title>
       <link>/2016/04/24/mars-rover-problem-in-scala/</link>
       <pubDate>Sun, 24 Apr 2016 02:13:50 +0000</pubDate>
       <guid>/2016/04/24/mars-rover-problem-in-scala/</guid>
-      <description>Priyank Gupta, a respected ex-ThoughtWorker from the Pune office, wrote an excellent blog series in 2014 titled: Decoding ThoughtWorks Coding Problems.&#xA;In this blog he explains what constitutes good code &amp;amp; design, using the now decommissioned Mars Rover problem as an example. His code is in Java. I decided to showcase the same design in Scala, using only &amp;ldquo;the good parts&amp;rdquo; of Scala, with an aim of keeping the solution easy to understand, and enhance.</description>
+      <description>Priyank Gupta, a respected ex-ThoughtWorker from the Pune office, wrote an excellent blog series in 2014 titled: Decoding ThoughtWorks Coding Problems .&#xA;In this blog he explains what constitutes good code &amp;amp; design, using the now decommissioned Mars Rover problem as an example. His code is in Java. I decided to showcase the same design in Scala, using only &amp;ldquo;the good parts&amp;rdquo; of Scala, with an aim of keeping the solution easy to understand, and enhance.</description>
     </item>
     <item>
       <title>Understanding Vagrant Boxes and VMs</title>
@@ -56,7 +56,7 @@
       <link>/2015/08/16/gocd-on-digital-ocean/</link>
       <pubDate>Sun, 16 Aug 2015 02:13:50 +0000</pubDate>
       <guid>/2015/08/16/gocd-on-digital-ocean/</guid>
-      <description>Near Chinatown street in Singapore Today I experimented with installing ThoughtWorks GoCD Server and agent on a Digital Ocean CentOS droplet. Note that you will need to ensure that you setup swap space on your digital ocean droplet, before proceeding with installing GoCD.&#xA;Read the steps here on my old blog: Installing ThoughtWorks GoCD Server and Agent on Digital Ocean Droplet.</description>
+      <description>Near Chinatown street in Singapore Today I experimented with installing ThoughtWorks GoCD Server and agent on a Digital Ocean CentOS droplet. Note that you will need to ensure that you setup swap space on your digital ocean droplet , before proceeding with installing GoCD.&#xA;Read the steps here on my old blog: Installing ThoughtWorks GoCD Server and Agent on Digital Ocean Droplet .</description>
     </item>
     <item>
       <title>Building Applications for Multiple Countries and Languages</title>
@@ -84,7 +84,7 @@
       <link>/2014/01/10/using-capybara-and-rspec/</link>
       <pubDate>Fri, 10 Jan 2014 02:13:50 +0000</pubDate>
       <guid>/2014/01/10/using-capybara-and-rspec/</guid>
-      <description>Near the Norbulingka Institute, Dharamshala, India On my Rails project, I am using RSpec and Capybara to write functional tests.&#xA;I did not want to specify any HTML elements in my Capybara feature files, since that makes the feature files brittle to HTML / CSS changes. It also violates the DRY principle and basic code hygiene.&#xA;Read the full blog on my older blog site here: Using Capybara and Rspec assertions in Page Objects</description>
+      <description> Near the Norbulingka Institute, Dharamshala, India On my Rails project, I am using RSpec and Capybara to write functional tests.&#xA;I did not want to specify any HTML elements in my Capybara feature files, since that makes the feature files brittle to HTML / CSS changes. It also violates the DRY principle and basic code hygiene.&#xA;Read the full blog on my older blog site here: Using Capybara and Rspec assertions in Page Objects </description>
     </item>
     <item>
       <title>Vagrant: Setup development environments FAST!</title>

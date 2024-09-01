@@ -14,7 +14,7 @@
       <link>/2014/01/10/using-capybara-and-rspec/</link>
       <pubDate>Fri, 10 Jan 2014 02:13:50 +0000</pubDate>
       <guid>/2014/01/10/using-capybara-and-rspec/</guid>
-      <description>Near the Norbulingka Institute, Dharamshala, India On my Rails project, I am using RSpec and Capybara to write functional tests.&#xA;I did not want to specify any HTML elements in my Capybara feature files, since that makes the feature files brittle to HTML / CSS changes. It also violates the DRY principle and basic code hygiene.&#xA;Read the full blog on my older blog site here: Using Capybara and Rspec assertions in Page Objects</description>
+      <description> Near the Norbulingka Institute, Dharamshala, India On my Rails project, I am using RSpec and Capybara to write functional tests.&#xA;I did not want to specify any HTML elements in my Capybara feature files, since that makes the feature files brittle to HTML / CSS changes. It also violates the DRY principle and basic code hygiene.&#xA;Read the full blog on my older blog site here: Using Capybara and Rspec assertions in Page Objects </description>
     </item>
     <item>
       <title>Recommended Reading for Lateral Dev Hires at ThoughtWorks</title>

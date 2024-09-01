@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Software on life-lessons.in</title>
+    <link>/tags/software/</link>
+    <description>Recent content in Software on life-lessons.in</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>© Gurpreet Luthra 2021</copyright>
+    <lastBuildDate>Sat, 31 Aug 2024 07:30:50 +0000</lastBuildDate>
+    <atom:link href="/tags/software/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Your documentation is also the Product</title>
+      <link>/2024/08/31/32-documentation-is-also-product/</link>
+      <pubDate>Sat, 31 Aug 2024 07:30:50 +0000</pubDate>
+      <guid>/2024/08/31/32-documentation-is-also-product/</guid>
+      <description>Your documentation is also the Product Introduction I spent over 8 years on Bahmni, an opensource EMR &amp;amp; hospital system. As part of that work, I was involved in introducing Confluence into the product in 2012. The initial focus was to introduce public-facing documentation for implementing organisations (aka Implementors), to understand how to implement, deploy, configure and support Bahmni.&#xA;Since then Bahmni Wiki documentation has evolved to over a 1000 pages comprising of User Guide, Feature Guide, Implementer Guide, Install Guide, Security Guide, Developer Guide, etc.</description>
+    </item>
+  </channel>
+</rss>
