@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Productivity on life-lessons.in</title>
+    <link>/tags/productivity/</link>
+    <description>Recent content in Productivity on life-lessons.in</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>© Gurpreet Luthra 2021</copyright>
+    <lastBuildDate>Wed, 11 Mar 2026 07:30:50 +0000</lastBuildDate>
+    <atom:link href="/tags/productivity/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Jump-Kick: A Faster Way to Switch Tabs in Firefox</title>
+      <link>/2026/03/11/33-firefox-jump-kick-plugin/</link>
+      <pubDate>Wed, 11 Mar 2026 07:30:50 +0000</pubDate>
+      <guid>/2026/03/11/33-firefox-jump-kick-plugin/</guid>
+      <description>Jump-Kick: quick tab switcher for Firefox Introduction Over the last few years, I’ve often found myself with far too many tabs open in Firefox. Jumping between them usually meant scanning a crowded tab bar, or cycling through windows and hoping I landed on the right one. This is especially true when my screen is shared. I don&amp;rsquo;t want others to see private tabs, or waste time searching for tabs, and interrupt the conversation flow.</description>
+    </item>
+  </channel>
+</rss>
