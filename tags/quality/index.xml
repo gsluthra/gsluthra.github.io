@@ -6,7 +6,6 @@
     <description>Recent content in Quality on life-lessons.in</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>© Gurpreet Luthra 2026</copyright>
     <lastBuildDate>Fri, 10 Jan 2014 02:13:50 +0000</lastBuildDate>
     <atom:link href="/tags/quality/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -14,21 +13,21 @@
       <link>/2014/01/10/using-capybara-and-rspec/</link>
       <pubDate>Fri, 10 Jan 2014 02:13:50 +0000</pubDate>
       <guid>/2014/01/10/using-capybara-and-rspec/</guid>
-      <description> Near the Norbulingka Institute, Dharamshala, India On my Rails project, I am using RSpec and Capybara to write functional tests.&#xA;I did not want to specify any HTML elements in my Capybara feature files, since that makes the feature files brittle to HTML / CSS changes. It also violates the DRY principle and basic code hygiene.&#xA;Read the full blog on my older blog site here: Using Capybara and Rspec assertions in Page Objects </description>
+      <description>&lt;p&gt;&#xA;  &lt;figure&gt;&#xA;    &lt;img src=&#34;/images/general/orange-evening.jpg&#34; alt=&#34;Near the Norbulingka Institute, Dharamshala, India&#34; &gt;&#xA;    &lt;figcaption &#xA;    &#x9;style=&#34; &#xA;    &#x9;font-style: italic; &#xA;    &#x9;text-align: center; &#xA;    &#x9;color: grey; &#xA;    &#x9;font-size: 14px&#34;&#xA;    &#x9;&gt;&#xA;    &#x9;Near the Norbulingka Institute, Dharamshala, India&#xA;    &lt;/figcaption&gt;&#xA;  &lt;/figure&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;On my Rails project, I am using RSpec and Capybara to write functional tests.&lt;br&gt;&#xA;I did not want to specify any HTML elements in my Capybara feature files, since that makes the&#xA;feature files brittle to HTML / CSS changes. It also violates the DRY principle and basic code hygiene.&lt;/p&gt;&#xA;&lt;p&gt;Read the full blog on my older blog site here:&#xA;&lt;a href=&#34;http://techie-notebook.blogspot.com/2014/01/using-capybara-and-rspec-assertions-in.html&#34; target=&#34;_blank&#34; &gt;Using Capybara and Rspec assertions in Page Objects&lt;/a&gt;&#xA;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Recommended Reading for Lateral Dev Hires at ThoughtWorks</title>
       <link>/2012/07/29/recommended-reading-for-devs-thoughtworks/</link>
       <pubDate>Sun, 29 Jul 2012 02:13:50 +0000</pubDate>
       <guid>/2012/07/29/recommended-reading-for-devs-thoughtworks/</guid>
-      <description>ThoughtWorks Tech Radar - Times Square Quite often experienced folks joining ThoughtWorks have a common set of questions: What should I read to prepare myself for ThoughtWorks? What kind of technologies does ThoughtWorks work on? Will I go on a Ruby or Java or Mobile project?&#xA;I doubt there is any good and precise answer to these questions. But, there certainly are some practices that I feel our in the DNA of ThoughtWorks.</description>
+      <description>&lt;p&gt;&#xA;  &lt;figure&gt;&#xA;    &lt;img src=&#34;/images/general/thoughtworks_tech_radar.jpg&#34; alt=&#34;ThoughtWorks Tech Radar - Times Square&#34; &gt;&#xA;    &lt;figcaption &#xA;    &#x9;style=&#34; &#xA;    &#x9;font-style: italic; &#xA;    &#x9;text-align: center; &#xA;    &#x9;color: grey; &#xA;    &#x9;font-size: 14px&#34;&#xA;    &#x9;&gt;&#xA;    &#x9;ThoughtWorks Tech Radar - Times Square&#xA;    &lt;/figcaption&gt;&#xA;  &lt;/figure&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;Quite often experienced folks joining ThoughtWorks have a common set of questions: What should I read to prepare myself for ThoughtWorks? What kind of technologies does ThoughtWorks work on? Will I go on a Ruby or Java or Mobile project?&lt;/p&gt;&#xA;&lt;p&gt;I doubt there is any good and precise answer to these questions. But, there certainly are some practices that I feel our in the DNA of ThoughtWorks. Agile &amp;amp; Extreme Programming practices drive most of this. Unfortunately, Agile means totally different things to different people outside ThoughtWorks. And, quite often, nothing will prepare you for the radical changes that are going to come to your way of working at ThoughtWorks.&lt;/p&gt;</description>
     </item>
     <item>
       <title>POKA YOKE - Applying Mistake Proofing to Software</title>
       <link>/2012/07/22/poke-yoke-mistake-proofing-software/</link>
       <pubDate>Sun, 22 Jul 2012 02:13:50 +0000</pubDate>
       <guid>/2012/07/22/poke-yoke-mistake-proofing-software/</guid>
-      <description>Near the Norbulingka Institute, Dharamshala, India Note: This has been one of my highest read blog posts ever with over 100,000 views. I am humbled. Thank you!&#xA;For years, automobile companies have utilized &amp;ldquo;Mistake Proofing&amp;rdquo; as a technique for ensuring high quality, high speed manufacturing &amp;ndash; especially in cases of mass scale production. This is also known as Poka-Yoke (in Japanese) and was adopted and formalized as part of the Toyota Production System.</description>
+      <description>&lt;p&gt;&#xA;  &lt;figure&gt;&#xA;    &lt;img src=&#34;/images/general/orange-evening.jpg&#34; alt=&#34;Near the Norbulingka Institute, Dharamshala, India&#34; &gt;&#xA;    &lt;figcaption &#xA;    &#x9;style=&#34; &#xA;    &#x9;font-style: italic; &#xA;    &#x9;text-align: center; &#xA;    &#x9;color: grey; &#xA;    &#x9;font-size: 14px&#34;&#xA;    &#x9;&gt;&#xA;    &#x9;Near the Norbulingka Institute, Dharamshala, India&#xA;    &lt;/figcaption&gt;&#xA;  &lt;/figure&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; &lt;em&gt;This has been one of my highest read blog posts ever with over 100,000 views. I am humbled. Thank you!&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;For years, automobile companies have utilized &amp;ldquo;Mistake Proofing&amp;rdquo; as a technique for ensuring high quality,&#xA;high speed manufacturing &amp;ndash; especially in cases of mass scale production.&#xA;This is also known as Poka-Yoke (in Japanese) and was adopted and formalized as part of the Toyota Production System.&#xA;This blog attempts to raise awareness (with examples) for the need of Poka Yoke in Software Design and&#xA;within the Software Development process.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

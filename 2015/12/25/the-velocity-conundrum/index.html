@@ -1,123 +1,205 @@
 <!DOCTYPE html>
-<html prefix="og: http://ogp.me/ns#">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>The Velocity Conundrum &middot; Gurpreet Luthra</title>
-        <meta name="description" content="Pitfalls in measuring velocity of high performance teams">
-        <meta name="HandheldFriendly" content="True">
-        <meta name="MobileOptimized" content="320">
-        <meta name="generator" content="Hugo 0.133.1">
-        <meta name="robots" content="index,follow">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta property="og:title" content="The Velocity Conundrum">
-<meta property="og:description" content="Pitfalls in measuring velocity of high performance teams">
-<meta property="og:type" content="article">
+<html lang="en">
+
+<head>
+  <title>
+  The Velocity Conundrum · life-lessons.in
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="author" content="Gurpreet Luthra">
+<meta name="description" content="Pitfalls in measuring velocity of high performance teams">
+<meta name="keywords" content="blog,tech,product,engineering">
+
+
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="/images/general/singapore-street.jpg">
+  <meta name="twitter:title" content="The Velocity Conundrum">
+  <meta name="twitter:description" content="Pitfalls in measuring velocity of high performance teams">
+
 <meta property="og:url" content="/2015/12/25/the-velocity-conundrum/">
+  <meta property="og:site_name" content="life-lessons.in">
+  <meta property="og:title" content="The Velocity Conundrum">
+  <meta property="og:description" content="Pitfalls in measuring velocity of high performance teams">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2015-12-25T02:13:50+00:00">
+    <meta property="article:modified_time" content="2015-12-25T02:13:50+00:00">
+    <meta property="article:tag" content="Teams">
+    <meta property="article:tag" content="Agile">
+    <meta property="article:tag" content="Technical">
+    <meta property="og:image" content="/images/general/singapore-street.jpg">
 
 
-    
-    <meta property="og:image" content="/images/general/singapore-street.jpg" />
-    
-    
 
-        <link rel="stylesheet" href="/dist/site.css">
-        <link rel="stylesheet" href="/dist/syntax.css">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,cyrillic-ext,latin-ext,cyrillic">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-        
-        
-        
-        
-    </head>
-    <body>
-        
+
+<link rel="canonical" href="/2015/12/25/the-velocity-conundrum/">
+
+
+<link rel="preload" href="/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="/css/coder.min.f6b1b35a7b02521b25338f6cf58975f9980a6c12847763fe35a48307758cd1e7.css" integrity="sha256-9rGzWnsCUhslM49s9Yl1&#43;ZgKbBKEd2P&#43;NaSDB3WM0ec=" crossorigin="anonymous" media="screen" />
+
+
+
+
+
+
+  
+    
+    
+    <link rel="stylesheet" href="/css/coder-dark.min.a00e6364bacbc8266ad1cc81230774a1397198f8cfb7bcba29b7d6fcb54ce57f.css" integrity="sha256-oA5jZLrLyCZq0cyBIwd0oTlxmPjPt7y6KbfW/LVM5X8=" crossorigin="anonymous" media="screen" />
   
 
 
 
-        <div id="wrapper">
-            <header class="site-header">
-                <div class="container">
-                    <div class="site-title-wrapper">
-                        
-                            <h1 class="site-title">
-                                <a href="/">life-lessons.in</a>
-                            </h1>
-                        
-                        
-                            <a class="button-square" href="/index.xml" aria-label="RSS"><i class="fa fa-rss" aria-hidden="true"></i></a>
-                        
-                        
-                            <a class="button-square button-social hint--top" data-hint="Twitter" aria-label="Twitter" href="https://twitter.com/_zenx_" rel="me" >
-                                <i class="fa fa-twitter" aria-hidden="true"></i>
-                            </a>
-                        
-                        
-                        
-                        
-                            <a class="button-square button-social hint--top" data-hint="Github" aria-label="Github" href="https://github.com/gsluthra" rel="me">
-                                <i class="fa fa-github-alt" aria-hidden="true"></i>
-                            </a>
-                        
-                        
-                        
-                        
-                    </div>
-
-                    <ul class="site-nav">
-                        
-    <li class="site-nav-item">
-        <a href="/">Blog</a>
-    </li>
-
-    <li class="site-nav-item">
-        <a href="/page/presentations/">Presentations</a>
-    </li>
-
-    <li class="site-nav-item">
-        <a href="/page/about/">About Me</a>
-    </li>
-
-    <li class="site-nav-item">
-        <a href="/page/bluecraft">Blue Craft</a>
-    </li>
-
-
-                    </ul>
-                </div>
-            </header>
-
-            <div id="container">
-
-
-<div class="container">
-    <article class="post-container" itemscope="" itemtype="http://schema.org/BlogPosting">
-        <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">The Velocity Conundrum</h1>
+ 
+  
     
-        <p class="post-description" itemprop="description">Pitfalls in measuring velocity of high performance teams</p>
+    <link rel="stylesheet" href="/css/custom.min.0287d85babee894275e88a2e83ee33e0e67890a0aede0ea115a4879eb523b75f.css" integrity="sha256-AofYW6vuiUJ16Ioug&#43;4z4OZ4kKCu3g6hFaSHnrUjt18=" crossorigin="anonymous" media="screen" />
+  
+
+
+
+
+
+<link rel="icon" type="image/svg+xml" href="/images/favicon.svg" sizes="any">
+<link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+<body class="preload-transitions colorscheme-auto">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
     
-    <p class="post-date">
-        <span>Published <time datetime="2015-12-25" itemprop="datePublished">Fri, Dec 25, 2015</time></span>
-        <span>by</span>
-        <span itemscope="" itemprop="author" itemtype="https://schema.org/Person">
-            <span itemprop="name">
-                <a href="Technical%20Product%20Consultant" itemprop="url" rel="author">Gurpreet Luthra</a>
+    <a class="navigation-title" href="/">
+      life-lessons.in
+    </a>
+    
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/posts/">Posts</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/page/presentations/">Presentations</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/page/about/">About Me</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/page/bluecraft/">Blue Craft</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="/2015/12/25/the-velocity-conundrum/">
+              The Velocity Conundrum
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa-solid fa-calendar" aria-hidden="true"></i>
+              <time datetime="2015-12-25T02:13:50Z">
+                25-Dec-2015
+              </time>
             </span>
-        </span>
-    </p>
-    
-        <p class="post-reading post-line">
-            <span>Estimated reading time: 5 min</span>
-        </p>
-    
-</header>
+            <span class="reading-time">
+              <i class="fa-solid fa-clock" aria-hidden="true"></i>
+              5-minute read
+            </span>
+          </div>
+          
+          
+          <div class="tags">
+  <i class="fa-solid fa-tag" aria-hidden="true"></i>
+    <span class="tag">
+      <a href="/tags/teams/">Teams</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/agile/">Agile</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/technical/">Technical</a>
+    </span></div>
 
-        <div class="post-content clearfix" itemprop="articleBody">
-    
+        </div>
+      </header>
 
-    <p>
+      
+
+
+      <div class="post-content">
+        
+        <p>
   <figure>
     <img src="/images/general/singapore-street.jpg" alt="Near Chinatown street in Singapore" >
     <figcaption 
@@ -134,12 +216,24 @@
 <p>Velocity! It&rsquo;s a term that has potentially confounded, frustrated and perhaps amused Agile practitioners and customers alike at some point. It&rsquo;s a concept that can be quite helpful though, when used accurately as a planning &amp; estimation tool.</p>
 <p><em>Velocity is a measure of the number of story points delivered in an Iteration</em>. The word <strong>delivered</strong> here means - dev &amp; test complete, and
 ready for Production. Depending on your organizational maturity it could also mean &ndash; <strong>in Production</strong>.</p>
-<h3 id="velocity-as-a-guide">Velocity as a Guide</h3>
+<h3 id="velocity-as-a-guide">
+  Velocity as a Guide
+  <a class="heading-link" href="#velocity-as-a-guide">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
 <p>Let&rsquo;s take an example of how one uses velocity as a guiding metric.</p>
 <p>For instance, in Iteration-1 (I-1), if a team completes 12 story points, then the velocity of the team is 12. It means that, in next iteration you can assume the team will be able to deliver about 12 points worth of features. Another way of saying this, is that <em>yesterday&rsquo;s weather</em> is 12.</p>
 <p>In I-2, if the team delivers 15 points, then for I-3 you can plan for approx 13 (avg of I-1 and I-2). On the other hand, if the team delivers say 10 points in I-2, then next time you plan for 11 (avg of I-1 and I-2).</p>
 <p>In general, you average the velocity of the last three iterations, and use that as <em>yesterday&rsquo;s weather</em> to arrive at what you should expect as velocity for the next iteration.</p>
-<h3 id="low-velocity">Low Velocity</h3>
+<h3 id="low-velocity">
+  Low Velocity
+  <a class="heading-link" href="#low-velocity">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
 <p>If the team achieves lesser points in an iteration than what you expected, should you be concerned? The answer is: <em>It depends</em>. You should try
 and find out the possible cause, and then decide whether you should be concerned or not. <em>The aim is to reach a sustainable cadence
 that allows for healthy team productivity and greater customer satisfaction</em>.</p>
@@ -150,7 +244,13 @@ that allows for healthy team productivity and greater customer satisfaction</em>
 <li>Other factors like too many red builds, flaky acceptance tests, network issues, unnecessary meetings, bugs from previous iteration or holidays, could have sucked away precious time from the team &ndash; and hence they could not work on feature development as much as they otherwise would have.</li>
 </ol>
 <p>Usually a drop in velocity is due to a combination of the above factors. You may be able to remove some hurdles and mitigate some challenges. Or, maybe you can&rsquo;t do anything about some of the reasons. You note them down, voice them, and remember to account for them in future iteration plans where applicable.</p>
-<h3 id="the-upper-management-effect">The &ldquo;Upper Management&rdquo; Effect</h3>
+<h3 id="the-upper-management-effect">
+  The &ldquo;Upper Management&rdquo; Effect
+  <a class="heading-link" href="#the-upper-management-effect">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
 <p>Many teams (and managers) don&rsquo;t want to show a velocity drop. Because <em>upper management</em> will frown upon them as an indicator of slacking
 and under achievement.</p>
 <p>This leads to people coming up with various ways of showing that their velocity is the same as before.
@@ -159,14 +259,32 @@ network issues, and hence we claim 1 point for that</em>&rdquo;. So now, with th
 <p><strong>9</strong>  (actual for feature development) + <strong>2</strong>(for refactoring) + <strong>1</strong> (for network issues) = <strong>12</strong> (hey.. this is 1 point better than usual! All is good!)</p>
 <p>This velocity adjustment for <em>upper management&rsquo;s</em> sake is a recipe for disaster. Instead of fixing organizational, technical and business issues, we have made everything look &ldquo;OK&rdquo; and reached a status-quo.</p>
 <p>The fixation for treating velocity as a productivity measure, has led to a loss of agility and muddled priorities.</p>
-<h3 id="high-performance-teams--trust">High Performance Teams &amp; Trust</h3>
+<h3 id="high-performance-teams--trust">
+  High Performance Teams &amp; Trust
+  <a class="heading-link" href="#high-performance-teams--trust">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
 <p>Agile practices only work when you trust the team. Trust can only be developed, when you hire the right people for the job. The right people for the job are people who care about their work, and are good at what they do. Organizations have a duty to hire the best, and then get out of the way, whilst providing periodic and necessary support.</p>
 <p>Velocity as a metric, will be useful only if the team is passionate about delivering and improving their own productivity. If the team is looking at answering the question - &ldquo;How can we do better?&rdquo;, then velocity can help the team to inform them if they are on the right track.</p>
 <p>But, depending ONLY on <em>velocity</em> as a measure of your improvement is wrong. You may see a drop in <em>velocity</em> due to many external factors, even when the team is taking the right steps to improve the quality of the system. It is analogous to seeing <em>weight</em> as the only measure of improving health.</p>
-<h3 id="conclusion">Conclusion</h3>
+<h3 id="conclusion">
+  Conclusion
+  <a class="heading-link" href="#conclusion">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
 <p>Velocity should be treated as a guide using which you plan the next iteration and measure the impact of your adjustments or fixes. Velocity also acts as an approximate tool to provide visibility into when certain features will make it into the release.</p>
 <p>Velocity is <em>NOT</em> a measure of the quality of the work being done by the team or of the productivity of the team.</p>
-<h3 id="further-reading">Further Reading</h3>
+<h3 id="further-reading">
+  Further Reading
+  <a class="heading-link" href="#further-reading">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
 <ol>
 <li><a href="http://jimhighsmith.com/Velocity-is-killing-agility/" target="_blank" >Velocity is killing agility (Jim Highsmith)</a>
 
@@ -182,80 +300,91 @@ network issues, and hence we claim 1 point for that</em>&rdquo;. So now, with th
 <em>The streetlight effect is our human tendency to look for answers where it’s easy to look rather than where the actual information is.</em></li>
 </ol>
 
-</div>
+      </div>
 
-        <footer class="post-footer clearfix">
+
+      <footer>
+        
+
+
+        
+        
+        
+        
+        
+        
+        
+      </footer>
+    </article>
+
     
-        <p class="post-tags">
-            <span>Tagged:</span>
-            
-            
-                <a href="/tags/teams/">teams</a>, 
-            
-                <a href="/tags/agile/">agile</a>, 
-            
-                <a href="/tags/technical/">technical</a>
-            
-        </p>
-    
+  </section>
 
-    <div class="share">
-        
-            <a class="icon-twitter" href="https://twitter.com/share?text=The%20Velocity%20Conundrum&url=%2f2015%2f12%2f25%2fthe-velocity-conundrum%2f"
-                onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" aria-label="Share on Twitter">
-                <i class="fa fa-twitter" aria-hidden="true"></i>
-            </a>
-        
-
-        
-            <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=%2f2015%2f12%2f25%2fthe-velocity-conundrum%2f"
-                onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" aria-label="Share on Facebook">
-                <i class="fa fa-facebook" aria-hidden="true"></i>
-            </a>
-        
-
-
-        
-            <a class="icon-linkedin" href="https://www.linkedin.com/shareArticle?mini=true&title=The%20Velocity%20Conundrum&url=%2f2015%2f12%2f25%2fthe-velocity-conundrum%2f&summary=Pitfalls%20in%20measuring%20velocity%20of%20high%20performance%20teams"
-               onclick="window.open(this.href, 'linkedin-share', 'width=554,height=481');return false;" aria-label="Share on LinkedIn">
-               <i class="fa fa-linkedin" aria-hidden="true"></i>
-            </a>
-        
     </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+      2012 -
+    
+    2026
+     Gurpreet Luthra 
+    ·
+    
+    Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
+    
+  </section>
 </footer>
 
+  </main>
 
-        
-    </article>
-</div>
+  
 
-            </div>
-        </div>
+  
+  
+  <script src="/js/coder.min.6ae284be93d2d19dad1f02b0039508d9aab3180a12a06dcc71b0b0ef7825a317.js" integrity="sha256-auKEvpPS0Z2tHwKwA5UI2aqzGAoSoG3McbCw73gloxc="></script>
+  
 
-        <footer class="footer">
-            <div class="container">
-                <div class="site-title-wrapper">
-                    <h1 class="site-title">
-                        <a href="/">life-lessons.in</a>
-                    </h1>
-                    <a class="button-square button-jump-top js-jump-top" href="#" aria-label="Back to Top">
-                        <i class="fa fa-angle-up" aria-hidden="true"></i>
-                    </a>
-                </div>
+  
 
-                <p class="footer-copyright">
-                    <span>&copy; 2026 / Powered by <a href="https://gohugo.io/">Hugo</a></span>
-                </p>
-                <p class="footer-copyright">
-                    <span><a href="https://github.com/roryg/ghostwriter">Ghostwriter theme</a> By <a href="http://jollygoodthemes.com">JollyGoodThemes</a></span>
-                    <span>/ <a href="https://github.com/jbub/ghostwriter">Ported</a> to Hugo By <a href="https://github.com/jbub">jbub</a></span>
-                </p>
-            </div>
-        </footer>
+  
 
-        <script src="/js/jquery-1.11.3.min.js"></script>
-        <script src="/js/jquery.fitvids.js"></script>
-        <script src="/js/scripts.js"></script>
-    </body>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+
 </html>
-

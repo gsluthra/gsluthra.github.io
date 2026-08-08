@@ -6,7 +6,6 @@
     <description>Recent content in Blogging on life-lessons.in</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>© Gurpreet Luthra 2026</copyright>
     <lastBuildDate>Sun, 01 Nov 2015 02:13:50 +0000</lastBuildDate>
     <atom:link href="/tags/blogging/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -14,7 +13,7 @@
       <link>/2015/11/01/i-moved-to-jekyll/</link>
       <pubDate>Sun, 01 Nov 2015 02:13:50 +0000</pubDate>
       <guid>/2015/11/01/i-moved-to-jekyll/</guid>
-      <description>Tibetan artists in Norbulingka Institute, Dharamshala, India My blog on Google Blogspot techie-notebook.blogspot.com hit the 100,000 views mark. I am super excited. But, I didn&amp;rsquo;t really like the way my blog looked. I wanted it to be simple. I wanted it to be elegant. I wanted to render code, like it should. I wanted the programmer in me, to be in control. So I moved to Jekyll .&#xA;Moving forward, I will write my lessons, and thoughts here; and life-lessons.</description>
+      <description>&lt;p&gt;&#xA;  &lt;figure&gt;&#xA;    &lt;img src=&#34;/images/general/artists.jpg&#34; alt=&#34;Tibetan artists in Norbulingka Institute, Dharamshala, India&#34; &gt;&#xA;    &lt;figcaption &#xA;    &#x9;style=&#34; &#xA;    &#x9;font-style: italic; &#xA;    &#x9;text-align: center; &#xA;    &#x9;color: grey; &#xA;    &#x9;font-size: 14px&#34;&#xA;    &#x9;&gt;&#xA;    &#x9;Tibetan artists in Norbulingka Institute, Dharamshala, India&#xA;    &lt;/figcaption&gt;&#xA;  &lt;/figure&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;My blog on Google Blogspot &lt;a href=&#34;http://techie-notebook.blogspot.com&#34; target=&#34;_blank&#34; &gt;techie-notebook.blogspot.com&lt;/a&gt;&#xA; hit the 100,000 views mark. I am super excited. But, I didn&amp;rsquo;t really like the way my blog looked. I wanted it to be simple. I wanted it to be&#xA;elegant. I wanted to render code, like it should. I wanted the programmer in me, to be in control. So I moved to&#xA;&lt;a href=&#34;https://jekyllrb.com/&#34; target=&#34;_blank&#34; &gt;Jekyll&lt;/a&gt;&#xA;.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

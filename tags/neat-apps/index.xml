@@ -6,7 +6,6 @@
     <description>Recent content in Neat-Apps on life-lessons.in</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>© Gurpreet Luthra 2026</copyright>
     <lastBuildDate>Mon, 05 Sep 2016 02:13:50 +0000</lastBuildDate>
     <atom:link href="/tags/neat-apps/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -14,7 +13,7 @@
       <link>/2016/09/05/reduce-eye-strain-with-flux/</link>
       <pubDate>Mon, 05 Sep 2016 02:13:50 +0000</pubDate>
       <guid>/2016/09/05/reduce-eye-strain-with-flux/</guid>
-      <description>About 3 years ago, one of my colleagues in ThoughtWorks, Sam Gibson , suggested I try out f.lux .&#xA;f.lux changes the Color temperature of my mac screen in the evening, so that the blue light from the screen is removed, and instead a nice warm set of colors are emitted from the screen. This drastically reduced the strain that I felt on my screen at night. It felt weird, the first 3 or 4 days, when my screen colors changed in the evening.</description>
+      <description>&lt;p&gt;&#xA;  &lt;img src=&#34;/images/general/flux-logo.jpg&#34; alt=&#34;Flux Logo&#34;&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;About 3 years ago, one of my colleagues in ThoughtWorks, &lt;a href=&#34;https://www.thoughtworks.com/profiles/sam-gibson&#34; target=&#34;_blank&#34; &gt;Sam Gibson&lt;/a&gt;&#xA;, suggested I try out &lt;a href=&#34;https://justgetflux.com/&#34; target=&#34;_blank&#34; &gt;f.lux&lt;/a&gt;&#xA;.&lt;/p&gt;&#xA;&lt;p&gt;f.lux changes the &lt;a href=&#34;http://www.eizo.com/library/basics/color_temperature_on_an_LCD_monitor/&#34; target=&#34;_blank&#34; &gt;Color temperature&lt;/a&gt;&#xA; of my mac screen in the evening, so that the blue light from the screen is removed, and&#xA;instead a nice warm set of colors are emitted from the screen. This drastically reduced the strain that I felt on my screen&#xA;at night. It felt weird, the first 3 or 4 days, when my screen colors changed in the evening. But then soon enough, I&#xA;even stopped realizing when f.lux changed the colors. It would only be a passerby, who would look at my screen, and wonder:&#xA;Hey what happened to your screen?&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

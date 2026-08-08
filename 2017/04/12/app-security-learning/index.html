@@ -1,123 +1,215 @@
 <!DOCTYPE html>
-<html prefix="og: http://ogp.me/ns#">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>12 Things I Learnt While Teaching Application Security &middot; Gurpreet Luthra</title>
-        <meta name="description" content="Fascinating stuff I stumbled upon while preparing for security training">
-        <meta name="HandheldFriendly" content="True">
-        <meta name="MobileOptimized" content="320">
-        <meta name="generator" content="Hugo 0.133.1">
-        <meta name="robots" content="index,follow">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta property="og:title" content="12 Things I Learnt While Teaching Application Security">
-<meta property="og:description" content="Fascinating stuff I stumbled upon while preparing for security training">
-<meta property="og:type" content="article">
+<html lang="en">
+
+<head>
+  <title>
+  12 Things I Learnt While Teaching Application Security · life-lessons.in
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="author" content="Gurpreet Luthra">
+<meta name="description" content="Fascinating stuff I stumbled upon while preparing for security training">
+<meta name="keywords" content="blog,tech,product,engineering">
+
+
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="/images/general/turkey-ocean-1.jpg">
+  <meta name="twitter:title" content="12 Things I Learnt While Teaching Application Security">
+  <meta name="twitter:description" content="Fascinating stuff I stumbled upon while preparing for security training">
+
 <meta property="og:url" content="/2017/04/12/app-security-learning/">
+  <meta property="og:site_name" content="life-lessons.in">
+  <meta property="og:title" content="12 Things I Learnt While Teaching Application Security">
+  <meta property="og:description" content="Fascinating stuff I stumbled upon while preparing for security training">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2017-04-12T02:13:50+00:00">
+    <meta property="article:modified_time" content="2017-04-12T02:13:50+00:00">
+    <meta property="article:tag" content="Security">
+    <meta property="article:tag" content="Learning">
+    <meta property="article:tag" content="Technical">
+    <meta property="article:tag" content="Architecture">
+    <meta property="article:tag" content="Thoughtworks">
+    <meta property="og:image" content="/images/general/turkey-ocean-1.jpg">
 
 
-    
-    <meta property="og:image" content="/images/general/turkey-ocean-1.jpg" />
-    
-    
 
-        <link rel="stylesheet" href="/dist/site.css">
-        <link rel="stylesheet" href="/dist/syntax.css">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,cyrillic-ext,latin-ext,cyrillic">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-        
-        
-        
-        
-    </head>
-    <body>
-        
+
+<link rel="canonical" href="/2017/04/12/app-security-learning/">
+
+
+<link rel="preload" href="/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="/css/coder.min.f6b1b35a7b02521b25338f6cf58975f9980a6c12847763fe35a48307758cd1e7.css" integrity="sha256-9rGzWnsCUhslM49s9Yl1&#43;ZgKbBKEd2P&#43;NaSDB3WM0ec=" crossorigin="anonymous" media="screen" />
+
+
+
+
+
+
+  
+    
+    
+    <link rel="stylesheet" href="/css/coder-dark.min.a00e6364bacbc8266ad1cc81230774a1397198f8cfb7bcba29b7d6fcb54ce57f.css" integrity="sha256-oA5jZLrLyCZq0cyBIwd0oTlxmPjPt7y6KbfW/LVM5X8=" crossorigin="anonymous" media="screen" />
   
 
 
 
-        <div id="wrapper">
-            <header class="site-header">
-                <div class="container">
-                    <div class="site-title-wrapper">
-                        
-                            <h1 class="site-title">
-                                <a href="/">life-lessons.in</a>
-                            </h1>
-                        
-                        
-                            <a class="button-square" href="/index.xml" aria-label="RSS"><i class="fa fa-rss" aria-hidden="true"></i></a>
-                        
-                        
-                            <a class="button-square button-social hint--top" data-hint="Twitter" aria-label="Twitter" href="https://twitter.com/_zenx_" rel="me" >
-                                <i class="fa fa-twitter" aria-hidden="true"></i>
-                            </a>
-                        
-                        
-                        
-                        
-                            <a class="button-square button-social hint--top" data-hint="Github" aria-label="Github" href="https://github.com/gsluthra" rel="me">
-                                <i class="fa fa-github-alt" aria-hidden="true"></i>
-                            </a>
-                        
-                        
-                        
-                        
-                    </div>
-
-                    <ul class="site-nav">
-                        
-    <li class="site-nav-item">
-        <a href="/">Blog</a>
-    </li>
-
-    <li class="site-nav-item">
-        <a href="/page/presentations/">Presentations</a>
-    </li>
-
-    <li class="site-nav-item">
-        <a href="/page/about/">About Me</a>
-    </li>
-
-    <li class="site-nav-item">
-        <a href="/page/bluecraft">Blue Craft</a>
-    </li>
-
-
-                    </ul>
-                </div>
-            </header>
-
-            <div id="container">
-
-
-<div class="container">
-    <article class="post-container" itemscope="" itemtype="http://schema.org/BlogPosting">
-        <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">12 Things I Learnt While Teaching Application Security</h1>
+ 
+  
     
-        <p class="post-description" itemprop="description">Fascinating stuff I stumbled upon while preparing for security training</p>
+    <link rel="stylesheet" href="/css/custom.min.0287d85babee894275e88a2e83ee33e0e67890a0aede0ea115a4879eb523b75f.css" integrity="sha256-AofYW6vuiUJ16Ioug&#43;4z4OZ4kKCu3g6hFaSHnrUjt18=" crossorigin="anonymous" media="screen" />
+  
+
+
+
+
+
+<link rel="icon" type="image/svg+xml" href="/images/favicon.svg" sizes="any">
+<link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+<body class="preload-transitions colorscheme-auto">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
     
-    <p class="post-date">
-        <span>Published <time datetime="2017-04-12" itemprop="datePublished">Wed, Apr 12, 2017</time></span>
-        <span>by</span>
-        <span itemscope="" itemprop="author" itemtype="https://schema.org/Person">
-            <span itemprop="name">
-                <a href="Technical%20Product%20Consultant" itemprop="url" rel="author">Gurpreet Luthra</a>
+    <a class="navigation-title" href="/">
+      life-lessons.in
+    </a>
+    
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/posts/">Posts</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/page/presentations/">Presentations</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/page/about/">About Me</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/page/bluecraft/">Blue Craft</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="/2017/04/12/app-security-learning/">
+              12 Things I Learnt While Teaching Application Security
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa-solid fa-calendar" aria-hidden="true"></i>
+              <time datetime="2017-04-12T02:13:50Z">
+                12-Apr-2017
+              </time>
             </span>
-        </span>
-    </p>
-    
-        <p class="post-reading post-line">
-            <span>Estimated reading time: 10 min</span>
-        </p>
-    
-</header>
+            <span class="reading-time">
+              <i class="fa-solid fa-clock" aria-hidden="true"></i>
+              10-minute read
+            </span>
+          </div>
+          
+          
+          <div class="tags">
+  <i class="fa-solid fa-tag" aria-hidden="true"></i>
+    <span class="tag">
+      <a href="/tags/security/">Security</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/learning/">Learning</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/technical/">Technical</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/architecture/">Architecture</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/thoughtworks/">Thoughtworks</a>
+    </span></div>
 
-        <div class="post-content clearfix" itemprop="articleBody">
-    
+        </div>
+      </header>
 
-    <p>
+      
+
+
+      <div class="post-content">
+        
+        <p>
   <figure>
     <img src="/images/general/turkey-ocean-1.jpg" alt="Turkey (Istanbul)" >
     <figcaption 
@@ -131,10 +223,22 @@
     </figcaption>
   </figure>
 </p>
-<h2 id="introduction">Introduction</h2>
+<h2 id="introduction">
+  Introduction
+  <a class="heading-link" href="#introduction">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
 <p>ThoughtWorks runs an Application Security 101 training for people not very familiar with common security topics. The training curriculum covers topics like Threat Modelling, Same Origin Policy, CSRF, Secret Management, Library Vulnerabilities, STRIDE among many others.</p>
 <p>I was a trainer for one of the recent batches in ThoughtWorks Pune, and in researching some of these topics, I came across many interesting links, videos and information. I decided to write a blog outlining them as a reference for my &lsquo;students&rsquo;. I hope that my technologist friends out there will also find this information fascinating.</p>
-<h2 id="topic-1-continuous-authentication--typing-pattern-detection">Topic 1: Continuous Authentication / Typing pattern detection</h2>
+<h2 id="topic-1-continuous-authentication--typing-pattern-detection">
+  Topic 1: Continuous Authentication / Typing pattern detection
+  <a class="heading-link" href="#topic-1-continuous-authentication--typing-pattern-detection">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
 <p>Technology now exists that can detect if the person who is typing on the keyboard is actually YOU or someone else. It is marketed as Continuous Authentication &ndash; where the system is continously checking if the person using the system or the website is the one who is an authorized user, or is someone else impersonating the user. See demos here:</p>
 <ol>
 <li><a href="https://www.keytrac.net/en/tryout/authenticate" target="_blank" >KeyTrac online demo</a>
@@ -145,17 +249,35 @@
 <li><a href="https://www.behaviosec.com/features/#how-it-works" target="_blank" >BehavioSec</a>
 : Uses keyboard and touch gestures to identify you!</li>
 </ol>
-<h2 id="topic-2-how-not-to-store-passwords">Topic 2: How NOT to store passwords</h2>
+<h2 id="topic-2-how-not-to-store-passwords">
+  Topic 2: How NOT to store passwords
+  <a class="heading-link" href="#topic-2-how-not-to-store-passwords">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
 <p>In this video <a href="https://www.youtube.com/watch?v=8ZtInClXe1Q" target="_blank" >How not to store passwords</a>
 , Tom Scott (Computerphile) explains how websites and application might incorrectly store passwords. And no, encryption isn&rsquo;t a good idea. He explains how <a href="https://www.youtube.com/watch?v=b4b8ktEV4Bg" target="_blank" >hashing</a>
  with a random salt is the way to go as far as password storage is concerned.</p>
-<h2 id="topic-3-has-my-email-id-been-leaked">Topic 3: Has my email ID been leaked?</h2>
+<h2 id="topic-3-has-my-email-id-been-leaked">
+  Topic 3: Has my email ID been leaked?
+  <a class="heading-link" href="#topic-3-has-my-email-id-been-leaked">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
 <p>Go to this link <a href="https://haveibeenpwned.com/" target="_blank" >Have I been Pwned?</a>
  to check if any of your Email IDs, and associated credentials, have ever leaked on the internet. If so, it tells you which source got compromised (Adobe, LinkedIn, etc) and what information got leaked. So, for instance if your email id and credentials have been leaked, then you better not only change your password for the compromised website, but you should also change your password in EACH AND EVERY account where you re-used the same password!</p>
 <p>This is why you should not ever re-use passwords across applications, websites and services. Instead, use a strong password manager and generator like <a href="https://github.com/keepassx/keepassx" target="_blank" >KeePassX</a>
  or <a href="https://1password.com/" target="_blank" >1Password</a>
 .</p>
-<h2 id="topic-4-creating-strong-passwords--dice-ware">Topic 4: Creating strong passwords &amp; Dice-Ware</h2>
+<h2 id="topic-4-creating-strong-passwords--dice-ware">
+  Topic 4: Creating strong passwords &amp; Dice-Ware
+  <a class="heading-link" href="#topic-4-creating-strong-passwords--dice-ware">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
 <p>A strong password is one that is very difficult to predict, and cannot easily be brute forced. See this website for examples of extremely strong passwords: <a href="https://passwordcreator.org/#amazing" target="_blank" >Password Creator</a>
 . The good thing about this website is that it runs <em>fully in your browser</em> (so you can go offline and then ask it to generate password recommendations).</p>
 <p>Whenever you use an ONLINE Password CHECKER, or GENERATOR you run the risk of actually <em>leaking</em> your password to the internet. That is why you would want to use OFFLINE tools to generate your passwords, and most good password managers are a safe bet.</p>
@@ -168,10 +290,22 @@
 </ol>
 <p>You randomly choose five or six (or more) words from a list of 7500+ pre-defined word list. Selecting words from the list is done by throwing a dice a pre-defined number of times per word. Read more about what makes Diceware so strong here: <a href="http://world.std.com/~reinhold/dicewarefaq.html#someoneknows" target="_blank" >If someone knows that I am using Diceware, can&rsquo;t they just use the word list to search for my passphrase?</a>
 </p>
-<h2 id="topic-5-creating-fake-webpages-for-phishing-attacks">Topic 5: Creating Fake Webpages for Phishing Attacks</h2>
+<h2 id="topic-5-creating-fake-webpages-for-phishing-attacks">
+  Topic 5: Creating Fake Webpages for Phishing Attacks
+  <a class="heading-link" href="#topic-5-creating-fake-webpages-for-phishing-attacks">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
 <p>There are many easy-to-use tools available that allow you to create an exact copy of the website you wish to impersonate, so that you can trick a user into entering their credentials into a website that looks exactly like the original. See this <a href="https://www.youtube.com/watch?v=RMCUIQaqw6E" target="_blank" >video</a>
  which explains how one can use a simple tool called SuperPhisher to create a fake  Gmail login page.</p>
-<h2 id="topic-6-understanding-same-origin-policy">Topic 6: Understanding Same Origin Policy</h2>
+<h2 id="topic-6-understanding-same-origin-policy">
+  Topic 6: Understanding Same Origin Policy
+  <a class="heading-link" href="#topic-6-understanding-same-origin-policy">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
 <p>When a web-page fires an HTTP Request to a different origin (URI Scheme + hostname + port combination), the request will reach the server, but the response will be blocked by the browser (unless authorized by the server using a CORS header). Read more on this here: <a href="https://en.wikipedia.org/wiki/Same-origin_policy" target="_blank" >Wikipedia/Same-origin-policy</a>
 . The same is true for Javascript in a browser not being allowed access to elements created in another &ldquo;origin&rdquo;.</p>
 <p>Broadly, one origin is permitted to <strong>send</strong> information to another origin, but one origin is not permitted to <strong>receive</strong> information from another origin. The prohibition on receiving information is intended to prevent malicious web sites from reading confidential information from other web sites, but also prevents web content from legitimately reading information offered by other web sites.</p>
@@ -183,7 +317,13 @@
 <p>Watch this video to grasp the details:
 <a href="https://www.youtube.com/watch?v=jDE0cntjOq8" target="_blank" >HTML5 Security Part 1/3 - Same Origin Policy Basics</a>
 </p>
-<h2 id="topic-7-how-can-md5-hashes-be-broken-using-non-secure-passwords">Topic 7: How can MD5 Hashes be broken using non-secure passwords</h2>
+<h2 id="topic-7-how-can-md5-hashes-be-broken-using-non-secure-passwords">
+  Topic 7: How can MD5 Hashes be broken using non-secure passwords
+  <a class="heading-link" href="#topic-7-how-can-md5-hashes-be-broken-using-non-secure-passwords">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
 <p>This article by Jack Singleton on Martin Fowler&rsquo;s website <a href="https://martinfowler.com/articles/session-secret.html" target="_blank" >One Line of Code that Compromises Your Server</a>
  shows how easy it is to use a dictionary attack using something like the <a href="https://crackstation.net/" target="_blank" >CrackStation Lookup tables</a>
 .</p>
@@ -194,11 +334,23 @@
 <p>So in essense, if a password created by you or by someone else in the world, ever leaked somehow on the internet, it has most likely reached a dictionary or a password list like CrackStation. You better not re-use it. It&rsquo;s just simply easier to generate a new password for each usecase, using a strong password generator.</p>
 <p>Related reading: <a href="https://security.stackexchange.com/questions/60691/length-of-passwords-that-are-rainbow-table-safe" target="_blank" >Strong passwords and Rainbow Tables</a>
 </p>
-<h2 id="topic-8-easy-hacking-via-social-engineering">Topic 8: Easy hacking via Social Engineering</h2>
+<h2 id="topic-8-easy-hacking-via-social-engineering">
+  Topic 8: Easy hacking via Social Engineering
+  <a class="heading-link" href="#topic-8-easy-hacking-via-social-engineering">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
 <p>Watch this video to see how easily sometimes people can hack into a person&rsquo;s account by fooling a call center employee to believe them: <a href="https://www.youtube.com/watch?v=lc7scxvKQOo" target="_blank" >Hacker on Call in DEFCON</a>
 . This technique of tricking people into performing an action they don&rsquo;t really want to, or reveal information that shouldn&rsquo;t be, is called Social Engineering.</p>
 <p>Accidental disclosure of information can happen even with SMS based Two Factor Authentication. For instance, if you have SMS preview enabled (which is common nowadays for mobiles), and if the OTP password is present in the first few characters of the SMS, then anyone can see your OTP SMS even if your phone is locked. This is dangerous, and that is why smart implementations of OTP SMS will always put your OTP password at the end of a slightly long SMS message so that message previews don&rsquo;t accidentaly give away the password to snooping eyes.</p>
-<h2 id="topic-9-the-danger-of-using-fingerprints-for-authentication">Topic 9: The danger of using fingerprints for authentication</h2>
+<h2 id="topic-9-the-danger-of-using-fingerprints-for-authentication">
+  Topic 9: The danger of using fingerprints for authentication
+  <a class="heading-link" href="#topic-9-the-danger-of-using-fingerprints-for-authentication">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
 <p>Fingerprint based authentication is becoming quite common nowadays, with phones and laptops allowing you to swipe a finger, or register multiple fingers for quick access. There are two issues at play here:</p>
 <ol>
 <li>
@@ -209,7 +361,13 @@
 <p>Your fingerprint works even when you are sleeping or unconscious. So, if someone whacked you, they can use your fingerprint to access any device by just touching your hand to the device. The same is true if you passed out after a heavy bout of drinking. Think about it.</p>
 </li>
 </ol>
-<h2 id="topic-10-understanding-https--ssl--tls">Topic 10: Understanding HTTPs / SSL / TLS</h2>
+<h2 id="topic-10-understanding-https--ssl--tls">
+  Topic 10: Understanding HTTPs / SSL / TLS
+  <a class="heading-link" href="#topic-10-understanding-https--ssl--tls">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
 <p>To understand HTTPs, one needs to understand the following concepts:</p>
 <ol>
 <li>
@@ -234,7 +392,13 @@
 : <em>&hellip; mathematically computed against the <strong>public</strong> part of the CA to verify that the <strong>private</strong> part of the CA actually signed the cert.</em></p>
 </li>
 </ol>
-<h2 id="topic-11-evercookie-hard-to-delete-cookies">Topic 11: Evercookie: Hard-to-delete cookies</h2>
+<h2 id="topic-11-evercookie-hard-to-delete-cookies">
+  Topic 11: Evercookie: Hard-to-delete cookies
+  <a class="heading-link" href="#topic-11-evercookie-hard-to-delete-cookies">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
 <p>Evercookie is a Javascript API, created by Sam Kamkar (of the <a href="https://samy.pl/popular/" target="_blank" >Samy worm</a>
  fame!) that produces extremely persistent cookies in a browser. Its goal is to identify a client even after they&rsquo;ve removed standard cookies, Flash cookies (Local Shared Objects or LSOs), and others.</p>
 <p>This is accomplished by storing the cookie data into as many browser storage mechanisms as possible. If cookie data is removed from any of the storage mechanisms, evercookie aggressively re-creates it in each mechanism as long as one is still intact.</p>
@@ -242,94 +406,113 @@
 <p>Read more about it here on <a href="https://github.com/samyk/evercookie" target="_blank" >Github/smayk/evercookie</a>
 , and play with a demo here on Samy&rsquo;s website <a href="https://samy.pl/evercookie/" target="_blank" >Try Evercookie</a>
 .</p>
-<h2 id="topic-12-vulnerability-checker-for-npm-libraries---bithound">Topic 12: Vulnerability Checker for NPM Libraries - Bithound</h2>
+<h2 id="topic-12-vulnerability-checker-for-npm-libraries---bithound">
+  Topic 12: Vulnerability Checker for NPM Libraries - Bithound
+  <a class="heading-link" href="#topic-12-vulnerability-checker-for-npm-libraries---bithound">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
 <p>Check out <a href="https://www.bithound.io/" target="_blank" >bithound.io</a>
  to see how a Node.JS project can use a static code analyser and dependency checker to identify components in your project which may have known vulnerabilities. <a href="https://www.bithound.io/" target="_blank" >bithound.io</a>
  is free for Open Source projects, so you should be able to plug it in your public Github projects. See the most popular libraries like <a href="https://www.bithound.io/github/angular/angular.js" target="_blank" >Angular.JS</a>
  and <a href="https://www.bithound.io/github/d3/d3" target="_blank" >d3</a>
  reports on bithound here: <a href="https://www.bithound.io/popular" target="_blank" >Popular Bithound Projects</a>
 </p>
-<h2 id="conclusion">Conclusion</h2>
+<h2 id="conclusion">
+  Conclusion
+  <a class="heading-link" href="#conclusion">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
 <p>Teaching is a great way to learn. Just as I did, hopefully you found some of above topics and links fascinating. The field of security is always growing and while new attacks are being uncovered everyday, so are new counter-measures being designed.</p>
 
-</div>
+      </div>
 
-        <footer class="post-footer clearfix">
+
+      <footer>
+        
+
+
+        
+        
+        
+        
+        
+        
+        
+      </footer>
+    </article>
+
     
-        <p class="post-tags">
-            <span>Tagged:</span>
-            
-            
-                <a href="/tags/security/">security</a>, 
-            
-                <a href="/tags/learning/">learning</a>, 
-            
-                <a href="/tags/technical/">technical</a>, 
-            
-                <a href="/tags/architecture/">architecture</a>, 
-            
-                <a href="/tags/thoughtworks/">thoughtworks</a>
-            
-        </p>
-    
+  </section>
 
-    <div class="share">
-        
-            <a class="icon-twitter" href="https://twitter.com/share?text=12%20Things%20I%20Learnt%20While%20Teaching%20Application%20Security&url=%2f2017%2f04%2f12%2fapp-security-learning%2f"
-                onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" aria-label="Share on Twitter">
-                <i class="fa fa-twitter" aria-hidden="true"></i>
-            </a>
-        
-
-        
-            <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=%2f2017%2f04%2f12%2fapp-security-learning%2f"
-                onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" aria-label="Share on Facebook">
-                <i class="fa fa-facebook" aria-hidden="true"></i>
-            </a>
-        
-
-
-        
-            <a class="icon-linkedin" href="https://www.linkedin.com/shareArticle?mini=true&title=12%20Things%20I%20Learnt%20While%20Teaching%20Application%20Security&url=%2f2017%2f04%2f12%2fapp-security-learning%2f&summary=Fascinating%20stuff%20I%20stumbled%20upon%20while%20preparing%20for%20security%20training"
-               onclick="window.open(this.href, 'linkedin-share', 'width=554,height=481');return false;" aria-label="Share on LinkedIn">
-               <i class="fa fa-linkedin" aria-hidden="true"></i>
-            </a>
-        
     </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+      2012 -
+    
+    2026
+     Gurpreet Luthra 
+    ·
+    
+    Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
+    
+  </section>
 </footer>
 
+  </main>
 
-        
-    </article>
-</div>
+  
 
-            </div>
-        </div>
+  
+  
+  <script src="/js/coder.min.6ae284be93d2d19dad1f02b0039508d9aab3180a12a06dcc71b0b0ef7825a317.js" integrity="sha256-auKEvpPS0Z2tHwKwA5UI2aqzGAoSoG3McbCw73gloxc="></script>
+  
 
-        <footer class="footer">
-            <div class="container">
-                <div class="site-title-wrapper">
-                    <h1 class="site-title">
-                        <a href="/">life-lessons.in</a>
-                    </h1>
-                    <a class="button-square button-jump-top js-jump-top" href="#" aria-label="Back to Top">
-                        <i class="fa fa-angle-up" aria-hidden="true"></i>
-                    </a>
-                </div>
+  
 
-                <p class="footer-copyright">
-                    <span>&copy; 2026 / Powered by <a href="https://gohugo.io/">Hugo</a></span>
-                </p>
-                <p class="footer-copyright">
-                    <span><a href="https://github.com/roryg/ghostwriter">Ghostwriter theme</a> By <a href="http://jollygoodthemes.com">JollyGoodThemes</a></span>
-                    <span>/ <a href="https://github.com/jbub/ghostwriter">Ported</a> to Hugo By <a href="https://github.com/jbub">jbub</a></span>
-                </p>
-            </div>
-        </footer>
+  
 
-        <script src="/js/jquery-1.11.3.min.js"></script>
-        <script src="/js/jquery.fitvids.js"></script>
-        <script src="/js/scripts.js"></script>
-    </body>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+
 </html>
-

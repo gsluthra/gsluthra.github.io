@@ -6,7 +6,6 @@
     <description>Recent content in Devops on life-lessons.in</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>© Gurpreet Luthra 2026</copyright>
     <lastBuildDate>Sat, 03 Oct 2015 02:13:50 +0000</lastBuildDate>
     <atom:link href="/tags/devops/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -14,21 +13,21 @@
       <link>/2015/10/03/understanding-vagrant-boxes/</link>
       <pubDate>Sat, 03 Oct 2015 02:13:50 +0000</pubDate>
       <guid>/2015/10/03/understanding-vagrant-boxes/</guid>
-      <description>On top of Mt Billing in Dharamshala, India Vagrant does a lot of things auto-magically under the hoods, and most of the times people are left confused when they want to delete or add boxes or VMs. I will try and explain the relationships between Base Boxes, VMs, Virtual Box Instances among other things, in this post.&#xA;Vagrant is an awesome tool for developers to get their own sandboxed environments to play with.</description>
+      <description>&lt;p&gt;&#xA;  &lt;figure&gt;&#xA;    &lt;img src=&#34;/images/general/snow-jeep.jpg&#34; alt=&#34;On top of Mt Billing in Dharamshala, India&#34; &gt;&#xA;    &lt;figcaption &#xA;    &#x9;style=&#34; &#xA;    &#x9;font-style: italic; &#xA;    &#x9;text-align: center; &#xA;    &#x9;color: grey; &#xA;    &#x9;font-size: 14px&#34;&#xA;    &#x9;&gt;&#xA;    &#x9;On top of Mt Billing in Dharamshala, India&#xA;    &lt;/figcaption&gt;&#xA;  &lt;/figure&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;Vagrant does a lot of things auto-magically under the hoods, and most of the times people are left confused&#xA;when they want to delete or add boxes or VMs. I will try and explain the relationships between Base Boxes, VMs, Virtual&#xA;Box Instances among other things, in this post.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Installing ThoughtWorks GoCD Server on a Digital Ocean Droplet</title>
       <link>/2015/08/16/gocd-on-digital-ocean/</link>
       <pubDate>Sun, 16 Aug 2015 02:13:50 +0000</pubDate>
       <guid>/2015/08/16/gocd-on-digital-ocean/</guid>
-      <description>Near Chinatown street in Singapore Today I experimented with installing ThoughtWorks GoCD Server and agent on a Digital Ocean CentOS droplet. Note that you will need to ensure that you setup swap space on your digital ocean droplet , before proceeding with installing GoCD.&#xA;Read the steps here on my old blog: Installing ThoughtWorks GoCD Server and Agent on Digital Ocean Droplet .</description>
+      <description>&lt;p&gt;&#xA;  &lt;figure&gt;&#xA;    &lt;img src=&#34;/images/general/singapore-street.jpg&#34; alt=&#34;Near Chinatown street in Singapore&#34; &gt;&#xA;    &lt;figcaption &#xA;    &#x9;style=&#34; &#xA;    &#x9;font-style: italic; &#xA;    &#x9;text-align: center; &#xA;    &#x9;color: grey; &#xA;    &#x9;font-size: 14px&#34;&#xA;    &#x9;&gt;&#xA;    &#x9;Near Chinatown street in Singapore&#xA;    &lt;/figcaption&gt;&#xA;  &lt;/figure&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;Today I experimented with installing ThoughtWorks GoCD Server and agent on a Digital Ocean CentOS droplet.&#xA;Note that you will need to ensure that you setup &lt;a href=&#34;https://www.digitalocean.com/community/tutorials/how-to-add-swap-on-centos-6&#34; target=&#34;_blank&#34; &gt;swap space on your digital ocean droplet&lt;/a&gt;&#xA;,&#xA;before proceeding with installing GoCD.&lt;/p&gt;&#xA;&lt;p&gt;Read the steps here on my old blog: &lt;a href=&#34;http://techie-notebook.blogspot.com/2015/08/installing-thoughtworks-go-server-agent.html&#34; target=&#34;_blank&#34; &gt;Installing ThoughtWorks GoCD Server and Agent on Digital Ocean Droplet&lt;/a&gt;&#xA;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Vagrant: Setup development environments FAST!</title>
       <link>/2012/12/16/vagrant-an-interesting-approach-dev/</link>
       <pubDate>Sun, 16 Dec 2012 02:13:50 +0000</pubDate>
       <guid>/2012/12/16/vagrant-an-interesting-approach-dev/</guid>
-      <description>Near the Norbulingka Institute, Dharamshala, India If you have never heard of Vagrant, or are interested in understanding what is Vagrant, then this blog should be useful to you.&#xA;Setting up a development environment for many projects now-a-days isn&amp;rsquo;t a matter of simply running a script or downloading a piece of software. On most projects, the average setup time to get all up and running is usually a day, and sometimes more.</description>
+      <description>&lt;p&gt;&#xA;  &lt;figure&gt;&#xA;    &lt;img src=&#34;/images/general/orange-evening.jpg&#34; alt=&#34;Near the Norbulingka Institute, Dharamshala, India&#34; &gt;&#xA;    &lt;figcaption &#xA;    &#x9;style=&#34; &#xA;    &#x9;font-style: italic; &#xA;    &#x9;text-align: center; &#xA;    &#x9;color: grey; &#xA;    &#x9;font-size: 14px&#34;&#xA;    &#x9;&gt;&#xA;    &#x9;Near the Norbulingka Institute, Dharamshala, India&#xA;    &lt;/figcaption&gt;&#xA;  &lt;/figure&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;If you have never heard of Vagrant, or are interested in understanding what is Vagrant, then this blog should be useful to you.&lt;/p&gt;&#xA;&lt;p&gt;Setting up a development environment for many projects now-a-days isn&amp;rsquo;t a matter of simply running a script or downloading&#xA;a piece of software. On most projects, the average setup time to get all up and running is usually a day, and sometimes more.&#xA;Most often, time is spent on setting environment variables, handling software version conflicts, or general configuration.&#xA;Not to mention, that once you are done, doing this for the next project would be even more challenging.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

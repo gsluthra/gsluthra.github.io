@@ -6,7 +6,6 @@
     <description>Recent content in Product-Management on life-lessons.in</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>© Gurpreet Luthra 2026</copyright>
     <lastBuildDate>Sat, 31 Aug 2024 07:30:50 +0000</lastBuildDate>
     <atom:link href="/tags/product-management/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -14,7 +13,7 @@
       <link>/2024/08/31/32-documentation-is-also-product/</link>
       <pubDate>Sat, 31 Aug 2024 07:30:50 +0000</pubDate>
       <guid>/2024/08/31/32-documentation-is-also-product/</guid>
-      <description>Your documentation is also the Product Introduction I spent over 8 years on Bahmni, an opensource EMR &amp;amp; hospital system. As part of that work, I was involved in introducing Confluence into the product in 2012. The initial focus was to introduce public-facing documentation for implementing organisations (aka Implementors), to understand how to implement, deploy, configure and support Bahmni.&#xA;Since then Bahmni Wiki documentation has evolved to over a 1000 pages comprising of User Guide, Feature Guide, Implementer Guide, Install Guide, Security Guide, Developer Guide, etc.</description>
+      <description>&lt;p&gt;&#xA;  &lt;figure&gt;&#xA;    &lt;img src=&#34;/images/general/doc-product/document-product.jpg&#34; alt=&#34;Documentation is also the product&#34; &gt;&#xA;    &lt;figcaption &#xA;    &#x9;style=&#34; &#xA;    &#x9;font-style: italic; &#xA;    &#x9;text-align: center; &#xA;    &#x9;color: grey; &#xA;    &#x9;font-size: 14px&#34;&#xA;    &#x9;&gt;&#xA;    &#x9;Your documentation is also the Product&#xA;    &lt;/figcaption&gt;&#xA;  &lt;/figure&gt;&#xA;&lt;/p&gt;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;&#xA;  Introduction&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#introduction&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;I spent over 8 years on Bahmni, an opensource EMR &amp;amp; hospital system. As part of that work, I was involved in introducing Confluence into the product in 2012. The initial focus was to introduce public-facing documentation for implementing organisations (aka Implementors), to understand how to implement, deploy, configure and support Bahmni.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

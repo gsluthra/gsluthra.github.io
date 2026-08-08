@@ -6,7 +6,6 @@
     <description>Recent content in Health on life-lessons.in</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>© Gurpreet Luthra 2026</copyright>
     <lastBuildDate>Thu, 25 Feb 2021 02:13:50 +0000</lastBuildDate>
     <atom:link href="/tags/health/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -14,14 +13,14 @@
       <link>/2021/02/25/30-bahmni-1million-loc/</link>
       <pubDate>Thu, 25 Feb 2021 02:13:50 +0000</pubDate>
       <guid>/2021/02/25/30-bahmni-1million-loc/</guid>
-      <description>Image courtsey: Friends without borders Bahmni Codebase - Moving out of AngularJS Bahmni, an open source hospital management system and EMR has over 1 Million lines of code (LoC)! Out of that over 164,000 LoC are in AngularJS (Angular 1.x). AngularJS is going to be end-of-life in Dec-2021, with no likely SLAs around fixes after Dec-2021.&#xA;In this article, I would like to shed some light into what parts of Bahmni depend on AngularJS, what parts are already in React; and suggest some steps forward to remove dependence on AngularJS.</description>
+      <description>&lt;p&gt;&#xA;  &lt;figure&gt;&#xA;    &lt;img src=&#34;/images/general/Bahmni-friendsWithoutBorders.jpg&#34; alt=&#34;Bahmni Hospital Management System&#34; &gt;&#xA;    &lt;figcaption &#xA;    &#x9;style=&#34; &#xA;    &#x9;font-style: italic; &#xA;    &#x9;text-align: center; &#xA;    &#x9;color: grey; &#xA;    &#x9;font-size: 14px&#34;&#xA;    &#x9;&gt;&#xA;    &#x9;Image courtsey: Friends without borders&#xA;    &lt;/figcaption&gt;&#xA;  &lt;/figure&gt;&#xA;&lt;/p&gt;&#xA;&lt;h3 id=&#34;bahmni-codebase---moving-out-of-angularjs&#34;&gt;&#xA;  Bahmni Codebase - Moving out of AngularJS&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#bahmni-codebase---moving-out-of-angularjs&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;Bahmni, an open source hospital management system and EMR has over 1 Million lines of code (LoC)! Out of that over 164,000 LoC are in AngularJS (Angular 1.x). AngularJS is going to be end-of-life in Dec-2021, with no likely SLAs around fixes after Dec-2021.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Reduce Computer Eye Strain with F.lux</title>
       <link>/2016/09/05/reduce-eye-strain-with-flux/</link>
       <pubDate>Mon, 05 Sep 2016 02:13:50 +0000</pubDate>
       <guid>/2016/09/05/reduce-eye-strain-with-flux/</guid>
-      <description>About 3 years ago, one of my colleagues in ThoughtWorks, Sam Gibson , suggested I try out f.lux .&#xA;f.lux changes the Color temperature of my mac screen in the evening, so that the blue light from the screen is removed, and instead a nice warm set of colors are emitted from the screen. This drastically reduced the strain that I felt on my screen at night. It felt weird, the first 3 or 4 days, when my screen colors changed in the evening.</description>
+      <description>&lt;p&gt;&#xA;  &lt;img src=&#34;/images/general/flux-logo.jpg&#34; alt=&#34;Flux Logo&#34;&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;About 3 years ago, one of my colleagues in ThoughtWorks, &lt;a href=&#34;https://www.thoughtworks.com/profiles/sam-gibson&#34; target=&#34;_blank&#34; &gt;Sam Gibson&lt;/a&gt;&#xA;, suggested I try out &lt;a href=&#34;https://justgetflux.com/&#34; target=&#34;_blank&#34; &gt;f.lux&lt;/a&gt;&#xA;.&lt;/p&gt;&#xA;&lt;p&gt;f.lux changes the &lt;a href=&#34;http://www.eizo.com/library/basics/color_temperature_on_an_LCD_monitor/&#34; target=&#34;_blank&#34; &gt;Color temperature&lt;/a&gt;&#xA; of my mac screen in the evening, so that the blue light from the screen is removed, and&#xA;instead a nice warm set of colors are emitted from the screen. This drastically reduced the strain that I felt on my screen&#xA;at night. It felt weird, the first 3 or 4 days, when my screen colors changed in the evening. But then soon enough, I&#xA;even stopped realizing when f.lux changed the colors. It would only be a passerby, who would look at my screen, and wonder:&#xA;Hey what happened to your screen?&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

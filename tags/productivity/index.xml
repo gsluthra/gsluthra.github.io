@@ -6,7 +6,6 @@
     <description>Recent content in Productivity on life-lessons.in</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>© Gurpreet Luthra 2026</copyright>
     <lastBuildDate>Wed, 11 Mar 2026 07:30:50 +0000</lastBuildDate>
     <atom:link href="/tags/productivity/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -14,7 +13,7 @@
       <link>/2026/03/11/33-firefox-jump-kick-plugin/</link>
       <pubDate>Wed, 11 Mar 2026 07:30:50 +0000</pubDate>
       <guid>/2026/03/11/33-firefox-jump-kick-plugin/</guid>
-      <description>Jump-Kick: quick tab switcher for Firefox Introduction Over the last few years, I’ve often found myself with far too many tabs open in Firefox. Jumping between them usually meant scanning a crowded tab bar, or cycling through windows and hoping I landed on the right one. This is especially true when my screen is shared. I don&amp;rsquo;t want others to see private tabs, or waste time searching for tabs, and interrupt the conversation flow.</description>
+      <description>&lt;p&gt;&#xA;  &lt;figure&gt;&#xA;    &lt;img src=&#34;/images/general/jump-kick-blog/1_light-theme-screenshot.jpg&#34; alt=&#34;Jump-Kick popup in action&#34; &gt;&#xA;    &lt;figcaption &#xA;    &#x9;style=&#34; &#xA;    &#x9;font-style: italic; &#xA;    &#x9;text-align: center; &#xA;    &#x9;color: grey; &#xA;    &#x9;font-size: 14px&#34;&#xA;    &#x9;&gt;&#xA;    &#x9;Jump-Kick: quick tab switcher for Firefox&#xA;    &lt;/figcaption&gt;&#xA;  &lt;/figure&gt;&#xA;&lt;/p&gt;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;&#xA;  Introduction&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#introduction&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Over the last few years, I’ve often found myself with &lt;strong&gt;far too many tabs&lt;/strong&gt; open in Firefox. Jumping between them usually meant scanning a crowded tab bar, or cycling through windows and hoping I landed on the right one. This is especially true when my screen is shared. I don&amp;rsquo;t want others to see private tabs, or waste time searching for tabs, and interrupt the conversation flow. I wanted something closer to a &lt;em&gt;command palette&lt;/em&gt; or &lt;em&gt;spotlight for mac&lt;/em&gt; for my browser.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
