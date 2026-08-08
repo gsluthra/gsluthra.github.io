@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>
+  The Gen-Eval Loop: Getting Quality Outputs from LLMs · life-lessons.in
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="author" content="Gurpreet Luthra">
+<meta name="description" content="A demonstration of a gen-eval loop across various scenarios">
+<meta name="keywords" content="blog,tech,product,engineering">
+
+
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="/images/general/gen-eval-loop-blog/diagram.png">
+  <meta name="twitter:title" content="The Gen-Eval Loop: Getting Quality Outputs from LLMs">
+  <meta name="twitter:description" content="A demonstration of a gen-eval loop across various scenarios">
+
+<meta property="og:url" content="/2026/08/08/34-gen-eval-loop/">
+  <meta property="og:site_name" content="life-lessons.in">
+  <meta property="og:title" content="The Gen-Eval Loop: Getting Quality Outputs from LLMs">
+  <meta property="og:description" content="A demonstration of a gen-eval loop across various scenarios">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2026-08-08T07:30:50+00:00">
+    <meta property="article:modified_time" content="2026-08-08T07:30:50+00:00">
+    <meta property="article:tag" content="Ai">
+    <meta property="article:tag" content="Agentic-Ai">
+    <meta property="article:tag" content="Opensource">
+    <meta property="article:tag" content="Programming">
+    <meta property="og:image" content="/images/general/gen-eval-loop-blog/diagram.png">
+
+
+
+
+<link rel="canonical" href="/2026/08/08/34-gen-eval-loop/">
+
+
+<link rel="preload" href="/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="/css/coder.min.f6b1b35a7b02521b25338f6cf58975f9980a6c12847763fe35a48307758cd1e7.css" integrity="sha256-9rGzWnsCUhslM49s9Yl1&#43;ZgKbBKEd2P&#43;NaSDB3WM0ec=" crossorigin="anonymous" media="screen" />
+
+
+
+
+
+
+  
+    
+    
+    <link rel="stylesheet" href="/css/coder-dark.min.a00e6364bacbc8266ad1cc81230774a1397198f8cfb7bcba29b7d6fcb54ce57f.css" integrity="sha256-oA5jZLrLyCZq0cyBIwd0oTlxmPjPt7y6KbfW/LVM5X8=" crossorigin="anonymous" media="screen" />
+  
+
+
+
+ 
+  
+    
+    <link rel="stylesheet" href="/css/custom.min.aa8acc18e5cdc5899f831c3b94a6a923130cba218bcba291aaecb725fe92f893.css" integrity="sha256-qorMGOXNxYmfgxw7lKapIxMMuiGLy6KRquy3Jf6S&#43;JM=" crossorigin="anonymous" media="screen" />
+  
+
+
+
+
+
+<link rel="icon" type="image/svg+xml" href="/images/favicon.svg" sizes="any">
+<link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+<body class="preload-transitions colorscheme-auto">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    
+    <a class="navigation-title" href="/">
+      life-lessons.in
+    </a>
+    
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/posts/">Posts</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/page/presentations/">Presentations</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/page/about/">About Me</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/page/bluecraft/">Blue Craft</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="/2026/08/08/34-gen-eval-loop/">
+              The Gen-Eval Loop: Getting Quality Outputs from LLMs
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa-solid fa-calendar" aria-hidden="true"></i>
+              <time datetime="2026-08-08T07:30:50Z">
+                08-Aug-2026
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa-solid fa-clock" aria-hidden="true"></i>
+              4-minute read
+            </span>
+          </div>
+          
+          
+          <div class="tags">
+  <i class="fa-solid fa-tag" aria-hidden="true"></i>
+    <span class="tag">
+      <a href="/tags/ai/">Ai</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/agentic-ai/">Agentic-Ai</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/opensource/">Opensource</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/programming/">Programming</a>
+    </span></div>
+
+        </div>
+      </header>
+
+      
+
+
+      <div class="post-content">
+        
+        <h2 id="introduction">
+  Introduction
+  <a class="heading-link" href="#introduction">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>A single prompt to an LLM is a guess. Sometimes it works, but often you end up doing the judging yourself: read the output, figure out what&rsquo;s wrong, prompt again. I wanted to see what happens when an LLM does that judging step too, so both sides keep going back and forth until the work is actually good.</p>
+<p>That&rsquo;s the idea behind the <strong>gen-eval loop</strong>. A generator produces something. A separate evaluator grades it against a rubric. The loop repeats with that feedback until the evaluator says pass, or a turn budget runs out. Credit to my colleague <a href="https://in.linkedin.com/in/nikhilprasad" target="_blank" >Nikhil Prasad</a>
+ for introducing me to this pattern.</p>
+<p>I presented this concept at <a href="https://caizin.ai/" target="_blank" >Caizin&rsquo;s</a>
+ weekly AI-showcase last week.</p>
+<h2 id="how-it-works">
+  How it works
+  <a class="heading-link" href="#how-it-works">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>I built <a href="https://github.com/gsluthra/gen-eval-loop" target="_blank" >gen-eval-loop</a>
+, a small, config-driven harness on top of <code>claude -p</code>:</p>
+<p>
+  <figure>
+    <img src="/images/general/gen-eval-loop-blog/diagram.png" alt="Generator-Evaluator loop diagram" >
+    <figcaption 
+    	style=" 
+    	font-style: italic; 
+    	text-align: center; 
+    	color: grey; 
+    	font-size: 14px"
+    	>
+    	Generator-Evaluator (Gen/Eval) loop
+    </figcaption>
+  </figure>
+</p>
+<p>For every example, I have a generator prompt and an eval prompt (and model). Then I run the program, and it starts looping.</p>
+<ul>
+<li>The <strong>generator</strong> writes its output into a fresh <code>turn_NNN/</code> folder each round.</li>
+<li>The <strong>evaluator</strong> runs in its own session and can only see that latest folder. It never sees the generator&rsquo;s reasoning or earlier turns. It writes a <code>verdict.json</code> file with a status, score, and feedback.</li>
+<li>The loop feeds that feedback into the next generator turn and repeats.</li>
+</ul>
+<p>You can even put a different model in each seat: a faster one to generate, a stronger one to judge. Every task is just a different config file and a pair of prompt files. The harness itself doesn&rsquo;t need any change.</p>
+<h2 id="results-from-a-real-run">
+  Results from a real run
+  <a class="heading-link" href="#results-from-a-real-run">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>I ran it on a UI prototyping task: build a movie-streaming home page, judged against 8 UX heuristics with an all-or-nothing bar. The generator was Haiku, the evaluator was Opus. Over 7 turns, the score moved from 0.375 to 0.875 (0.375, 0.50, 0.81, 0.81, 0.875, 0.88, 0.875). It never fully passed. It kept falling short on one accessibility heuristic. But the trajectory shows real progress: a broken grid layout got fixed by turn 3, and placeholder emoji &ldquo;posters&rdquo; turned into real poster art by turn 5.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Turn 1 (0.375)</th>
+          <th>Turn 2 (0.50)</th>
+          <th>Turn 3 (0.81)</th>
+          <th>Turn 7 (0.875)</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>
+  <img src="/images/general/gen-eval-loop-blog/turn-1.png" alt="Turn 1">
+</td>
+          <td>
+  <img src="/images/general/gen-eval-loop-blog/turn-2.png" alt="Turn 2">
+</td>
+          <td>
+  <img src="/images/general/gen-eval-loop-blog/turn-3.png" alt="Turn 3">
+</td>
+          <td>
+  <img src="/images/general/gen-eval-loop-blog/turn-7.png" alt="Turn 7, final">
+</td>
+      </tr>
+  </tbody>
+</table>
+<p>It&rsquo;s also a good way to find out when the evaluator is the weak link. If it passes everything on turn 1, or its feedback is vague, that&rsquo;s a sign the rubric needs work before the generator does.</p>
+<h2 id="choosing-models-for-each-role">
+  Choosing models for each role
+  <a class="heading-link" href="#choosing-models-for-each-role">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>The generator and evaluator don&rsquo;t have to be the same model. You can choose a fast (but weak) generator model and a strong eval model, for instance. Different combos have different impacts. See the table below:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Generator</th>
+          <th>Evaluator</th>
+          <th>Advantages</th>
+          <th>Disadvantages</th>
+          <th>Typical use case</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Strong</td>
+          <td>Strong</td>
+          <td>High-quality drafts and careful review</td>
+          <td>Highest cost and latency</td>
+          <td>High-stakes code, security, regulated workflows</td>
+      </tr>
+      <tr>
+          <td>Same model</td>
+          <td>Same model, different prompt</td>
+          <td>Simple architecture, consistent capability</td>
+          <td>Can share blind spots</td>
+          <td>Most early production and internal tools</td>
+      </tr>
+      <tr>
+          <td>Smaller</td>
+          <td>Stronger</td>
+          <td>Low-cost exploration, better final judgment</td>
+          <td>Strong evaluator can become the bottleneck</td>
+          <td>Many drafts, ranking, design exploration</td>
+      </tr>
+      <tr>
+          <td>Strong</td>
+          <td>Specialized or rule-based</td>
+          <td>Brings domain policies and hard checks</td>
+          <td>More systems to maintain</td>
+          <td>Enterprise security, compliance, API standards</td>
+      </tr>
+      <tr>
+          <td>Smaller</td>
+          <td>Smaller</td>
+          <td>Fast and inexpensive</td>
+          <td>Weak at subtle defects</td>
+          <td>Low-risk filtering and prototypes</td>
+      </tr>
+  </tbody>
+</table>
+<p>Rule of thumb: the evaluator should be at least as capable as the generator for the dimension being judged. A strong general-purpose model isn&rsquo;t the only way to satisfy that either. For a narrow code-quality rule, a static analyzer can judge better than any LLM.</p>
+<h2 id="my-learnings-from-this-experiment">
+  My learnings from this experiment
+  <a class="heading-link" href="#my-learnings-from-this-experiment">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<ol>
+<li>The output definitely improves because of strong evals and the feedback loop.</li>
+<li>The time (and tokens) consumed in loops is much more than if this was a one-shot prompt, and to get better outputs the generator and eval need fine-tuning.</li>
+<li>These loops are great for complex tasks, but might be overkill for simple stuff.</li>
+<li>I also added a self-improving step where the LLM provides feedback on how the Gen-Eval prompts can be made better, based on the learnings from the loops. See the LESSON.md file in some of the examples for this.</li>
+<li>One cannot judge the quality of an eval if they themselves have limited knowledge of that domain or expertise (for example, how does one judge whether an eval is great or mediocre for UX decision-making if they have never studied the craft of UX?)</li>
+</ol>
+<h2 id="further-reading">
+  Further reading
+  <a class="heading-link" href="#further-reading">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<ul>
+<li><a href="https://www.anthropic.com/engineering/harness-design-long-running-apps" target="_blank" >Anthropic: Harness design for long-running application development</a>
+</li>
+<li><a href="https://www.ai-heroes.co/en-us/blog/long-running-agent-harness-claude-agent-sdk-2026" target="_blank" >AI Heroes: The generator-evaluator harness and the Claude Agent SDK</a>
+</li>
+<li><a href="https://addyosmani.com/blog/long-running-agents/" target="_blank" >Addy Osmani: Long-running agents</a>
+</li>
+<li><a href="https://www.ibm.com/think/topics/loop-engineering" target="_blank" >IBM: What Is Loop Engineering?</a>
+</li>
+</ul>
+<h2 id="try-it">
+  Try it
+  <a class="heading-link" href="#try-it">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>The repo has nine worked examples, from a four-line poem to a Java crypto reviewer to the movie-streaming run above with screenshots. There&rsquo;s also a short slide deck if you&rsquo;d rather skip the code: <a href="https://github.com/gsluthra/gen-eval-loop" target="_blank" >github.com/gsluthra/gen-eval-loop</a>
+.</p>
+
+      </div>
+
+      <div class="all-posts-link">
+        <a href="/posts/"><i class="fa-solid fa-arrow-left" aria-hidden="true"></i> All Posts</a>
+      </div>
+
+      <footer>
+        
+
+
+        
+        
+        
+        
+        
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+      2012 -
+    
+    2026
+     Gurpreet Luthra 
+    ·
+    
+    Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
+    
+  </section>
+</footer>
+
+  </main>
+
+  
+
+  
+  
+  <script src="/js/coder.min.6ae284be93d2d19dad1f02b0039508d9aab3180a12a06dcc71b0b0ef7825a317.js" integrity="sha256-auKEvpPS0Z2tHwKwA5UI2aqzGAoSoG3McbCw73gloxc="></script>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+
+</html>

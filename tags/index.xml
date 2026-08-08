@@ -6,20 +6,41 @@
     <description>Recent content in Tags on life-lessons.in</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 11 Mar 2026 07:30:50 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 08 Aug 2026 07:30:50 +0000</lastBuildDate>
     <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Firefox</title>
-      <link>/tags/firefox/</link>
-      <pubDate>Wed, 11 Mar 2026 07:30:50 +0000</pubDate>
-      <guid>/tags/firefox/</guid>
+      <title>Agentic-Ai</title>
+      <link>/tags/agentic-ai/</link>
+      <pubDate>Sat, 08 Aug 2026 07:30:50 +0000</pubDate>
+      <guid>/tags/agentic-ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ai</title>
+      <link>/tags/ai/</link>
+      <pubDate>Sat, 08 Aug 2026 07:30:50 +0000</pubDate>
+      <guid>/tags/ai/</guid>
       <description></description>
     </item>
     <item>
       <title>Opensource</title>
       <link>/tags/opensource/</link>
-      <pubDate>Wed, 11 Mar 2026 07:30:50 +0000</pubDate>
+      <pubDate>Sat, 08 Aug 2026 07:30:50 +0000</pubDate>
       <guid>/tags/opensource/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Programming</title>
+      <link>/tags/programming/</link>
+      <pubDate>Sat, 08 Aug 2026 07:30:50 +0000</pubDate>
+      <guid>/tags/programming/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Firefox</title>
+      <link>/tags/firefox/</link>
+      <pubDate>Wed, 11 Mar 2026 07:30:50 +0000</pubDate>
+      <guid>/tags/firefox/</guid>
       <description></description>
     </item>
     <item>
@@ -104,13 +125,6 @@
       <link>/tags/food/</link>
       <pubDate>Sat, 19 Jun 2021 02:13:50 +0000</pubDate>
       <guid>/tags/food/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Programming</title>
-      <link>/tags/programming/</link>
-      <pubDate>Sat, 19 Jun 2021 02:13:50 +0000</pubDate>
-      <guid>/tags/programming/</guid>
       <description></description>
     </item>
     <item>

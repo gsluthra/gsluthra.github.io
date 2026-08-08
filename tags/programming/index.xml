@@ -6,8 +6,15 @@
     <description>Recent content in Programming on life-lessons.in</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 19 Jun 2021 02:13:50 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 08 Aug 2026 07:30:50 +0000</lastBuildDate>
     <atom:link href="/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Gen-Eval Loop: Getting Quality Outputs from LLMs</title>
+      <link>/2026/08/08/34-gen-eval-loop/</link>
+      <pubDate>Sat, 08 Aug 2026 07:30:50 +0000</pubDate>
+      <guid>/2026/08/08/34-gen-eval-loop/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;&#xA;  Introduction&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#introduction&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;A single prompt to an LLM is a guess. Sometimes it works, but often you end up doing the judging yourself: read the output, figure out what&amp;rsquo;s wrong, prompt again. I wanted to see what happens when an LLM does that judging step too, so both sides keep going back and forth until the work is actually good.&lt;/p&gt;&#xA;&lt;p&gt;That&amp;rsquo;s the idea behind the &lt;strong&gt;gen-eval loop&lt;/strong&gt;. A generator produces something. A separate evaluator grades it against a rubric. The loop repeats with that feedback until the evaluator says pass, or a turn budget runs out. Credit to my colleague &lt;a href=&#34;https://in.linkedin.com/in/nikhilprasad&#34; target=&#34;_blank&#34; &gt;Nikhil Prasad&lt;/a&gt;&#xA; for introducing me to this pattern.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Indian Food Recipes App built with GlideApps [NoCode]</title>
       <link>/2021/06/19/29-indian-food-recipes-app-nocode/</link>
