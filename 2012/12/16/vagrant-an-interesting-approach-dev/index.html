@@ -177,7 +177,7 @@
             </span>
             <span class="reading-time">
               <i class="fa-solid fa-clock" aria-hidden="true"></i>
-              One-minute read
+              6-minute read
             </span>
           </div>
           
@@ -206,7 +206,15 @@
       
 <details class="entry__toc toc" >
 	<summary class="toc__title">Table of Contents</summary>
-	<nav id="TableOfContents"></nav>
+	<nav id="TableOfContents">
+  <ul>
+    <li><a href="#the-need-for-vagrant">The Need for Vagrant</a></li>
+    <li><a href="#vagrant-the-solution">Vagrant: The Solution</a></li>
+    <li><a href="#is-it-different-from-using-a-vm">Is it different from using a VM?</a></li>
+    <li><a href="#steps-to-setup-a-vagrant-box-on-your-machine">Steps to setup a Vagrant Box on your machine</a></li>
+    <li><a href="#chef-your-vagrant">Chef your Vagrant</a></li>
+  </ul>
+</nav>
 </details>
 
 
@@ -226,14 +234,80 @@
     </figcaption>
   </figure>
 </p>
-<p>If you have never heard of Vagrant, or are interested in understanding what is Vagrant, then this blog should be useful to you.</p>
-<p>Setting up a development environment for many projects now-a-days isn&rsquo;t a matter of simply running a script or downloading
-a piece of software. On most projects, the average setup time to get all up and running is usually a day, and sometimes more.
-Most often, time is spent on setting environment variables, handling software version conflicts, or general configuration.
-Not to mention, that once you are done, doing this for the next project would be even more challenging.</p>
-<p>Read the full blog on my older site:
-<a href="http://techie-notebook.blogspot.com/2012/12/vagrant-interesting-approach-to-setup.html" target="_blank" >Vagrant: An interesting approach to setup development environments FAST!</a>
-</p>
+<p>If you have never heard of <a href="http://vagrantup.com/" target="_blank" >Vagrant</a>
+, or are interested in understanding what is Vagrant, then this blog should be useful to you.</p>
+<h2 id="the-need-for-vagrant">
+  The Need for Vagrant
+  <a class="heading-link" href="#the-need-for-vagrant">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>Recently, I was involved in organizing the <a href="http://gracehopper.org.in/2012/conference/hackathon/" target="_blank" >GraceHopper Hackathon</a>
+ in Bangalore where we expected about 50+ women developers to come and contribute to Humanitarian software projects like <a href="http://openmrs.org/" target="_blank" >OpenMRS</a>
+, <a href="http://rapidftr.com/" target="_blank" >RapidFTR</a>
+, and others. Since all participants would mostly be new to the projects, and we had a single day to get them going, and contribute &ndash; we wanted to ensure that people spend as less a time on setup of their dev environment as possible.</p>
+<p>I got introduced to Vagrant, because at the GraceHopper Hackathon, one of the projects - RapidFTR, provides people with the ability to <a href="https://github.com/rapidftr/RapidFTR/wiki/Using-a-VM-for-development" target="_blank" >setup their environment using a Vagrant box</a>
+ &ndash; and that&rsquo;s when I realized &ndash; this is interesting!</p>
+<p>Setting up a development environment for many projects now-a-days isn&rsquo;t a matter of simply running a script or downloading a piece of software. On most projects, the average setup time to get all up and running is usually a day, and sometimes more. Most often, time is spent on setting environment variables, handling software version conflicts, or general configuration. Not to mention, that once you are done, doing this for the next project would be even more challenging.</p>
+<h2 id="vagrant-the-solution">
+  Vagrant: The Solution
+  <a class="heading-link" href="#vagrant-the-solution">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>Vagrant provides an elegant solution to this whole mess.</p>
+<p>In simple terms, Vagrant allows you to provides a &ldquo;box&rdquo; which has everything pre-installed and setup for you &ndash; and all you do is &ldquo;start&rdquo; the box on your machine and you are set. This box is essentially a Virtual Box VM, which is running in invisible mode (background mode) on your machine, and has the whole development environment for your software setup inside it. But, instead of coding inside the Vagrant VM, you code on your laptop &ndash; and do your builds, compilations and server startups, etc inside the Vagrant VM.</p>
+<p>Vagrant essentially shares a folder on the &ldquo;box&rdquo; which is also available on your laptop, and this is the folder that contains the code of your project. Any modifications to that folder by your laptop (host), or the box (guest), will be reflected to each other.</p>
+<p>Basically this means that your laptop owns the code, so you use your favorite powerful IDE and laptop environment to modify code, and you use the vagrant environment to &ldquo;run&rdquo; the code.</p>
+<p><strong>The advantages you get when using a Vagrant box are:</strong></p>
+<ol>
+<li>You don&rsquo;t install stuff on your machine, and mess your machine up with all the weird libraries and settings. All you have on your machine is the &ldquo;code&rdquo;. Rest is inside the VM.</li>
+<li>You have exactly the same development environment as everyone else in your team.</li>
+<li>The development environment is created once (Vagrant box), and used everywhere on all Operating Systems. This is because the Box is essentially a VM, which is running on top of Virtual Box. And Virtual Box VMs can be run on any host operating system.</li>
+</ol>
+<h2 id="is-it-different-from-using-a-vm">
+  Is it different from using a VM?
+  <a class="heading-link" href="#is-it-different-from-using-a-vm">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>Some people ask the question &ndash; why Vagrant Box? Why don&rsquo;t I just setup a Virtual Box VM and everyone can work on that VM. That is also the same &ndash; isn&rsquo;t it?</p>
+<p>Well the answer is &ndash; &ldquo;Almost&rdquo;.</p>
+<p>If you create a VM, and then ask people to work on that VM on their machines &ndash; you are in for trouble most of the time! In most cases a VM on your machine is slow. It is especially painful when you have to do things like editing, coding, etc. Plus that also means you have to learn the shortcuts of the VM to make you productive on that VM.</p>
+<p>When using a Vagrant box, you aren&rsquo;t working in the VM. You are working on your own laptop, and only connecting to the VM in &ldquo;ssh&rdquo; (command-line) mode. In effect, you are actually just firing a few commands to VM &ndash; like build, start server, etc and the rest of the work is being done on your own machine. For you, the Vagrant box is just like a &ldquo;server&rdquo; to which you connect and tell what to do.</p>
+<p>A Vagrant VM is usually viewed as a light-weight command-line only VM which usually runs a Linux OS (Lucid32 by default, but you can use Ubuntu or anything else).</p>
+<p>Vagrant also allows you to configure port forwarding, so that when you type a URL in your browser like http://localhost:3000, you get connected to your server application running inside vagrant &ndash; just as-if the server was running directly on your laptop.</p>
+<h2 id="steps-to-setup-a-vagrant-box-on-your-machine">
+  Steps to setup a Vagrant Box on your machine
+  <a class="heading-link" href="#steps-to-setup-a-vagrant-box-on-your-machine">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>When you have a Vagrant Box based Development environment setup (like RapidFTR did), here is all you do to get yourself setup:</p>
+<ol>
+<li>Install Virtual Box for your laptop. If you have a Mac, then you install Virtual Box for Mac (and so on). This will act as the environment inside which Vagrant box will run.</li>
+<li>Install Vagrant for your laptop. Once you install vagrant, you will see that on command line &ldquo;vagrant&rdquo; command will become available.</li>
+<li>You download the code into a folder on your machine (say from Github or your network code repository).</li>
+<li>You &ldquo;add&rdquo; a vagrant box to you laptop using the &ldquo;vagrant box add&rdquo; command. This command will need the path to your vagrant box VM. Alternatively, the box can be downloaded and added automatically from the internet as part of the vagrant up command (in next step).</li>
+<li>You then do a &ldquo;vagrant up&rdquo; to start your box. This vagrant &ldquo;up&rdquo; command is done from your code directory, and the code directory will contain a &ldquo;Vagrant&rdquo; configuration file with configuration details on the Vagrant box to run. If the box isn&rsquo;t found on your local machine, vagrant will attempt to download the box from the URL provided in the vagrant configuration file. (This means you didn&rsquo;t use the box add command to add the box locally - as was mentioned in the previous step).</li>
+<li>Once the vagrant box is up and running, then you ssh into the Vagrant box using the &ldquo;vagrant ssh&rdquo; command (or putty on windows) &ndash; to build/start/stop your project application.</li>
+</ol>
+<p>That&rsquo;s it. Now you are free to modify code on your local machine, and see it working via the vagrant box VM environment.</p>
+<h2 id="chef-your-vagrant">
+  Chef your Vagrant
+  <a class="heading-link" href="#chef-your-vagrant">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>Vagrant also allows you to run <a href="http://vagrantup.com/v1/docs/provisioners/chef_solo.html" target="_blank" >chef</a>
+ scripts as part of your vagrant up command. The chef scripts will perform the installation and setup of software inside your Vagrant box. This way &ndash; the power of infrastructure automation and provisioning provided by chef, can be combined with the power of a decoupled development environment provided by Vagrant.</p>
+<p><em>Originally posted on my older blog post here: <a href="http://techie-notebook.blogspot.com/2012/12/vagrant-interesting-approach-to-setup.html" target="_blank" >Vagrant: An interesting approach to setup development environments FAST!</a>
+</em></p>
 
       </div>
 

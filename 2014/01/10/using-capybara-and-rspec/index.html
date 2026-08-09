@@ -177,7 +177,7 @@
             </span>
             <span class="reading-time">
               <i class="fa-solid fa-clock" aria-hidden="true"></i>
-              One-minute read
+              2-minute read
             </span>
           </div>
           
@@ -229,9 +229,85 @@
 <p>On my Rails project, I am using RSpec and Capybara to write functional tests.<br>
 I did not want to specify any HTML elements in my Capybara feature files, since that makes the
 feature files brittle to HTML / CSS changes. It also violates the DRY principle and basic code hygiene.</p>
-<p>Read the full blog on my older blog site here:
-<a href="http://techie-notebook.blogspot.com/2014/01/using-capybara-and-rspec-assertions-in.html" target="_blank" >Using Capybara and Rspec assertions in Page Objects</a>
+<p>So, I decided to refactor out my HTML centric Capybara code into separate Page Objects. If you are unfamiliar with Page Objects, then read the following:</p>
+<ul>
+<li><a href="http://martinfowler.com/bliki/PageObject.html" target="_blank" >Page Objects by Martin Fowler</a>
+</li>
+<li><a href="http://robots.thoughtbot.com/better-acceptance-tests-with-page-objects" target="_blank" >Better Acceptance Tests with Page Objects</a>
+</li>
+</ul>
+<p>The Page Object pattern for encapsulating HTML centric DSL is a common pattern followed while writing UI level functional tests in ThoughtWorks.</p>
+<p>The problem I was facing when I refactored my code into Page objects was that I was unable to use the RSpec &lsquo;<strong>expect</strong>&rsquo; syntax in Page Objects. Turns out all I had to do in my page objects was:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-ruby" data-lang="ruby"><span class="line"><span class="cl"><span class="kp">include</span> <span class="no">RSpec</span><span class="o">::</span><span class="no">Matchers</span>
+</span></span></code></pre></div><p>Here is the full code from my project on Github: <a href="https://github.com/gsluthra/dakshina/tree/master/spec/features" target="_blank" >https://github.com/gsluthra/dakshina/tree/master/spec/features</a>
 </p>
+<p>The appropriate feature files and page objects, from <a href="https://gist.github.com/gsluthra/8356015" target="_blank" >this GIST</a>
+:</p>
+<p><strong>capsule_create_form.rb</strong> (Page Object)</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-ruby" data-lang="ruby"><span class="line"><span class="cl"><span class="c1"># Page Object</span>
+</span></span><span class="line"><span class="cl"><span class="k">class</span> <span class="nc">CapsuleCreateForm</span>
+</span></span><span class="line"><span class="cl">  <span class="kp">include</span> <span class="no">Capybara</span><span class="o">::</span><span class="no">DSL</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="k">def</span> <span class="nf">submit_form</span><span class="p">(</span><span class="n">capsule</span><span class="o">=</span><span class="p">{})</span>
+</span></span><span class="line"><span class="cl">    <span class="n">fill_in</span> <span class="s1">&#39;Title&#39;</span><span class="p">,</span> <span class="ss">:with</span> <span class="o">=&gt;</span> <span class="n">capsule</span><span class="o">[</span><span class="ss">:title</span><span class="o">]</span>
+</span></span><span class="line"><span class="cl">    <span class="n">fill_in</span> <span class="s1">&#39;Description&#39;</span><span class="p">,</span> <span class="ss">:with</span> <span class="o">=&gt;</span> <span class="n">capsule</span><span class="o">[</span><span class="ss">:description</span><span class="o">]</span>
+</span></span><span class="line"><span class="cl">    <span class="n">fill_in</span> <span class="s1">&#39;capsule_study_text&#39;</span><span class="p">,</span> <span class="ss">:with</span> <span class="o">=&gt;</span> <span class="n">capsule</span><span class="o">[</span><span class="ss">:study_text</span><span class="o">]</span>
+</span></span><span class="line"><span class="cl">    <span class="n">fill_in</span> <span class="s1">&#39;capsule_assignment_instructions&#39;</span><span class="p">,</span> <span class="ss">:with</span> <span class="o">=&gt;</span> <span class="n">capsule</span><span class="o">[</span><span class="ss">:assignment_instructions</span><span class="o">]</span>
+</span></span><span class="line"><span class="cl">    <span class="n">fill_in</span> <span class="s1">&#39;capsule_guidelines_for_evaluators&#39;</span><span class="p">,</span> <span class="ss">:with</span> <span class="o">=&gt;</span> <span class="n">capsule</span><span class="o">[</span><span class="ss">:guidelines_for_evaluators</span><span class="o">]</span>
+</span></span><span class="line"><span class="cl">    <span class="n">click_button</span> <span class="s1">&#39;Save Capsule&#39;</span>
+</span></span><span class="line"><span class="cl">  <span class="k">end</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">end</span>
+</span></span></code></pre></div><p><strong>capsule_view_page.rb</strong> (Page Object)</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-ruby" data-lang="ruby"><span class="line"><span class="cl"><span class="nb">require</span> <span class="s1">&#39;spec_helper&#39;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Page Object</span>
+</span></span><span class="line"><span class="cl"><span class="k">class</span> <span class="nc">CapsuleViewPage</span>
+</span></span><span class="line"><span class="cl">  <span class="kp">include</span> <span class="no">Capybara</span><span class="o">::</span><span class="no">DSL</span>
+</span></span><span class="line"><span class="cl">  <span class="kp">include</span> <span class="no">RSpec</span><span class="o">::</span><span class="no">Matchers</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="k">def</span> <span class="nf">validate_on_page</span>
+</span></span><span class="line"><span class="cl">    <span class="n">expect</span><span class="p">(</span><span class="n">page</span><span class="p">)</span><span class="o">.</span><span class="n">to</span> <span class="n">have_selector</span><span class="p">(</span><span class="s1">&#39;#capsule-title-page&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">expect</span><span class="p">(</span><span class="n">page</span><span class="p">)</span><span class="o">.</span><span class="n">to</span> <span class="n">have_link</span><span class="p">(</span><span class="s1">&#39;Edit&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">  <span class="k">end</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="k">def</span> <span class="nf">validate_capsule_data</span> <span class="p">(</span><span class="n">capsule</span><span class="o">=</span><span class="p">{})</span>
+</span></span><span class="line"><span class="cl">    <span class="n">expect</span><span class="p">(</span><span class="n">page</span><span class="p">)</span><span class="o">.</span><span class="n">to</span> <span class="n">have_content</span> <span class="n">capsule</span><span class="o">[</span><span class="ss">:title</span><span class="o">]</span>
+</span></span><span class="line"><span class="cl">    <span class="n">expect</span><span class="p">(</span><span class="n">page</span><span class="p">)</span><span class="o">.</span><span class="n">to</span> <span class="n">have_content</span> <span class="n">capsule</span><span class="o">[</span><span class="ss">:description</span><span class="o">]</span>
+</span></span><span class="line"><span class="cl">    <span class="n">expect</span><span class="p">(</span><span class="n">page</span><span class="p">)</span><span class="o">.</span><span class="n">to</span> <span class="n">have_content</span> <span class="n">capsule</span><span class="o">[</span><span class="ss">:study_text</span><span class="o">]</span>
+</span></span><span class="line"><span class="cl">    <span class="n">expect</span><span class="p">(</span><span class="n">page</span><span class="p">)</span><span class="o">.</span><span class="n">to</span> <span class="n">have_content</span> <span class="n">capsule</span><span class="o">[</span><span class="ss">:assignment_instructions</span><span class="o">]</span>
+</span></span><span class="line"><span class="cl">    <span class="n">expect</span><span class="p">(</span><span class="n">page</span><span class="p">)</span><span class="o">.</span><span class="n">to</span> <span class="n">have_content</span> <span class="n">capsule</span><span class="o">[</span><span class="ss">:guidelines_for_evaluators</span><span class="o">]</span>
+</span></span><span class="line"><span class="cl">  <span class="k">end</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">end</span>
+</span></span></code></pre></div><p><strong>capsule_feature_spec.rb</strong> (Feature File)</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-ruby" data-lang="ruby"><span class="line"><span class="cl"><span class="nb">require</span> <span class="s1">&#39;spec_helper&#39;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#Feature File</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">feature</span> <span class="s1">&#39;Capsules Feature&#39;</span> <span class="k">do</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="n">let</span><span class="p">(</span><span class="ss">:capsuleHash</span><span class="p">)</span> <span class="p">{</span> <span class="n">attributes_for</span><span class="p">(</span><span class="ss">:tdd_capsule</span><span class="p">)</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="n">let</span><span class="p">(</span><span class="ss">:capsuleForm</span><span class="p">)</span> <span class="p">{</span> <span class="no">CapsuleCreateForm</span><span class="o">.</span><span class="n">new</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="n">let</span><span class="p">(</span><span class="ss">:capsuleViewPage</span><span class="p">)</span> <span class="p">{</span> <span class="no">CapsuleViewPage</span><span class="o">.</span><span class="n">new</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="n">scenario</span> <span class="s1">&#39;Add a new capsule and displays the capsule in view mode&#39;</span> <span class="k">do</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="n">visit</span> <span class="s1">&#39;/capsules/new&#39;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="n">expect</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">      <span class="n">capsuleForm</span><span class="o">.</span><span class="n">submit_form</span><span class="p">(</span><span class="n">capsuleHash</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span><span class="o">.</span><span class="n">to</span> <span class="n">change</span><span class="p">(</span><span class="no">Capsule</span><span class="p">,</span> <span class="ss">:count</span><span class="p">)</span><span class="o">.</span><span class="n">by</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="n">capsuleViewPage</span><span class="o">.</span><span class="n">validate_on_page</span>
+</span></span><span class="line"><span class="cl">    <span class="n">capsuleViewPage</span><span class="o">.</span><span class="n">validate_capsule_data</span><span class="p">(</span><span class="n">capsuleHash</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="k">end</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">end</span>
+</span></span></code></pre></div><p><em>Originally posted on my older blog post here: <a href="http://techie-notebook.blogspot.com/2014/01/using-capybara-and-rspec-assertions-in.html" target="_blank" >Using Capybara and Rspec assertions in Page Objects</a>
+</em></p>
 
       </div>
 

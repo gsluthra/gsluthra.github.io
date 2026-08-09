@@ -176,7 +176,7 @@
             </span>
             <span class="reading-time">
               <i class="fa-solid fa-clock" aria-hidden="true"></i>
-              One-minute read
+              4-minute read
             </span>
           </div>
           
@@ -221,11 +221,54 @@
     </figcaption>
   </figure>
 </p>
+<p>Nowadays, many softwares and websites are i18n enabled. If you don&rsquo;t yet understand what is meant by Internationalisation, Globalisation and Localisation in software, then this <a href="http://en.wikipedia.org/wiki/Internationalization_and_localization" target="_blank" >Wikipedia link</a>
+ is your friend.</p>
 <p>I  have worked on a couple of projects where we had to make the application multi-country savvy (also called internationalisation or i18n), and I think it would be good to pen down various areas we considered, and the tools we used. Note that, these practices are from the perspective of a Java/Scala project, but can easily be
 adapted to other platforms too &ndash; since the basic requirements are similar.</p>
-<p>To read my full blog, please go here:
-<a href="http://techie-notebook.blogspot.com/2015/02/i18n-building-applications-for-multiple.html" target="_blank" >Building Applications for Multiple Countries and Languages</a>
-</p>
+<ol>
+<li>
+<p><strong>External Files for String:</strong> Maintain all user visible strings in properties files (not log messages though!). We maintain the English version (messages.properties), and the translation teams maintain translations for other languages (messages_fr_FR.properties, etc). Read about locales <a href="http://tutorials.jenkov.com/java-internationalization/locale.html" target="_blank" >here</a>
+.</p>
+</li>
+<li>
+<p><strong>No Automated Translations:</strong> Having automated translations does not really work in practice, because the &ldquo;context&rdquo; is important, which can&rsquo;t be figured out by just looking at the string. For instance, on one of our projects we had provided a feature in our website (internal version), which allowed translators to hit a url with a key name so that they can see the page where the key will be used &ndash; and get a context of what we are looking at, and how their translation will look on screen. Automated translations usually target tourists wanting to communicate or researchers wanting to understand a particular sentence, and hence are devoid of the subtleties you want in a website / application. Poor translation is also a put-off for the users of the application. Therefore, I&rsquo;d recommend staying away from Automated Translation tools / websites.</p>
+</li>
+<li>
+<p><strong>Simple Scripted Tests for Errors:</strong> On one project we wrote a tool for performing basic checks for received translation files against our reference properties file. These error are usually not easy to catch by &ldquo;humans&rdquo;, and can slip through. For instance:</p>
+<ul>
+<li>Check if a key has not been translated</li>
+<li>Check if a key is missing in a file</li>
+<li>Check if a key is &ldquo;extra&rdquo; in a file</li>
+<li>Check for UTF-8 encoding issues</li>
+<li>Check if a key is duplicate</li>
+<li>Check if a key doesn&rsquo;t have a value</li>
+</ul>
+<p>These checks are very easy to code via a script, and can be run by the translation teams themselves. This concept is called &ldquo;<a href="/2012/07/22/poke-yoke-mistake-proofing-software" >Poka Yoke</a>
+&rdquo;.</p>
+</li>
+<li>
+<p><strong>Grammatical considerations:</strong> Also, many UI messages cannot be concatenated, because grammatically nouns/adjectives/verbs come in different positions in different languages. So a message: &ldquo;Your owe Rs 100&rdquo; has to be externalized in YAML/properties file as &ldquo;You owe {0}&rdquo; (where {0} will be replaced by price+currency), and this context needs to be informed to the translators.</p>
+</li>
+<li>
+<p><strong>Singular/Plural:</strong> Also singular / plural word construction needs to be different in different languages. So messages change based on whether you are displaying &ldquo;1&rdquo; or &ldquo;more&rdquo;.</p>
+</li>
+<li>
+<p><strong>Numbers/Dates/UoM:</strong> Besides UI strings, we also need to look out for currencies, dates, time-zones, units-of-measures, etc since they vary by country, and hence need to use formatters appropriately. Same goes for <a href="http://en.wikipedia.org/wiki/Decimal_mark#Examples_of_use" target="_blank" >Numbers</a>
+, where decimal separators are different by country (dot in some, and comma in others). For instance, use &ldquo;Number&rdquo; fields to store numbers in DB / Models, and use UTC to store Date/Time values, and then format them appropriately on screen depending on the locale.</p>
+</li>
+<li>
+<p><strong>Case-insensitive checks:</strong> Case-insensitive code also needs to be written properly, because for instance in Turkish there are 4 &lsquo;i&rsquo;, and your code may not do the correct comparison for case-insensitive strings, if it doesn&rsquo;t have a &ldquo;locale&rdquo;. (<a href="http://www.i18nguy.com/unicode/turkish-i18n.html" target="_blank" >Why languages fail with the Turkish I</a>
+). For this reason, in Java/Scala, the <a href="http://docs.oracle.com/javase/7/docs/api/java/lang/String.html#toUpperCase%28java.util.Locale%29" target="_blank" >toUpperCase API</a>
+ takes a &ldquo;locale&rdquo; as a parameter (and mentions the Turkish I case in documentation).</p>
+</li>
+<li>
+<p><strong>UTF-8:</strong> Of course, you use <strong>Unicode</strong> character set and <strong>UTF-8</strong> encoding everywhere. For more details read: <a href="http://www.joelonsoftware.com/articles/Unicode.html" target="_blank" >The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets (No Excuses!)</a>
+. For Java/Scala programs on Windows, don&rsquo;t forget to set JAVA_OPTS=&quot;-Dfile.encoding=UTF-8&quot;.</p>
+</li>
+</ol>
+<p>These are all the points I could think of right now. If more areas strike me, I will post updates to this blog. Meanwhile, if you have practical tips to share in this regard, I&rsquo;d love to hear.</p>
+<p><em>Originally posted on my older blog post here: <a href="http://techie-notebook.blogspot.com/2015/02/i18n-building-applications-for-multiple.html" target="_blank" >Building Applications for Multiple Countries and Languages</a>
+</em></p>
 
       </div>
 
